@@ -1,8 +1,9 @@
 {
-  "name": "gatsby-starter-stellar",
-  "description": "Gatsby Starter - Stellar by HTML5 UP",
+  "name": "kaipaynter.github.io",
+  "description": "Kai Paynter's website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Boipelo Mawasha",
+  "homepage": "https://kaipaynter.github.io/",
   "dependencies": {
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
@@ -24,14 +25,18 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/kaipaynter/kaipaynter.github.io.git"
   }
 }
