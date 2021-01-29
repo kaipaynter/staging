@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const WhatsOnNav = (props) => (
     <nav id="nav" className={props.sticky ? 'alt' : ''}>
-        <Scrollspy items={ ['home', 'client-showcase', 'conversation-thursdays', 'the-hacks'] } currentClassName="is-active" offset={-300}>
+        <Scrollspy items={ ['home', 'client-showcase', 'conversation-thursdays', 'what-they-say'] } currentClassName="is-active" offset={-300}>
             <li>
                 <Link to="/">
                     Home
@@ -22,8 +22,8 @@ const WhatsOnNav = (props) => (
                 </Scroll>
             </li>
             <li>
-                <Scroll type="id" element="the-hacks">
-                    <a href="#">The Hacks</a>
+                <Scroll type="id" element="what-they-say">
+                    <a href="#">What They Say</a>
                 </Scroll>
             </li>
         </Scrollspy>

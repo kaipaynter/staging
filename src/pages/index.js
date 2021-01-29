@@ -2,7 +2,23 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { Waypoint } from 'react-waypoint'
+
+//Image import start
+//About Me
 import landingPage from '../assets/images/landingPage.jpg'
+//Services
+import career from '../assets/images/landing/career.jpg'
+import coaching2 from '../assets/images/landing/coaching2.jpg'
+import coaching4 from '../assets/images/landing/coaching4.jpg'
+import fame from '../assets/images/landing/fame.jpg'
+import unclesam from '../assets/images/landing/unclesam.png'
+//What's on
+import gracegealey from '../assets/images/whatson/gracegealey.jpg'
+import img9605 from '../assets/images/whatson/img9605.jpg'
+import instagram from '../assets/images/whatson/instagram.jpg'
+
+//Image import end
+
 import Header from '../components/Header'
 import Layout from '../components/layout'
 import Nav from '../components/Nav'
@@ -44,10 +60,9 @@ class Index extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>
-                  Sed lorem ipsum dolor sit amet nullam consequat feugiat
-                  consequat magna adipiscing magna etiam amet veroeros. Lorem
-                  ipsum dolor tempus sit cursus. Tempus nisl et nullam lorem
-                  ipsum dolor sit amet aliquam.
+                  If you came to my page, my guess is that you need some help?
+                  Well, you’re in luck. I’m pretty good with people and I’ve
+                  done a lot of things.
                 </p>
                 <ul className="actions">
                   <li>
@@ -69,35 +84,66 @@ class Index extends React.Component {
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Coaching</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Secrets to Stardom</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>Services</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="image fit">
+                  <img src={career} alt="" />
+                </span>
                 <h3>Your Career</h3>
                 <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
+                  At this time we are only working with existing clients and
+                  referrals. However, please submit an inquiry with a PDF/Wordx
+                  version of your resume and we will do our best to accommodate.
+                  Thank you for your understanding.
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={coaching4} alt="" />
+                </span>
+                <h3>Coaching</h3>
+                <p>
+                  Kai has coached some of the freshest faces on
+                  television/stage, as well as many students for entry into such
+                  institutions as: Columbia University, NYU (Tish), and Yale
+                  University.
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={unclesam} alt="" />
+                </span>
+                <h3>General American Accent</h3>
+                <p>
+                  Don’t wait for Pilot Season! You’ll be too late… Take
+                  advantage of your time during Covid19 and perfect your US
+                  self-tapes. With locally made American films and self-taping
+                  now the norm, it’s vital for all aspiring actors to have great
+                  American accents and great US self-tapes. This is a jam-packed
+                  intensive with American Voice & Acting Coach, Kai Paynter.
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={fame} alt="" />
+                </span>
+                <h3>Secrets of the Stars</h3>
+                <p>
+                  Have you ever wondered… WHY that actor got the role over you?
+                  Why THEM? Why not YOU? WHEN will it be you? WHAT do you have
+                  to do? This is a course made for the actor who is looking to
+                  GET auditions and BOOK jobs
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={coaching2} alt="" />
+                </span>
+                <h3>Archetype Coaching</h3>
+                <p>
+                  Archetypes are universal, inborn models of people, behaviors,
+                  or personalities that play a role in influencing human
+                  behavior. They were introduced by the Swiss psychiatrist Carl
+                  Jung, who suggested that these archetypes were archaic forms
+                  of innate human knowledge.
                 </p>
               </li>
             </ul>
@@ -115,36 +161,28 @@ class Index extends React.Component {
           <section id="whats-on" className="main special">
             <header className="major">
               <h2>What's on</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="image fit">
+                  <img src={img9605} alt="" />
+                </span>
                 <h3>Client Showcase</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
+                <p>Check out featured client, Aria!</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
+                <span className="image fit">
+                  <img src={instagram} alt="" />
+                </span>
                 <h3>Conversation Thursdays</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
+                <p>Chat with LIVE with me every other Thursday!</p>
               </li>
               <li>
-                <span className="icon major style5 fa-diamond"></span>
-                <h3>The Hacks</h3>
-                <p>
-                  Sed lorem amet ipsum dolor et amet nullam consequat a feugiat
-                  consequat tempus veroeros sed consequat.
-                </p>
+                <span className="image fit">
+                  <img src={gracegealey} alt="" />
+                </span>
+                <h3>What They Say</h3>
+                <p>Don’t take our word for it, listen to our clients…</p>
               </li>
             </ul>
             <footer className="major">
@@ -161,11 +199,7 @@ class Index extends React.Component {
           <section id="contact" className="main special">
             <header className="major">
               <h2>Contact</h2>
-              <p>
-                Donec imperdiet consequat consequat. Suspendisse feugiat congue
-                <br />
-                posuere. Nulla massa urna, fermentum eget quam aliquet.
-              </p>
+              <p>Get in touch with me</p>
             </header>
             <footer className="major">
               <ul className="actions">
