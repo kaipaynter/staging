@@ -32,7 +32,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "branchCleanup": "git branch -d gh-pages && git push origin --delete gh-pages",
+    "branchCleanup": "git checkout gh-pages && gatsby clean",
     "branchSetup": "git checkout -b gh-pages && git push --set-upstream origin gh-pages",
     "deploy": "gatsby build && gh-pages -d public",
     "reset": "git checkout master"

@@ -6,6 +6,7 @@ import { Waypoint } from 'react-waypoint'
 //Image import start
 //About Me
 import landingPage from '../assets/images/landingPage.jpg'
+import biopicfull2021 from '../assets/images/landing/biopicfull2021.jpg'
 //Services
 import career from '../assets/images/landing/career.jpg'
 import coaching2 from '../assets/images/landing/coaching2.jpg'
@@ -72,8 +73,8 @@ class Index extends React.Component {
                   </li>
                 </ul>
               </div>
-              <span className="image">
-                <img src={landingPage} alt="" />
+              <span className="image2">
+                <img width="8rem" src={biopicfull2021} alt="" />
               </span>
             </div>
           </section>

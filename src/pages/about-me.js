@@ -34,7 +34,7 @@ class AboutMe extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>About</h2>
+                  <h2>About Me</h2>
                 </header>
                 <p>
                   My expertise is in: 

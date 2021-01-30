@@ -39,6 +39,20 @@
 			}
 		}
 
+		.image2 {
+			display: inline-block;
+			margin-left: 4em;
+			padding: 0em;
+			border-radius: 100%;
+			border: solid 1px;
+
+			img {
+				display: block;
+				border-radius: 100%;
+				width: 8em;
+			}
+		}
+
 		@include breakpoint(medium) {
 			@include vendor('flex-direction', 'column-reverse');
 			text-align: center;
