@@ -1,9 +1,9 @@
 {
-  "name": "kaipaynter.github.io",
-  "description": "Kai Paynter's website",
+  "name": "staging",
+  "description": "Kai Paynter's staging website",
   "version": "1.0.0",
   "author": "Boipelo Mawasha",
-  "homepage": "https://kaipaynter.github.io/",
+  "homepage": "https://kaipaynter.github.io/staging",
   "dependencies": {
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
@@ -44,6 +44,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaipaynter/kaipaynter.github.io.git"
+    "url": "https://github.com/kaipaynter/staging"
   }
 }
