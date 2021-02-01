@@ -34,7 +34,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "branchCleanup": "git branch -d gh-pages && git push origin --delete gh-pages",
     "branchSetup": "git checkout -b gh-pages && git push --set-upstream origin gh-pages",
-    "deploy": "gatsby build && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "deploy:full": "npm run branchCleanup && npm run branchSetup and npm run deploy && npm run reset",
     "reset": "git checkout master"
   },
