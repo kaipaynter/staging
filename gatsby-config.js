@@ -4,7 +4,7 @@ module.exports = {
     author: "Boipelo Mawasha",
     description: "Kai Paynter Advisory"
   },
-  pathPrefix: `/staging`,
+  //pathPrefix: `/staging`,
   plugins: [
     'gatsby-plugin-react-helmet',
     {
