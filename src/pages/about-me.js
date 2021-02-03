@@ -4,6 +4,7 @@ import Layout from '../components/layout'
 import pic01 from '../assets/images/pic01.jpg'
 import AboutMeNav from '../components/AboutMeNav'
 import biopic2021 from '../assets/images/aboutme/biopic2021.jpg'
+import biopicfull2021 from '../assets/images/landing/biopicfull2021.jpg'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -37,55 +38,61 @@ class AboutMe extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <p>
-                  My expertise is in: 
-                  <br />
-                  <strong>Identifying & Developing Talent </strong>
-                  <br />
-                  <strong>Advising & Influencing Action</strong> 
-                  <br />
-                  <strong>ACQUISITION</strong>
-                  <br />
-                  <br />
-                  Basically, I know what sells and I know how to sell it. 
-                  <br />
-                  <br />
-                  BUT… I
-                  don’t actually sell anything. I crack codes, find solutions,
-                  and I’m passionate about it. I show people what they’ve been
-                  missing in almost any field. I’ve been a (an): 
+                  My expertise is in:
+                  <ul>
+                    <li>
+                      <strong>Identifying & Developing Talent </strong>
+                    </li>
+                    <li>
+                      <strong>Advising & Influencing Action</strong>
+                    </li>
+                    <li>
+                      <strong>ACQUISITION</strong>
+                    </li>
+                  </ul>
+                  Basically, I know what sells and I know how to sell it.
                   <br />
                   <br />
-                  <strong>Casting Director</strong> for Film/TV……… <strong>Marketing & Brand Manager</strong> for a Global Tech Firm……… a Working <strong>Actor</strong>…… <strong>Advisor</strong> for CEOs ………High School
-                  <strong>Economics Teacher</strong>………Touring <strong>Singer</strong> ……… International
-                  <strong>Recruiter/Talent Acquisition Lead</strong>………Worldwide <strong>Resume Writer</strong>
-                  ……… <strong>Acting Coach</strong> to the Stars……… A<strong>
-                    CT, SAT, GRE, & ESL
-                    Instructor
-                  </strong>………<strong>Regional Operations Manager</strong> for a Global Tech
-                  Firm………<strong>Singing Teacher</strong> for Off-Broadway actors……… Corporate
-                  <strong>Voice, Speech, & Accent Trainer</strong>………<strong>Grant Writer</strong>………Film/TV
-                  <strong>Writer/Director/Producer</strong>……… <strong>Yoga Teacher</strong> in the inner
-                  city………University <strong>Policy & Procedure Research Advisor</strong>……… 
+                  BUT… I don’t actually sell anything. I crack codes, find
+                  solutions, and I’m passionate about it. I show people what
+                  they’ve been missing in almost any field. I’ve been a (an):
                   <br />
                   <br />
-                  I’m leaving a few things out but in case you’re wondering, I have
-                  probably done it……
+                  <strong>Casting Director</strong> for Film/TV………{' '}
+                  <strong>Marketing & Brand Manager</strong> for a Global Tech
+                  Firm……… a Working <strong>Actor</strong>……{' '}
+                  <strong>Advisor</strong> for CEOs ………HighSchool
+                  <strong> Economics Teacher</strong>………Touring{' '}
+                  <strong>Singer</strong> ……… International
+                  <strong> Recruiter/Talent Acquisition</strong>………Worldwide{' '}
+                  <strong>Resume Writer</strong>
+                  ……… <strong>Acting Coach</strong> to the Stars……… A
+                  <strong>CT, SAT, GRE, & ESL Instructor</strong>………
+                  <strong>Regional Operations Manager</strong> for a Global Tech
+                  Firm………<strong>Singing Teacher</strong> for Off-Broadway
+                  actors……… Corporate
+                  <strong> Voice, Speech, & Accent Trainer</strong>………
+                  <strong>Grant Writer</strong>………Film/TV
+                  <strong> Writer/Director/Producer</strong>………{' '}
+                  <strong>Yoga Teacher</strong> in the inner city………University{' '}
+                  <strong>Policy & Procedure Research Advisor</strong>………
                   <br />
                   <br />
-                  My passion is in <strong>
-                    <u>
-                      helping
-                      people WIN.
-                    </u> 
+                  I’m leaving a few things out but in case you’re wondering, I
+                  have probably done it……
+                  <br />
+                  <br />
+                  My passion is in{' '}
+                  <strong>
+                    <u>helping people WIN.</u>
                   </strong>
                   <br />
                   <br />
-                  This includes (but is not limited to): being the
-                  being the best version of themselves. 
+                  This includes (but is not limited to): being the being the
+                  best version of themselves.
                   <br />
                   <br />
-                  So, have a look through
-                  my services and let’s do this. 
+                  So, have a look through my services and let’s do this.
                   <br />
                   <br />
                   <strong>Let ME help you, help YOU WIN.</strong>
@@ -95,7 +102,7 @@ class AboutMe extends React.Component {
                 </p>
               </div>
               <span className="image">
-                <img src={biopic2021} alt="" />
+                <img src={biopicfull2021} alt="" />
               </span>
             </div>
           </section>

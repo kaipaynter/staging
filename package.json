@@ -3,7 +3,7 @@
   "description": "Kai Paynter's staging website",
   "version": "1.0.0",
   "author": "Boipelo Mawasha",
-  "homepage": "https://kaipaynter.github.io/staging",
+  "homepage": "https://staging.kaipaynter.com",
   "dependencies": {
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
@@ -32,10 +32,10 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "branchCleanup": "git branch -d gh-pages && git push origin --delete gh-pages",
-    "branchSetup": "git checkout -b gh-pages && git push --set-upstream origin gh-pages",
+    "branchCleanup": "git branch -d gh-pages",
+    "branchSetup": "git checkout -b gh-pages",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "deploy:full": "npm run branchCleanup && npm run branchSetup and npm run deploy && npm run reset",
+    "deploy:full": "npm run branchCleanup && npm run branchSetup && npm run deploy && npm run reset",
     "reset": "git checkout master"
   },
   "devDependencies": {

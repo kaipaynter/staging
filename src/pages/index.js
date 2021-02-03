@@ -91,9 +91,8 @@ class Index extends React.Component {
                 <h3>Your Career</h3>
                 <p>
                   At this time we are only working with existing clients and
-                  referrals. However, please submit an inquiry with a PDF/Wordx
-                  version of your resume and we will do our best to accommodate.
-                  Thank you for your understanding.
+                  referrals, however, please submit an inquiry and we will do
+                  our best to accommodate. Thank you for your understanding.
                 </p>
               </li>
               <li>
@@ -112,14 +111,14 @@ class Index extends React.Component {
                 <span className="image fit">
                   <img src={unclesam} alt="" />
                 </span>
-                <h3>General American Accent</h3>
+                <h3>General American Accent for Self-tapes</h3>
                 <p>
                   Don’t wait for Pilot Season! You’ll be too late… Take
                   advantage of your time during Covid19 and perfect your US
                   self-tapes. With locally made American films and self-taping
                   now the norm, it’s vital for all aspiring actors to have great
                   American accents and great US self-tapes. This is a jam-packed
-                  intensive with American Voice & Acting Coach, Kai Paynter.
+                  intensive course and those looking for privates with Coach Kai, must take this as a pre-requisite.
                 </p>
               </li>
               <li>
@@ -131,7 +130,7 @@ class Index extends React.Component {
                   Have you ever wondered… WHY that actor got the role over you?
                   Why THEM? Why not YOU? WHEN will it be you? WHAT do you have
                   to do? This is a course made for the actor who is looking to
-                  GET auditions and BOOK jobs
+                  GET auditions and BOOK jobs.
                 </p>
               </li>
               <li>
@@ -176,7 +175,7 @@ class Index extends React.Component {
                   <img src={instagram} alt="" />
                 </span>
                 <h3>Conversation Thursdays</h3>
-                <p>Chat with LIVE with me every other Thursday!</p>
+                <p>Chat with me LIVE with me every other Thursday!</p>
               </li>
               <li>
                 <span className="image fit">
