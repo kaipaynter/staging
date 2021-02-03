@@ -156,9 +156,13 @@ class WhatsOn extends React.Component {
                 </span>
                 <h3>Coko J.</h3>
                 <p>
-                Granada Hills, CA
+                  Granada Hills, CA
                   <br />
-                  “It had been years since I updated my resume last time. I needed a professional help to get it right…she understood my needs and worked efficiently to make my resume shine, which I was truly grateful for. She is truly experienced and knows her trade!”
+                  “It had been years since I updated my resume last time. I
+                  needed a professional help to get it right…she understood my
+                  needs and worked efficiently to make my resume shine, which I
+                  was truly grateful for. She is truly experienced and knows her
+                  trade!”
                 </p>
 
                 <br />
@@ -168,9 +172,13 @@ class WhatsOn extends React.Component {
                 </span>
                 <h3>Jacob</h3>
                 <p>
-                <em>Book of Mormon, Broadway Tour</em>
+                  <em>Book of Mormon, Broadway Tour</em>
                   <br />
-                  “What was more important was that each person seemed to take one big, monumental, game-changing step in her class. What was even more impressive about this feat was that Kai was able to facilitate this to her students despite the diverse level of ability in her classroom.”
+                  “What was more important was that each person seemed to take
+                  one big, monumental, game-changing step in her class. What was
+                  even more impressive about this feat was that Kai was able to
+                  facilitate this to her students despite the diverse level of
+                  ability in her classroom.”
                 </p>
 
                 <br />
@@ -180,9 +188,14 @@ class WhatsOn extends React.Component {
                 </span>
                 <h3>Oma E.</h3>
                 <p>
-                <em>Albuquerque, NM</em>
+                  <em>Albuquerque, NM</em>
                   <br />
-                  “I can't thank her enough… Not only did she give me a great resume, I got it earlier then it was scheduled (by my request). I can say with all seriousness that the resume I received will give me a chance in a largely competitive market. I’m so grateful to her for giving me a resume that will give me a chance to get my foot in the door.”
+                  “I can't thank her enough… Not only did she give me a great
+                  resume, I got it earlier then it was scheduled (by my
+                  request). I can say with all seriousness that the resume I
+                  received will give me a chance in a largely competitive
+                  market. I’m so grateful to her for giving me a resume that
+                  will give me a chance to get my foot in the door.”
                 </p>
 
                 <br />
@@ -192,9 +205,17 @@ class WhatsOn extends React.Component {
                 </span>
                 <h3>Rachelle</h3>
                 <p>
-                <em>Anything Goes, Off-Broadway Tour</em>
+                  <em>Anything Goes, Off-Broadway Tour</em>
                   <br />
-                  “Ms. Paynter was not only a wonderful teacher, but also an approachable and devoted mentor. She made herself available to all of her students... I asked Ms. Paynter numerous times if she would work with me privately and she always said yes —she wouldn’t let me leave until I felt comfortable and prepared… She believed in me, and that was a core reason why I stayed in the program and worked until I earned my Bachelor of Fine Arts and graduated as one of six in the (competitive) Musical Theatre program.”
+                  “Ms. Paynter was not only a wonderful teacher, but also an
+                  approachable and devoted mentor. She made herself available to
+                  all of her students... I asked Ms. Paynter numerous times if
+                  she would work with me privately and she always said yes —she
+                  wouldn’t let me leave until I felt comfortable and prepared…
+                  She believed in me, and that was a core reason why I stayed in
+                  the program and worked until I earned my Bachelor of Fine Arts
+                  and graduated as one of six in the (competitive) Musical
+                  Theatre program.”
                 </p>
 
                 <br />
@@ -204,9 +225,12 @@ class WhatsOn extends React.Component {
                 </span>
                 <h3>James V.</h3>
                 <p>
-                <em>Pasadena, CA</em>
+                  <em>Pasadena, CA</em>
                   <br />
-                  “What I really liked about the service was that she took the time and listened to my career goals. Reading my finished resume I really felt like it reflected everything that I told her about myself. She took the time and did an amazing job.”
+                  “What I really liked about the service was that she took the
+                  time and listened to my career goals. Reading my finished
+                  resume I really felt like it reflected everything that I told
+                  her about myself. She took the time and did an amazing job.”
                 </p>
 
                 <br />
@@ -216,9 +240,11 @@ class WhatsOn extends React.Component {
                 </span>
                 <h3>Jason S.</h3>
                 <p>
-                <em>Decatur, IL</em>
+                  <em>Decatur, IL</em>
                   <br />
-                  “After years with the same employer, my resume was out of date & poorly formatted for today's market. Alicia was a pleasure to work with & did a fantastic job.”
+                  “After years with the same employer, my resume was out of date
+                  & poorly formatted for today's market. Alicia was a pleasure
+                  to work with & did a fantastic job.”
                 </p>
               </div>
             </div>
