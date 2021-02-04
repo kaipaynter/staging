@@ -39,17 +39,12 @@ class AboutMe extends React.Component {
                 </header>
                 <p>
                   My expertise is in:
-                  <ul>
-                    <li>
-                      <strong>Identifying & Developing Talent </strong>
-                    </li>
-                    <li>
-                      <strong>Advising & Influencing Action</strong>
-                    </li>
-                    <li>
-                      <strong>ACQUISITION</strong>
-                    </li>
-                  </ul>
+                  <br />
+                  <strong>Identifying & Developing Talent </strong> ---&#x0003E;
+                  <strong> Advising & Influencing Action </strong> ---&#x0003E;
+                  <strong> ACQUISITION</strong>
+                  <br />
+                  <br />
                   Basically, I know what sells and I know how to sell it.
                   <br />
                   <br />
@@ -64,8 +59,10 @@ class AboutMe extends React.Component {
                   <strong>Advisor</strong> for CEOs ………HighSchool
                   <strong> Economics Teacher</strong>………Touring{' '}
                   <strong>Singer</strong> ……… International
-                  <strong> Recruiter/Talent Acquisition</strong>………Worldwide{' '}
-                  <strong>Resume Writer</strong>
+                  <strong>
+                    {' '}
+                    Recruiter/Talent Acquisition
+                  </strong>………Worldwide <strong>Resume Writer</strong>
                   ……… <strong>Acting Coach</strong> to the Stars……… A
                   <strong>CT, SAT, GRE, & ESL Instructor</strong>………
                   <strong>Regional Operations Manager</strong> for a Global Tech
