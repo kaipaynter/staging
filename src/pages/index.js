@@ -168,7 +168,7 @@ class Index extends React.Component {
                   <img src={img9605} alt="" />
                 </span>
                 <h3>Client Showcase</h3>
-                <p>Check out featured client, Aria!</p>
+                <p>See what our clients are doing!</p>
               </li>
               <li>
                 <span className="image fit">

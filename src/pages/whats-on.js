@@ -7,6 +7,7 @@ import ethan from '../assets/images/whatson/ethannguyen.png'
 import grace from '../assets/images/whatson/gracegealey.jpg'
 import jacob from '../assets/images/whatson/jacobharen.jpeg'
 import luke from '../assets/images/whatson/lukepatrick.jpg'
+import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
 import WhatsOnNav from '../components/WhatsOnNav'
 
@@ -41,6 +42,12 @@ class WhatsOn extends React.Component {
                 <header className="major">
                   <h2>Client Showcase</h2>
                 </header>
+                <iframe
+                  title="Aria's youtube video"
+                  src="https://youtu.be/DYGmx-7E-VY"
+                  width="50%"
+                  height="250px"
+                ></iframe>
                 <p>
                   “I’ve been studying American Accent with Kai for two terms
                   now. I absolutely love doing the course with her! She’s super
@@ -52,9 +59,6 @@ class WhatsOn extends React.Component {
                   </a>
                 </p>
               </div>
-              <span className="image2">
-                <img src={img9605} alt="" />
-              </span>
             </div>
           </section>
           <section id="conversation-thursdays" className="main">
@@ -201,7 +205,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <span className="image2">
-                  <img src={yelp} alt="" />
+                  <img src={rachelle} alt="" />
                 </span>
                 <h3>Rachelle</h3>
                 <p>
