@@ -43,10 +43,13 @@ class WhatsOn extends React.Component {
                   <h2>Client Showcase</h2>
                 </header>
                 <iframe
-                  title="Aria's youtube video"
-                  src="https://youtu.be/DYGmx-7E-VY"
-                  width="50%"
-                  height="250px"
+                  width="802"
+                  height="379"
+                  title="Aria Bella Hart"
+                  src="https://www.youtube.com/embed/DYGmx-7E-VY"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
                 ></iframe>
                 <p>
                   “I’ve been studying American Accent with Kai for two terms
@@ -54,9 +57,7 @@ class WhatsOn extends React.Component {
                   supportive and she gives me amazing feedback that helps me
                   progress. I can’t wait to keep on learning and improving my
                   accent and finding out about more tools!” –{' '}
-                  <a href="https://youtu.be/DYGmx-7E-VY">
-                    <strong>Aria Bella Hart</strong>
-                  </a>
+                  <strong>Aria Bella Hart</strong>
                 </p>
               </div>
             </div>
