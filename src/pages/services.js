@@ -1,12 +1,16 @@
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
-import pic01 from '../assets/images/pic01.jpg'
 import archetype from '../assets/images/servicespage/archetype.jpg'
 import img9605 from '../assets/images/servicespage/img9605.jpg'
 import USaccentpicfull from '../assets/images/servicespage/USaccentpicfull.jpg'
 import advisorydeck2020 from '../assets/docs/advisorydeck2020.pdf'
 import webresume from '../assets/images/servicespage/webresume.jpg'
+import servicesA from '../assets/images/servicespage/servicesA.png'
+import servicesB from '../assets/images/servicespage/servicesB.png'
+import servicesC from '../assets/images/servicespage/servicesC.png'
+import servicesD from '../assets/images/servicespage/servicesD.png'
+import servicesE from '../assets/images/servicespage/servicesE.png'
 import ServicesNav from '../components/ServicesNav'
 
 class Services extends React.Component {
@@ -79,6 +83,27 @@ class Services extends React.Component {
                     </li>
                   </ul>
                 </p>
+
+                <br />
+                <span className="image3">
+                  <img src={servicesA} alt="Early Career" />
+                </span>
+                <br />
+                <span className="image3">
+                  <img src={servicesB} alt="Experienced" />
+                </span>
+                <br />
+                <span className="image3">
+                  <img src={servicesC} alt="Managers/Directors" />
+                </span>
+                <br />
+                <span className="image3">
+                  <img src={servicesD} alt="Licensed Professionals" />
+                </span>
+                <br />
+                <span className="image3">
+                  <img src={servicesE} alt="Executives" />
+                </span>
 
                 <br />
 

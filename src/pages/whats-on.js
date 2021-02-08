@@ -68,6 +68,9 @@ class WhatsOn extends React.Component {
                 <header className="major">
                   <h2>Conversation Thursdays</h2>
                 </header>
+                <span className="image2">
+                <img src={classpic} alt="" />
+              </span>
                 <p>
                   Catch us biweekly on Instagram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
@@ -76,9 +79,6 @@ class WhatsOn extends React.Component {
                   where we chit-chat and you can ask me anything!
                 </p>
               </div>
-              <span className="image2">
-                <img src={classpic} alt="" />
-              </span>
             </div>
           </section>
           <section id="what-they-say" className="main">

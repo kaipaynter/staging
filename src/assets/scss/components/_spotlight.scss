@@ -52,6 +52,21 @@
 				width: 8em;
 			}
 		}
+		
+		.image3 {
+			display: inline-block;
+			margin-left: 0em;
+			padding: 0em;
+			border-radius: 0%;
+			border: solid 1px;
+
+			img {
+				display: block;
+				border-radius: 0%;
+				width: 802px;
+				height: 600px;
+			}
+		}
 
 		@include breakpoint(medium) {
 			@include vendor('flex-direction', 'column-reverse');

@@ -135,7 +135,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={coaching2} alt="" />
+                  <img src={coaching4} alt="" />
                 </span>
                 <h3>Archetype Coaching</h3>
                 <p>
