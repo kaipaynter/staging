@@ -2,10 +2,10 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import img9605 from '../assets/images/whatson/img9605.jpg'
-import classpic from '../assets/images/whatson/class.jpg'
+import USaccentpicfull from '../assets/images/servicespage/USaccentpicfull.jpg'
 import ethan from '../assets/images/whatson/ethannguyen.png'
 import grace from '../assets/images/whatson/gracegealey.jpg'
-import jacob from '../assets/images/whatson/jacobharen.jpeg'
+import jacob from '../assets/images/whatson/jacob.png'
 import luke from '../assets/images/whatson/lukepatrick.jpg'
 import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
@@ -69,7 +69,7 @@ class WhatsOn extends React.Component {
                   <h2>Conversation Thursdays</h2>
                 </header>
                 <span className="image2">
-                <img src={classpic} alt="" />
+                <img src={USaccentpicfull} alt="" />
               </span>
                 <p>
                   Catch us biweekly on Instagram{' '}

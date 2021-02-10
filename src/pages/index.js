@@ -9,8 +9,8 @@ import landingPage from '../assets/images/landingPage.jpg'
 import biopicfull2021 from '../assets/images/landing/biopicfull2021.jpg'
 //Services
 import career from '../assets/images/landing/career.jpg'
-import coaching2 from '../assets/images/landing/coaching2.jpg'
-import coaching4 from '../assets/images/landing/coaching4.jpg'
+import c from '../assets/images/landing/c.jpeg'
+import c1 from '../assets/images/landing/c1.png'
 import fame from '../assets/images/landing/fame.jpg'
 import unclesam from '../assets/images/landing/unclesam.png'
 //What's on
@@ -97,7 +97,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={coaching4} alt="" />
+                  <img src={c1} alt="" />
                 </span>
                 <h3>Coaching</h3>
                 <p>
@@ -135,7 +135,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={coaching4} alt="" />
+                  <img src={c} alt="" />
                 </span>
                 <h3>Archetype Coaching</h3>
                 <p>

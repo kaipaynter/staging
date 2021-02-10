@@ -11,6 +11,7 @@ import servicesB from '../assets/images/servicespage/servicesB.png'
 import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
+import career from '../assets/images/landing/career.jpg'
 import ServicesNav from '../components/ServicesNav'
 
 class Services extends React.Component {
@@ -163,11 +164,20 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Coaching</h2>
                 </header>
-                <iframe
-                  src={advisorydeck2020}
-                  width="100%"
-                  height="500px"
-                ></iframe>
+                <span className="image2">
+                  <img src={career} alt="" />
+                </span>
+                <br />
+                <ul>
+                  <li>General American Accent</li>
+                  <li>Neutral/UK Accents</li>
+                  <li>Regional American Dialects</li>
+                  <li>US Scenes (Film/TV)</li>
+                  <li>US Sitcom</li>
+                  <li>US Plays</li>
+                  <li>US Drama</li>
+                  <li>US Musical Theatre</li>
+                </ul>
               </div>
             </div>
           </section>
@@ -181,11 +191,11 @@ class Services extends React.Component {
                   <img src={USaccentpicfull} alt="" />
                 </span>
                 <p>
-                  Kai is one of Australia’s leading coaches and has worked with
+                  <em>American Accent for Self-tapes</em> is the necessary blueprint for the accent. Kai is one of Australia’s leading coaches and has worked with
                   some of the freshest faces on TV to date! American Accent for
-                  Self-tapes is the necessary blue-print for the accent. *All
+                  Self-tapes is the necessary blue-print for the accent. <em>All
                   clients must take this before working privately with Coach
-                  Kai.*
+                  Kai.</em>
                 </p>
                 <p>
                   Date: Enrollment Open Now!
@@ -198,7 +208,7 @@ class Services extends React.Component {
                   <br />
                   Time: 1-2 weeks (or less - dependent on your comfort level)
                   <br />
-                  Price: $550 (Retail Value: $750)
+                  Price: $750
                   <br />
                   What you get:
                   <ul>
@@ -237,7 +247,7 @@ class Services extends React.Component {
                   <br />
                   Time: 8 weeks (or less - dependent on your comfort level)
                   <br />
-                  Price: $950 (Retail Value: $1200)
+                  Price: $1200
                   <br />
                   What you get:
                   <ul>
