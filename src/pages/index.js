@@ -5,8 +5,7 @@ import { Waypoint } from 'react-waypoint'
 
 //Image import start
 //About Me
-import landingPage from '../assets/images/landingPage.jpg'
-import biopicfull2021 from '../assets/images/landing/biopicfull2021.jpg'
+import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
 //Services
 import career from '../assets/images/landing/career.jpg'
 import c from '../assets/images/landing/c.jpeg'
@@ -97,7 +96,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={c1} alt="" />
+                  <img src={c} alt="" />
                 </span>
                 <h3>Coaching</h3>
                 <p>
@@ -113,12 +112,9 @@ class Index extends React.Component {
                 </span>
                 <h3>General American Accent for Self-tapes</h3>
                 <p>
-                  Don’t wait for Pilot Season! You’ll be too late… Take
-                  advantage of your time during Covid19 and perfect your US
-                  self-tapes. With locally made American films and self-taping
+                  With locally made American films and self-taping
                   now the norm, it’s vital for all aspiring actors to have great
-                  American accents and great US self-tapes. This is a jam-packed
-                  intensive course and those looking for privates with Coach Kai, must take this as a pre-requisite.
+                  American accents and great US self-tapes.
                 </p>
               </li>
               <li>

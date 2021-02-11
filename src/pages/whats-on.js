@@ -72,11 +72,11 @@ class WhatsOn extends React.Component {
                 <img src={USaccentpicfull} alt="" />
               </span>
                 <p>
-                  Catch us biweekly on Instagram{' '}
+                  Catch us every other Thursday on Instagram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
-                    <strong>@kaipaynteradvisory </strong>
+                    <strong>@kaipaynteradvisory</strong>
                   </a>
-                  where we chit-chat and you can ask me anything!
+                  ,&nbsp; for a live chit-chat. I share tips, tricks, and other fun stuff. See you there!
                 </p>
               </div>
             </div>

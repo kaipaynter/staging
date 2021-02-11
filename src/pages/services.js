@@ -191,11 +191,9 @@ class Services extends React.Component {
                   <img src={USaccentpicfull} alt="" />
                 </span>
                 <p>
-                  <em>American Accent for Self-tapes</em> is the necessary blueprint for the accent. Kai is one of Australia’s leading coaches and has worked with
-                  some of the freshest faces on TV to date! American Accent for
-                  Self-tapes is the necessary blue-print for the accent. <em>All
-                  clients must take this before working privately with Coach
-                  Kai.</em>
+                  General American Accent for Self-tapes is the
+                  necessary blueprint for the accent. All clients must take this
+                  before working privately with Coach Kai.
                 </p>
                 <p>
                   Date: Enrollment Open Now!
@@ -231,10 +229,12 @@ class Services extends React.Component {
                   <h2>Secrets of the Stars</h2>
                 </header>
                 <span className="image2">
-                <img src={img9605} alt="" />
-              </span>
+                  <img src={img9605} alt="" />
+                </span>
                 <p>
-                <em>Secrets of the Stars</em> is a jam-packed intensive with Coach Kai who is one of Australia’s leading coaches and has worked with some of the freshest faces on TV to date! The course offers in-depth, first-hand knowledge into the industry and reveals the necessary steps to success.
+                  <em>Secrets of the Stars</em> is a jam-packed intensive with
+                  Coach Kai. The course offers in-depth, first-hand knowledge
+                  into the industry and reveals the necessary steps to success.
                 </p>
                 <p>
                   Date: Enrollment Open Now!
@@ -261,7 +261,6 @@ class Services extends React.Component {
                   </ul>
                 </p>
               </div>
-              
             </div>
           </section>
           <section id="archetype-coaching" className="main">
@@ -271,22 +270,30 @@ class Services extends React.Component {
                   <h2>Archetype Coaching</h2>
                 </header>
                 <span className="image2">
-                <img src={archetype} alt="" />
-              </span>
+                  <img src={archetype} alt="" />
+                </span>
                 <p>
-                In Jungian psychology, the archetypes represent universal patterns and images that are part of the collective unconscious. Jung believed that we inherit these archetypes much in the way we inherit instinctive patterns of behavior.
-                <br />
-                <br />
-                The word “archetype” means original pattern.
-                <br />
-                <br />
-                Millions of people around the world know their psychological type, the result of completing the Myers-Briggs Type Indicator® assessment. The MBTI® instrument is a tool created by Isabel Myers based on Carl G. Jung's personality type theories. In this work you can find your mission & purpose, understand life lessons, unlock roadblocks, and get clarity on how to reach success.
-                <br />
-                <br />
-                Recommended prior to standard coaching.
+                  In Jungian psychology, the archetypes represent universal
+                  patterns and images that are part of the collective
+                  unconscious. Jung believed that we inherit these archetypes
+                  much in the way we inherit instinctive patterns of behavior.
+                  <br />
+                  <br />
+                  The word “archetype” means original pattern.
+                  <br />
+                  <br />
+                  Millions of people around the world know their psychological
+                  type, the result of completing the Myers-Briggs Type
+                  Indicator® assessment. The MBTI® instrument is a tool created
+                  by Isabel Myers based on Carl G. Jung's personality type
+                  theories. In this work you can find your mission & purpose,
+                  understand life lessons, unlock roadblocks, and get clarity on
+                  how to reach success.
+                  <br />
+                  <br />
+                  Recommended prior to standard coaching.
                 </p>
               </div>
-              
             </div>
           </section>
         </div>
