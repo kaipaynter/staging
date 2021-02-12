@@ -177,6 +177,17 @@ class Services extends React.Component {
                   <li>US Plays</li>
                   <li>US Drama</li>
                   <li>US Musical Theatre</li>
+                  <li>Client Branding</li>
+                  <li>Client Sourcing</li>
+                  <li>Career Development</li>
+                  <li>Career Consulting</li>
+                  <li>Interviews</li>
+                  <li>Movement</li>
+                  <li>Singing</li>
+                  <li>Voice & Speech</li>
+                  <li>Self-tapes/Auditions</li>
+                  <li>Acting</li>
+                  <li>On-set</li>
                 </ul>
               </div>
             </div>

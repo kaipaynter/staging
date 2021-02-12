@@ -96,7 +96,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={c} alt="" />
+                  <img src={c1} alt="" />
                 </span>
                 <h3>Coaching</h3>
                 <p>
@@ -138,8 +138,7 @@ class Index extends React.Component {
                   Archetypes are universal, inborn models of people, behaviors,
                   or personalities that play a role in influencing human
                   behavior. They were introduced by the Swiss psychiatrist Carl
-                  Jung, who suggested that these archetypes were archaic forms
-                  of innate human knowledge.
+                  Jung.
                 </p>
               </li>
             </ul>
