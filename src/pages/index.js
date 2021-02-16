@@ -9,7 +9,7 @@ import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
 //Services
 import career from '../assets/images/landing/career.jpg'
 import c from '../assets/images/landing/c.jpeg'
-import c1 from '../assets/images/landing/c1.png'
+import yellowtel from '../assets/images/landing/yellowtel.jpg'
 import fame from '../assets/images/landing/fame.jpg'
 import unclesam from '../assets/images/landing/unclesam.png'
 //What's on
@@ -96,7 +96,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={c1} alt="" />
+                  <img src={yellowtel} alt="" />
                 </span>
                 <h3>Coaching</h3>
                 <p>
