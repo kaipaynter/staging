@@ -10,8 +10,8 @@ import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
 import career from '../assets/images/landing/career.jpg'
 import c from '../assets/images/landing/c.jpeg'
 import yellowtel from '../assets/images/landing/yellowtel.jpg'
-import fame from '../assets/images/landing/fame.jpg'
-import unclesam from '../assets/images/landing/unclesam.png'
+import secrets from '../assets/images/landing/secrets.png'
+import american from '../assets/images/landing/american.jpg'
 //What's on
 import gracegealey from '../assets/images/whatson/gracegealey.jpg'
 import img9605 from '../assets/images/whatson/img9605.jpg'
@@ -61,7 +61,9 @@ class Index extends React.Component {
                 </header>
                 <p>
                   If you came to my page, my guess is that you need some help?
-                  Well, you’re in luck. I’m pretty good with people and I’ve
+                  Well, you’re in luck. 
+                  <br />
+                  I’m pretty good with people and I’ve
                   done a lot of things.
                 </p>
                 <ul className="actions">
@@ -108,7 +110,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={unclesam} alt="" />
+                  <img src={american} alt="" />
                 </span>
                 <h3>General American Accent for Self-tapes</h3>
                 <p>
@@ -119,7 +121,7 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={fame} alt="" />
+                  <img src={secrets} alt="" />
                 </span>
                 <h3>Secrets of the Stars</h3>
                 <p>

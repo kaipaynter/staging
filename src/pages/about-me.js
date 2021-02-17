@@ -56,7 +56,7 @@ class AboutMe extends React.Component {
                   <strong>Casting Director</strong> for Film/TV………{' '}
                   <strong>Marketing & Brand Manager</strong> for a Global Tech
                   Firm……… a Working <strong>Actor</strong>……{' '}
-                  <strong>Advisor</strong> for CEOs ………HighSchool
+                  <strong>Advisor</strong> for CEOs ………Highschool
                   <strong> Economics Teacher</strong>………Touring{' '}
                   <strong>Singer</strong> ……… International
                   <strong>

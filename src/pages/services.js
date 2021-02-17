@@ -4,14 +4,13 @@ import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
 import img9605 from '../assets/images/servicespage/img9605.jpg'
 import USaccentpicfull from '../assets/images/servicespage/USaccentpicfull.jpg'
-import advisorydeck2020 from '../assets/docs/advisorydeck2020.pdf'
 import webresume from '../assets/images/servicespage/webresume.jpg'
 import servicesA from '../assets/images/servicespage/servicesA.png'
 import servicesB from '../assets/images/servicespage/servicesB.png'
 import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
-import career from '../assets/images/landing/career.jpg'
+import biopic2020 from '../assets/images/servicespage/biopic2020.jpg'
 import ServicesNav from '../components/ServicesNav'
 
 class Services extends React.Component {
@@ -165,7 +164,7 @@ class Services extends React.Component {
                   <h2>Coaching</h2>
                 </header>
                 <span className="image2">
-                  <img src={career} alt="" />
+                  <img src={biopic2020} alt="" />
                 </span>
                 <br />
                 <ul>
