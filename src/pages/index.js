@@ -61,10 +61,9 @@ class Index extends React.Component {
                 </header>
                 <p>
                   If you came to my page, my guess is that you need some help?
-                  Well, you’re in luck. 
+                  Well, you’re in luck.
                   <br />
-                  I’m pretty good with people and I’ve
-                  done a lot of things.
+                  I’m pretty good with people and I’ve done a lot of things.
                 </p>
                 <ul className="actions">
                   <li>
@@ -110,13 +109,14 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={american} alt="" />
+                  <img src={c} alt="" />
                 </span>
-                <h3>General American Accent for Self-tapes</h3>
+                <h3>Archetype Coaching</h3>
                 <p>
-                  With locally made American films and self-taping
-                  now the norm, it’s vital for all aspiring actors to have great
-                  American accents and great US self-tapes.
+                  Archetypes are universal, inborn models of people, behaviors,
+                  or personalities that play a role in influencing human
+                  behavior. They were introduced by the Swiss psychiatrist Carl
+                  Jung.
                 </p>
               </li>
               <li>
@@ -133,14 +133,13 @@ class Index extends React.Component {
               </li>
               <li>
                 <span className="image fit">
-                  <img src={c} alt="" />
+                  <img src={american} alt="" />
                 </span>
-                <h3>Archetype Coaching</h3>
+                <h3>General American Accent for Self-tapes</h3>
                 <p>
-                  Archetypes are universal, inborn models of people, behaviors,
-                  or personalities that play a role in influencing human
-                  behavior. They were introduced by the Swiss psychiatrist Carl
-                  Jung.
+                  With locally made American films and self-taping now the norm,
+                  it’s vital for all aspiring actors to have great American
+                  accents and great US self-tapes.
                 </p>
               </li>
             </ul>
