@@ -61,9 +61,7 @@ class Index extends React.Component {
                 </header>
                 <p>
                   If you came to my page, my guess is that you need some help?
-                  Well, you’re in luck.
-                  <br />
-                  I’m pretty good with people and I’ve done a lot of things.
+                  Well, you’re in luck. I’m pretty good with people and I’ve done a lot of things.
                 </p>
                 <ul className="actions">
                   <li>
