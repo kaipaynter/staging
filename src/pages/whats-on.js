@@ -76,7 +76,9 @@ class WhatsOn extends React.Component {
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
                   </a>
-                  ,&nbsp; for a live chit-chat. I share tips, tricks, and other fun stuff. See you there!
+                  ,&nbsp; for a live chit-chat. 
+                  <br />
+                  I share tips, tricks, and other fun stuff. See you there!
                 </p>
               </div>
             </div>

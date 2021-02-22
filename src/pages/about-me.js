@@ -63,8 +63,7 @@ class AboutMe extends React.Component {
                     {' '}
                     Recruiter/Talent Acquisition
                   </strong>………Worldwide <strong>Resume Writer</strong>
-                  ……… <strong>Acting Coach</strong> to the Stars……… A
-                  <strong>CT, SAT, GRE, & ESL Instructor</strong>………
+                  ……… <strong>Acting Coach</strong> to the Stars……… <strong>ACT, SAT, GRE, & ESL Instructor</strong>………
                   <strong>Regional Operations Manager</strong> for a Global Tech
                   Firm………<strong>Singing Teacher</strong> for Off-Broadway
                   actors……… Corporate

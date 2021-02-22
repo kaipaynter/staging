@@ -178,7 +178,6 @@ class Services extends React.Component {
                   <li>US Musical Theatre</li>
                   <li>Client Branding</li>
                   <li>Client Sourcing</li>
-                  <li>Career Development</li>
                   <li>Career Consulting</li>
                   <li>Interviews</li>
                   <li>Movement</li>
@@ -201,24 +200,23 @@ class Services extends React.Component {
                   <img src={USaccentpicfull} alt="" />
                 </span>
                 <p>
-                  General American Accent for Self-tapes is the
-                  necessary blueprint for the accent. All clients must take this
-                  before working privately with Coach Kai.
+                  <em>General American Accent for Self-tapes</em> is the
+                  necessary blueprint for the accent. <strong>All clients must take this before private US accent coaching with Kai</strong>.
                 </p>
                 <p>
-                  Date: Enrollment Open Now!
+                  <strong>Date</strong>: Enrollment Open Now!
                   <br />
-                  Closing: April 10th
+                  <strong>Closing</strong>: April 10th
                   <br />
-                  Attendees: All Levels
+                  <strong>Attendees</strong>: All Levels
                   <br />
-                  Where: Your Home (Online Intensive)
+                  <strong>Where</strong>: Your Home (Online Intensive)
                   <br />
-                  Time: 1-2 weeks (or less - dependent on your comfort level)
+                  <strong>Duration</strong>: 1-2 weeks (or less - dependent on your comfort level)
                   <br />
-                  Price: $750
+                  <strong>Price</strong>: $750
                   <br />
-                  What you get:
+                  <strong>What you get</strong>:
                   <ul>
                     <li>Proven Quick Tips & Tricks</li>
                     <li>Accent Basics/Fundamentals</li>
@@ -228,6 +226,7 @@ class Services extends React.Component {
                     <li>Personalized Video Feedback</li>
                     <li>Email Support</li>
                   </ul>
+                  <em>Message us to see if you qualify for the seasonal discount</em>
                 </p>
               </div>
             </div>
@@ -247,19 +246,19 @@ class Services extends React.Component {
                   into the industry and reveals the necessary steps to success.
                 </p>
                 <p>
-                  Date: Enrollment Open Now!
+                  <strong>Date</strong>: Enrollment Open Now!
                   <br />
-                  Closing: April 10th
+                  <strong>Closing</strong>: April 10th
                   <br />
-                  Attendees: All Levels
+                  <strong>Attendees</strong>: All Levels
                   <br />
-                  Where: Your Home (Online Intensive)
+                  <strong>Where</strong>: Your Home (Online Intensive)
                   <br />
-                  Time: 8 weeks (or less - dependent on your comfort level)
+                  <strong>Duration</strong>: 8 weeks (or less - dependent on your comfort level)
                   <br />
-                  Price: $1200
+                  <strong>Price</strong>: $1200
                   <br />
-                  What you get:
+                  <strong>What you get</strong>:
                   <ul>
                     <li>Brand Management</li>
                     <li>Audition/Audition Prep</li>
@@ -269,6 +268,7 @@ class Services extends React.Component {
                     <li>Personalized Video Feedback</li>
                     <li>Email Support</li>
                   </ul>
+                  <em>Message us to see if you qualify for the seasonal discount</em>
                 </p>
               </div>
             </div>
