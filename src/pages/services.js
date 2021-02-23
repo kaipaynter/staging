@@ -148,7 +148,7 @@ class Services extends React.Component {
                   resume.
                 </ul>
                 <p>
-                  ***Prices listed are for updating & improving existing
+                  ***Prices listed are for updating &amp; improving existing
                   resumes. There is an additional cost if you do not have an
                   existing resume.
                   <br />
@@ -182,7 +182,7 @@ class Services extends React.Component {
                   <li>Interviews</li>
                   <li>Movement</li>
                   <li>Singing</li>
-                  <li>Voice & Speech</li>
+                  <li>Voice &amp; Speech</li>
                   <li>Self-tapes/Auditions</li>
                   <li>Acting</li>
                   <li>On-set</li>
@@ -216,9 +216,11 @@ class Services extends React.Component {
                   <br />
                   <strong>Price</strong>: $750
                   <br />
+                  <strong>Format</strong>: Online Video Intensive
+                  <br />
                   <strong>What you get</strong>:
                   <ul>
-                    <li>Proven Quick Tips & Tricks</li>
+                    <li>Proven Quick Tips &amp; Tricks</li>
                     <li>Accent Basics/Fundamentals</li>
                     <li>US Casting Insights</li>
                     <li>Audio Guides</li>
@@ -226,7 +228,7 @@ class Services extends React.Component {
                     <li>Personalized Video Feedback</li>
                     <li>Email Support</li>
                   </ul>
-                  <em>Message us to see if you qualify for the seasonal discount</em>
+                  <strong>Message us to see if you qualify for the seasonal discount</strong>
                 </p>
               </div>
             </div>
@@ -258,17 +260,19 @@ class Services extends React.Component {
                   <br />
                   <strong>Price</strong>: $1200
                   <br />
+                  <strong>Format</strong>: Online Video Intensive
+                  <br />
                   <strong>What you get</strong>:
                   <ul>
                     <li>Brand Management</li>
                     <li>Audition/Audition Prep</li>
-                    <li>Headshot/Resume & Portfolio</li>
+                    <li>Headshot/Resume &amp; Portfolio</li>
                     <li>US Casting Insights</li>
                     <li>Online Resources</li>
                     <li>Personalized Video Feedback</li>
                     <li>Email Support</li>
                   </ul>
-                  <em>Message us to see if you qualify for the seasonal discount</em>
+                  <strong>Message us to see if you qualify for the seasonal discount</strong>
                 </p>
               </div>
             </div>
@@ -296,12 +300,12 @@ class Services extends React.Component {
                   type, the result of completing the Myers-Briggs Type
                   Indicator® assessment. The MBTI® instrument is a tool created
                   by Isabel Myers based on Carl G. Jung's personality type
-                  theories. In this work you can find your mission & purpose,
+                  theories. In this work you can find your mission &amp; purpose,
                   understand life lessons, unlock roadblocks, and get clarity on
                   how to reach success.
                   <br />
                   <br />
-                  Recommended prior to standard coaching.
+                  <strong>Recommended prior to standard coaching.</strong>
                 </p>
               </div>
             </div>
