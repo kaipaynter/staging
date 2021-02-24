@@ -212,7 +212,7 @@ class Services extends React.Component {
                   <br />
                   <strong>Where</strong>: Your Home (Online Intensive)
                   <br />
-                  <strong>Duration</strong>: 1-2 weeks (or less - dependent on your comfort level)
+                  <strong>Duration</strong>: 1-2 Weeks
                   <br />
                   <strong>Price</strong>: $750
                   <br />
@@ -256,7 +256,7 @@ class Services extends React.Component {
                   <br />
                   <strong>Where</strong>: Your Home (Online Intensive)
                   <br />
-                  <strong>Duration</strong>: 8 weeks (or less - dependent on your comfort level)
+                  <strong>Duration</strong>: 1 - 8 Weeks
                   <br />
                   <strong>Price</strong>: $1200
                   <br />
