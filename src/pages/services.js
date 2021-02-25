@@ -254,7 +254,7 @@ class Services extends React.Component {
                   <br />
                   <strong>Attendees</strong>: All Levels
                   <br />
-                  <strong>Where</strong>: Your Home (Online Intensive)
+                  <strong>Where</strong>: Your Home
                   <br />
                   <strong>Duration</strong>: 1 - 8 Weeks
                   <br />
@@ -266,7 +266,7 @@ class Services extends React.Component {
                   <ul>
                     <li>Brand Management</li>
                     <li>Audition/Audition Prep</li>
-                    <li>Headshot/Resume &amp; Portfolio</li>
+                    <li>Headshot/Resume &amp; Portfolio Help</li>
                     <li>US Casting Insights</li>
                     <li>Online Resources</li>
                     <li>Personalized Video Feedback</li>
