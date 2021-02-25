@@ -126,8 +126,7 @@ class Index extends React.Component {
                 <p>
                   Have you ever wondered… WHY that actor got the role over you?
                   Why THEM? Why not YOU? WHEN will it be you? WHAT do you have
-                  to do? This is a course made for the actor who is looking to
-                  GET auditions and BOOK jobs.
+                  to do?
                 </p>
               </li>
               <li>
@@ -138,7 +137,7 @@ class Index extends React.Component {
                 <h3>for Self-tapes</h3>
                 <p>
                   With locally made American films and self-taping now the norm,
-                  it’s vital for all aspiring actors to have great American
+                  it’s vital to have great American
                   accents and great US self-tapes.
                 </p>
               </li>
