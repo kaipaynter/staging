@@ -5,6 +5,7 @@
   "author": "Boipelo Mawasha",
   "homepage": "https://staging.kaipaynter.com",
   "dependencies": {
+    "agentkeepalive": "^4.1.4",
     "gatsby": "^2.19.32",
     "gatsby-plugin-manifest": "^2.2.44",
     "gatsby-plugin-offline": "^3.0.37",

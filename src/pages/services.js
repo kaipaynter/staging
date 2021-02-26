@@ -3,7 +3,7 @@ import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
 import img9605 from '../assets/images/servicespage/img9605.jpg'
-import USaccentpicfull from '../assets/images/servicespage/USaccentpicfull.jpg'
+import generalamericanaccent from '../assets/images/servicespage/generalamericanaccent.jpeg'
 import webresume from '../assets/images/servicespage/webresume.jpg'
 import servicesA from '../assets/images/servicespage/servicesA.png'
 import servicesB from '../assets/images/servicespage/servicesB.png'
@@ -197,7 +197,7 @@ class Services extends React.Component {
                   <h2>General American Accent for Self Tapes</h2>
                 </header>
                 <span className="image2">
-                  <img src={USaccentpicfull} alt="" />
+                  <img src={generalamericanaccent} alt="" />
                 </span>
                 <p>
                   <em>General American Accent for Self-tapes</em> is the
