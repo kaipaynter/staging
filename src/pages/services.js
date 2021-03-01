@@ -44,7 +44,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Your Career</h2>
                 </header>
-                <span className="image2">
+                <span className="image3">
                   <img src={webresume} alt="" />
                 </span>
                 <p>
@@ -85,23 +85,23 @@ class Services extends React.Component {
                 </p>
 
                 <br />
-                <span className="image3">
+                <span className="image4">
                   <img src={servicesA} alt="Early Career" />
                 </span>
                 <br />
-                <span className="image3">
+                <span className="image4">
                   <img src={servicesB} alt="Experienced" />
                 </span>
                 <br />
-                <span className="image3">
+                <span className="image4">
                   <img src={servicesC} alt="Managers/Directors" />
                 </span>
                 <br />
-                <span className="image3">
+                <span className="image4">
                   <img src={servicesD} alt="Licensed Professionals" />
                 </span>
                 <br />
-                <span className="image3">
+                <span className="image4">
                   <img src={servicesE} alt="Executives" />
                 </span>
 
@@ -163,7 +163,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Coaching</h2>
                 </header>
-                <span className="image2">
+                <span className="image3">
                   <img src={biopic2020} alt="" />
                 </span>
                 <br />
@@ -196,7 +196,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>General American Accent for Self Tapes</h2>
                 </header>
-                <span className="image2">
+                <span className="image3">
                   <img src={generalamericanaccent} alt="" />
                 </span>
                 <p>
@@ -239,7 +239,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Secrets of the Stars</h2>
                 </header>
-                <span className="image2">
+                <span className="image3">
                   <img src={img9605} alt="" />
                 </span>
                 <p>
@@ -283,7 +283,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Archetype Coaching</h2>
                 </header>
-                <span className="image2">
+                <span className="image3">
                   <img src={archetype} alt="" />
                 </span>
                 <p>

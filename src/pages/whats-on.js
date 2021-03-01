@@ -68,17 +68,17 @@ class WhatsOn extends React.Component {
                 <header className="major">
                   <h2>Conversation Thursdays</h2>
                 </header>
-                <span className="image2">
-                <img src={USaccentpicfull} alt="" />
-              </span>
+                <span className="image3">
+                  <img src={USaccentpicfull} alt="" />
+                </span>
                 <p>
                   Catch us every other Thursday on Instagram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
                   </a>
-                  ,&nbsp; for a live chit-chat. 
-                  <br />
-                  I share tips, tricks, and other fun stuff. See you there!
+                  ,&nbsp; for a live chit-chat.
+                  <br />I share tips, tricks, and other fun stuff. See you
+                  there!
                 </p>
               </div>
             </div>
@@ -89,10 +89,10 @@ class WhatsOn extends React.Component {
                 <header className="major">
                   <h2>What They Say</h2>
                 </header>
-                <span className="image2">
+                <h3>Tommy C.</h3>
+                <span className="image3">
                   <img src={yelp} alt="" />
                 </span>
-                <h3>Tommy C.</h3>
                 <p>
                   Fontana, CA
                   <br />
@@ -106,10 +106,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Ethan</h3>
+                <span className="image3">
                   <img src={ethan} alt="" />
                 </span>
-                <h3>Ethan</h3>
                 <p>
                   <em>Columbia University</em>
                   <br />
@@ -126,10 +126,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Geoff T.</h3>
+                <span className="image3">
                   <img src={yelp} alt="" />
                 </span>
-                <h3>Geoff T.</h3>
                 <p>
                   Los Angeles, CA
                   <br />
@@ -142,10 +142,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Grace</h3>
+                <span className="image3">
                   <img src={grace} alt="" />
                 </span>
-                <h3>Grace</h3>
                 <p>
                   <em>Empire, Fox</em>
                   <br />
@@ -158,10 +158,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Coko J.</h3>
+                <span className="image3">
                   <img src={yelp} alt="" />
                 </span>
-                <h3>Coko J.</h3>
                 <p>
                   Granada Hills, CA
                   <br />
@@ -174,10 +174,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Jacob</h3>
+                <span className="image3">
                   <img src={jacob} alt="" />
                 </span>
-                <h3>Jacob</h3>
                 <p>
                   <em>Book of Mormon, Broadway Tour</em>
                   <br />
@@ -190,10 +190,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Oma E.</h3>
+                <span className="image3">
                   <img src={yelp} alt="" />
                 </span>
-                <h3>Oma E.</h3>
                 <p>
                   <em>Albuquerque, NM</em>
                   <br />
@@ -207,10 +207,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Rachelle</h3>
+                <span className="image3">
                   <img src={rachelle} alt="" />
                 </span>
-                <h3>Rachelle</h3>
                 <p>
                   <em>Anything Goes, Off-Broadway Tour</em>
                   <br />
@@ -227,10 +227,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>James V.</h3>
+                <span className="image3">
                   <img src={yelp} alt="" />
                 </span>
-                <h3>James V.</h3>
                 <p>
                   <em>Pasadena, CA</em>
                   <br />
@@ -242,10 +242,10 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <span className="image2">
+                <h3>Jason S.</h3>
+                <span className="image3">
                   <img src={yelp} alt="" />
                 </span>
-                <h3>Jason S.</h3>
                 <p>
                   <em>Decatur, IL</em>
                   <br />
