@@ -9,13 +9,13 @@ import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
 //Services
 import career from '../assets/images/landing/career.jpg'
 import c from '../assets/images/landing/c.jpeg'
-import yellowtel from '../assets/images/landing/yellowtel.jpg'
+import yellowtel from '../assets/images/landing/yellowtel.png'
 import secrets from '../assets/images/landing/secrets.png'
 import american from '../assets/images/landing/american.jpg'
 //What's on
 import gracegealey from '../assets/images/whatson/gracegealey.jpg'
 import img9605 from '../assets/images/whatson/img9605.jpg'
-import instagram from '../assets/images/whatson/instagram.jpg'
+import instagram from '../assets/images/landing/instagramflag.jpg'
 
 //Image import end
 
