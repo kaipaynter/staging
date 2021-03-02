@@ -72,28 +72,17 @@ class Index extends React.Component {
                   </li>
                 </ul>
               </div>
-              <span className="image2">
-                <img width="8rem" src={biopicfull2021} alt="" />
+              <span className="imageIndexPage">
+                <img src={biopicfull2021} alt="" />
               </span>
             </div>
           </section>
-
           <section id="services" className="main special">
             <header className="major">
               <h2>Services</h2>
             </header>
             <ul className="features">
-              <li>
-                <span className="image fit">
-                  <img src={career} alt="" />
-                </span>
-                <h3>Your Career</h3>
-                <p>
-                  At this time we are only working with existing clients and
-                  referrals, however, please submit an inquiry and we will do
-                  our best to accommodate. Thank you for your understanding.
-                </p>
-              </li>
+              
               <li>
                 <span className="image fit">
                   <img src={yellowtel} alt="" />
@@ -116,6 +105,17 @@ class Index extends React.Component {
                   or personalities that play a role in influencing human
                   behavior. They were introduced by the Swiss psychiatrist Carl
                   Jung.
+                </p>
+              </li>
+              <li>
+                <span className="image fit">
+                  <img src={career} alt="" />
+                </span>
+                <h3>Your Career</h3>
+                <p>
+                  At this time we are only working with existing clients and
+                  referrals, however, please submit an inquiry and we will do
+                  our best to accommodate. Thank you for your understanding.
                 </p>
               </li>
               <li>

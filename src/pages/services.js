@@ -44,7 +44,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Your Career</h2>
                 </header>
-                <span className="image3">
+                <span className="imageServices">
                   <img src={webresume} alt="" />
                 </span>
                 <p>
@@ -85,23 +85,23 @@ class Services extends React.Component {
                 </p>
 
                 <br />
-                <span className="image4">
+                <span className="imageServicesExtra">
                   <img src={servicesA} alt="Early Career" />
                 </span>
                 <br />
-                <span className="image4">
+                <span className="imageServicesExtra">
                   <img src={servicesB} alt="Experienced" />
                 </span>
                 <br />
-                <span className="image4">
+                <span className="imageServicesExtra">
                   <img src={servicesC} alt="Managers/Directors" />
                 </span>
                 <br />
-                <span className="image4">
+                <span className="imageServicesExtra">
                   <img src={servicesD} alt="Licensed Professionals" />
                 </span>
                 <br />
-                <span className="image4">
+                <span className="imageServicesExtra">
                   <img src={servicesE} alt="Executives" />
                 </span>
 
@@ -163,7 +163,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Coaching</h2>
                 </header>
-                <span className="image3">
+                <span className="imageServices">
                   <img src={biopic2020} alt="" />
                 </span>
                 <br />
@@ -196,38 +196,13 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>General American Accent for Self Tapes</h2>
                 </header>
-                <span className="image3">
+                <span className="imageServices">
                   <img src={generalamericanaccent} alt="" />
                 </span>
                 <p>
-                  <em>General American Accent for Self-tapes</em> is the
-                  necessary blueprint for the accent. <strong>All clients must take this before private US accent coaching with Kai</strong>.
+                  <strong>All clients must take this before private US accent coaching with Kai</strong>.
                 </p>
-                <p>
-                  <strong>Date</strong>: Enrollment Open Now!
-                  <br />
-                  <strong>Closing</strong>: April 10th
-                  <br />
-                  <strong>Attendees</strong>: All Levels
-                  <br />
-                  <strong>Where</strong>: Your Home (Online Intensive)
-                  <br />
-                  <strong>Duration</strong>: 1-2 Weeks
-                  <br />
-                  <strong>Price</strong>: $750
-                  <br />
-                  <strong>Format</strong>: Online Video Intensive
-                  <br />
-                  <strong>What you get</strong>:
-                  <ul>
-                    <li>Proven Quick Tips &amp; Tricks</li>
-                    <li>Accent Basics/Fundamentals</li>
-                    <li>US Casting Insights</li>
-                    <li>Audio Guides</li>
-                    <li>Online Resources</li>
-                    <li>Personalized Video Feedback</li>
-                    <li>Email Support</li>
-                  </ul>
+                <p>                 
                   <strong>Message us to see if you qualify for the seasonal discount</strong>
                 </p>
               </div>
@@ -239,7 +214,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Secrets of the Stars</h2>
                 </header>
-                <span className="image3">
+                <span className="imageServices">
                   <img src={img9605} alt="" />
                 </span>
                 <p>
@@ -283,7 +258,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Archetype Coaching</h2>
                 </header>
-                <span className="image3">
+                <span className="imageServices">
                   <img src={archetype} alt="" />
                 </span>
                 <p>

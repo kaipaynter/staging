@@ -1,7 +1,4 @@
 import React from 'react'
-
-//import logo from '../assets/images/logo.svg'
-import logo from '../assets/images/logo.jpg'
 import logo2 from '../assets/images/logo2.png'
 
 const Header = props => (

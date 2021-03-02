@@ -1,12 +1,10 @@
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
-//import img9605 from '../assets/images/whatson/img9605.jpg'
 import USaccentpicfull from '../assets/images/whatson/US_Accent_Pic_full.jpg'
 import ethan from '../assets/images/whatson/ethannguyen.png'
 import grace from '../assets/images/whatson/gracegealey.jpg'
 import jacob from '../assets/images/whatson/jacob.png'
-//import luke from '../assets/images/whatson/lukepatrick.jpg'
 import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
 import WhatsOnNav from '../components/WhatsOnNav'
@@ -43,8 +41,7 @@ class WhatsOn extends React.Component {
                   <h2>Client Showcase</h2>
                 </header>
                 <iframe
-                  width="802"
-                  height="379"
+                  className="iframe"
                   title="Aria Bella Hart"
                   src="https://www.youtube.com/embed/DYGmx-7E-VY"
                   frameborder="0"
@@ -68,7 +65,7 @@ class WhatsOn extends React.Component {
                 <header className="major">
                   <h2>Conversation Thursdays</h2>
                 </header>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={USaccentpicfull} alt="" />
                 </span>
                 <p>
@@ -90,7 +87,7 @@ class WhatsOn extends React.Component {
                   <h2>What They Say</h2>
                 </header>
                 <h3>Tommy C.</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -107,7 +104,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Ethan</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={ethan} alt="" />
                 </span>
                 <p>
@@ -127,7 +124,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Geoff T.</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -143,7 +140,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Grace</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={grace} alt="" />
                 </span>
                 <p>
@@ -159,7 +156,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Coko J.</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -175,7 +172,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Jacob</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={jacob} alt="" />
                 </span>
                 <p>
@@ -191,7 +188,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Oma E.</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -208,7 +205,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Rachelle</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={rachelle} alt="" />
                 </span>
                 <p>
@@ -228,7 +225,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>James V.</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -243,7 +240,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Jason S.</h3>
-                <span className="image3">
+                <span className="imageWhatsOn ">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
