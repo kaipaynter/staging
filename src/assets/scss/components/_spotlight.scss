@@ -29,6 +29,8 @@
 			width:802px;
             height:379px;
 			display: inline-block;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.image {
@@ -49,12 +51,12 @@
 			display: inline-block;
 			margin-left: 0em;
 			padding: 0em;
-			border-radius: 100%;
-			border: solid 1px;
+			border-radius: 0%;
+			//border: solid 1px;
 
 			img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 0%;
 				width: 20em;
 			}
 		}
@@ -66,8 +68,10 @@
 
 			img {
 				display: block;
-				max-width: 60%;
+				max-width: 40%;
 				height:auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 
@@ -80,6 +84,8 @@
 				display: block;
 				max-width: 60%;
 				height:auto;
+				margin-left: auto;
+				margin-right: auto;
 			}
 		}
 

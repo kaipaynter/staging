@@ -67,7 +67,7 @@ class Index extends React.Component {
                 <ul className="actions">
                   <li>
                     <Link to="/about-me" className="button">
-                      Learn More
+                      <strong>Learn More</strong>
                     </Link>
                   </li>
                 </ul>
@@ -146,7 +146,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/services" className="button">
-                    Learn More
+                    <strong>Learn More</strong>
                   </Link>
                 </li>
               </ul>
@@ -184,7 +184,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/whats-on" className="button">
-                    Learn More
+                    <strong>Learn More</strong>
                   </Link>
                 </li>
               </ul>
@@ -200,7 +200,7 @@ class Index extends React.Component {
               <ul className="actions">
                 <li>
                   <Link to="/contact" className="button">
-                    Get Started
+                    <strong>Get Started</strong>
                   </Link>
                 </li>
               </ul>

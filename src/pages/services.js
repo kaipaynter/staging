@@ -12,6 +12,7 @@ import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
 import biopic2020 from '../assets/images/servicespage/biopic2020.jpg'
 import ServicesNav from '../components/ServicesNav'
+import Class from '../assets/images/servicespage/class.jpg'
 
 class Services extends React.Component {
   constructor(props) {
@@ -164,7 +165,7 @@ class Services extends React.Component {
                   <h2>Coaching</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={biopic2020} alt="" />
+                  <img src={Class} alt="" />
                 </span>
                 <br />
                 <ul>
@@ -200,10 +201,7 @@ class Services extends React.Component {
                   <img src={generalamericanaccent} alt="" />
                 </span>
                 <p>
-                  <strong>All clients must take this before private US accent coaching with Kai</strong>.
-                </p>
-                <p>                 
-                  <strong>Message us to see if you qualify for the seasonal discount</strong>
+                  <strong>All clients must take this before private US accent coaching with Kai. Message us to see if you qualify for the seasonal discount</strong>.
                 </p>
               </div>
             </div>
