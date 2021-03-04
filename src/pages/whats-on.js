@@ -48,6 +48,7 @@ class WhatsOn extends React.Component {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
+                <p />
                 <p>
                   “I’ve been studying American Accent with Kai for two terms
                   now. I absolutely love doing the course with her! She’s super
@@ -66,19 +67,19 @@ class WhatsOn extends React.Component {
                   <h2>Conversation Thursdays</h2>
                 </header>
                 <span className="imageWhatsOnExtra">
-                  <img src={conversation} alt="" />
+                  <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
+                    <img src={conversation} alt="instagram" />
+                  </a>
                 </span>
+                <p />
                 <p className="centeredText">
                   Come hang out with me every other Thursday on the Gram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
                   </a>
                   <br />
-                  We talk about everything under the sun as it pertains to your
-                  career, life, work, and most importantly YOU. If you are
-                  wondering what it may be like to work with me, this will give
-                  you a great idea. I also share tips, tricks, and other fun
-                  stuff. See you there!
+                  We talk about everything under the sun as it pertains to
+                  career, life, work, and most importantly YOU.
                 </p>
               </div>
             </div>
@@ -198,7 +199,6 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Albuquerque, NM</em>
                   </p>
-                  
                   “I can't thank her enough… Not only did she give me a great
                   resume, I got it earlier then it was scheduled (by my
                   request). I can say with all seriousness that the resume I
@@ -238,7 +238,6 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Pasadena, CA</em>
                   </p>
-                  
                   “What I really liked about the service was that she took the
                   time and listened to my career goals. Reading my finished
                   resume I really felt like it reflected everything that I told
@@ -255,7 +254,6 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Decatur, IL</em>
                   </p>
-                  
                   “After years with the same employer, my resume was out of date
                   & poorly formatted for today's market. Alicia was a pleasure
                   to work with & did a fantastic job.”
