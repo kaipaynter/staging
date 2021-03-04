@@ -2,7 +2,7 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
-import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
+import biopic from '../assets/images/servicespage/biopic2020.jpg'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -35,6 +35,9 @@ class AboutMe extends React.Component {
                 <header className="major">
                   <h2>About Me</h2>
                 </header>
+                <span className="imageAboutMe">
+                <img src={biopic} alt="Bio Picture" />
+              </span>
                 <p>
                   My expertise is in:
                   <br />
@@ -95,9 +98,7 @@ class AboutMe extends React.Component {
                   (Go ahead, read that 2x!)
                 </p>
               </div>
-              <span className="image">
-                <img src={biopicfull2021} alt="" />
-              </span>
+              
             </div>
           </section>
         </div>

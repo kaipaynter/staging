@@ -10,9 +10,8 @@ import servicesB from '../assets/images/servicespage/servicesB.png'
 import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
-import biopic2020 from '../assets/images/servicespage/biopic2020.jpg'
 import ServicesNav from '../components/ServicesNav'
-import Class from '../assets/images/servicespage/class.jpg'
+import coaching from '../assets/images/servicespage/jeff_goldblum.jpg'
 
 class Services extends React.Component {
   constructor(props) {
@@ -165,7 +164,7 @@ class Services extends React.Component {
                   <h2>Coaching</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={Class} alt="" />
+                  <img src={coaching} alt="" />
                 </span>
                 <br />
                 <ul>
@@ -201,7 +200,30 @@ class Services extends React.Component {
                   <img src={generalamericanaccent} alt="" />
                 </span>
                 <p>
-                  <strong>All clients must take this before private US accent coaching with Kai. Message us to see if you qualify for the seasonal discount</strong>.
+                  <strong>
+                    All clients must take this before private US accent coaching
+                    with Kai.
+                  </strong>
+                </p>
+                <p>
+                  <strong>Date</strong>: Enrollment Open Now!
+                  <br />
+                  <strong>Closing</strong>: April 10th
+                  <br />
+                  <strong>Attendees</strong>: All Levels
+                  <br />
+                  <strong>Where</strong>: Your Home
+                  <br />
+                  <strong>Duration</strong>: 1 - 8 Weeks
+                  <br />
+                  <strong>Price</strong>: $750
+                  <br />
+                  <strong>Format</strong>: Online Video Intensive
+                  <br />
+                  <br />
+                  <strong>
+                    Message us to see if you qualify for the seasonal discount
+                  </strong>
                 </p>
               </div>
             </div>
@@ -245,7 +267,9 @@ class Services extends React.Component {
                     <li>Personalized Video Feedback</li>
                     <li>Email Support</li>
                   </ul>
-                  <strong>Message us to see if you qualify for the seasonal discount</strong>
+                  <strong>
+                    Message us to see if you qualify for the seasonal discount
+                  </strong>
                 </p>
               </div>
             </div>
@@ -273,9 +297,9 @@ class Services extends React.Component {
                   type, the result of completing the Myers-Briggs Type
                   Indicator® assessment. The MBTI® instrument is a tool created
                   by Isabel Myers based on Carl G. Jung's personality type
-                  theories. In this work you can find your mission &amp; purpose,
-                  understand life lessons, unlock roadblocks, and get clarity on
-                  how to reach success.
+                  theories. In this work you can find your mission &amp;
+                  purpose, understand life lessons, unlock roadblocks, and get
+                  clarity on how to reach success.
                   <br />
                   <br />
                   <strong>Recommended prior to standard coaching.</strong>

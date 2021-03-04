@@ -6,169 +6,201 @@
 
 /* Spotlight */
 
-	.spotlight {
-		@include vendor('display', 'flex');
-		@include vendor('align-items', 'center');
-		margin: 0 0 _size(element-margin) 0;
+.spotlight {
+  @include vendor('display', 'flex');
+  @include vendor('align-items', 'center');
+  margin: 0 0 _size(element-margin) 0;
 
-		.content {
-			@include vendor('flex', '1');
+  .content {
+    @include vendor('flex', '1');
 
-			> :last-child {
-				margin-bottom: 0;
-			}
+    > :last-child {
+      margin-bottom: 0;
+    }
 
-			header {
-				&.major {
-					margin: 0 0 _size(element-margin) 0;
-				}
-			}
+    header {
+      &.major {
+        margin: 0 0 _size(element-margin) 0;
+      }
+    }
 
-			.centeredText {
-				text-align: center;
-				p {
-					text-align: center;
-				}
-			}
-		}
+    .centeredText {
+      text-align: center;
+      p {
+        text-align: center;
+        image {
+          border: solid 1px;
+          img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+      }
+      .image {
+        border: solid 1px;
+        img {
+          display: block;
+          max-width: 100%;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
 
-		.iframe {
-			width:802px;
-            height:379px;
-			display: inline-block;
-			margin-left: auto;
-			margin-right: auto;
-		}
+  .iframe {
+    width: 802px;
+    height: 379px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-		.image {
-			display: inline-block;
-			margin-left: 4em;
-			padding: 0.65em;
-			border-radius: 100%;
-			border: solid 1px;
+  .image {
+    display: inline-block;
+    margin-left: 4em;
+    padding: 0.65em;
+    border-radius: 100%;
+    border: solid 1px;
 
-			img {
-				display: block;
-				border-radius: 100%;
-				width: 25em;
-			}
-		}
+    img {
+      display: block;
+      border-radius: 100%;
+      width: 25em;
+    }
+  }
 
-		.imageIndexPage {
-			display: inline-block;
-			margin-left: 0em;
-			padding: 0em;
-			border-radius: 0%;
-			//border: solid 1px;
+  .imageAboutMe {
+    display: inline-block;
+    margin-left: 0em;
+    padding: 0em;
 
-			img {
-				display: block;
-				border-radius: 0%;
-				width: 20em;
-			}
-		}
-				
-		.imageWhatsOn {
-			//display: inline-block;
-			margin-left: 0em;
-			padding: 0em;
+    img {
+      display: block;
+      max-width: 50%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
-			img {
-				display: block;
-				max-width: 40%;
-				height:auto;
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
+  .imageIndexPage {
+    display: inline-block;
+    margin-left: 0em;
+    padding: 0em;
+    border-radius: 0%;
+    //border: solid 1px;
 
-		.imageWhatsOnExtra {
-			display: inline-block;
-			margin-left: 0em;
-			padding: 0em;
+    img {
+      display: block;
+      border-radius: 0%;
+      width: 20em;
+    }
+  }
 
-			img {
-				display: block;
-				max-width: 40%;
-				height:auto;
-			}
-		}
+  .imageWhatsOn {
+    //display: inline-block;
+    margin-left: 0em;
+    padding: 0em;
 
-		.imageServices {
-			display: inline-block;
-			margin-left: 0em;
-			padding: 0em;
+    img {
+      display: block;
+      max-width: 40%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
-			img {
-				display: block;
-				max-width: 60%;
-				height:auto;
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
+  .imageWhatsOnExtra {
+    display: inline-block;
+    margin-left: 0em;
+    padding: 0em;
 
-		.imageServicesExtra {
-			display: inline-block;
-			margin-left: 0em;
-			padding: 0em;
-			border-radius: 0%;
-			border: solid 1px;
+    img {
+      display: block;
+      max-width: 40%;
+      height: auto;
+    }
+  }
 
-			img {
-				display: block;
-				border-radius: 0%;
-				max-width: 100%;
-				height:auto;
-				margin-left: auto;
-				margin-right: auto;
-			}
-		}
+  .imageServices {
+    display: inline-block;
+    margin-left: 0em;
+    padding: 0em;
 
-		@include breakpoint(medium) {
-			@include vendor('flex-direction', 'column-reverse');
-			text-align: center;
+    img {
+      display: block;
+      max-width: 60%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
-			.content {
-				@include vendor('flex', '0 1 auto');
-				width: 100%;
+  .imageServicesExtra {
+    //display: inline-block;
+    margin-left: 0em;
+    padding: 0em;
 
-				header {
-					&.major {
-						h2 {
-							&:after {
-								margin-left: auto;
-								margin-right: auto;
-							}
-						}
-					}
-				}
-			}
+    img {
+      display: block;
+      border: solid 1px;
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
 
-			.image {
-				@include vendor('flex', '0 1 auto');
-				margin-left: 0;
-				margin-bottom: _size(element-margin);
-			}
-		}
+  @include breakpoint(medium) {
+    @include vendor('flex-direction', 'column-reverse');
+    text-align: center;
 
-		@include breakpoint(small) {
-			.image {
-				padding: 0.35em;
+    .content {
+      @include vendor('flex', '0 1 auto');
+      width: 100%;
 
-				img {
-					width: 12em;
-				}
-			}
-		}
-	}
+      header {
+        &.major {
+          h2 {
+            &:after {
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
+        }
+      }
+    }
 
-	@mixin color-spotlight($p: null) {
-		.spotlight {
-			.image {
-				border-color: _palette($p, border);
-			}
-		}
-	}
+    .image {
+      @include vendor('flex', '0 1 auto');
+      margin-left: 0;
+      margin-bottom: _size(element-margin);
+    }
+  }
 
-	@include color-spotlight;
+  @include breakpoint(small) {
+    .image {
+      padding: 0.35em;
+
+      img {
+        width: 12em;
+      }
+    }
+  }
+}
+
+@mixin color-spotlight($p: null) {
+  .spotlight {
+    .image {
+      border-color: _palette($p, border);
+    }
+  }
+}
+
+@include color-spotlight;
