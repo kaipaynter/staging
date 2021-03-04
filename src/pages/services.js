@@ -11,7 +11,7 @@ import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
 import ServicesNav from '../components/ServicesNav'
-import coaching from '../assets/images/servicespage/jeff_goldblum.jpg'
+import coaching from '../assets/images/servicespage/c1.jpeg'
 
 class Services extends React.Component {
   constructor(props) {
@@ -163,7 +163,7 @@ class Services extends React.Component {
                 <header className="major">
                   <h2>Coaching</h2>
                 </header>
-                <span className="imageServices">
+                <span className="imageServicesExtra">
                   <img src={coaching} alt="" />
                 </span>
                 <br />
@@ -209,13 +209,13 @@ class Services extends React.Component {
                 <span className="imageServices">
                   <img src={generalamericanaccent} alt="" />
                 </span>
-                <p>
+                <p className="centeredText">
                   <strong>
                     All clients must take this before private US accent coaching
                     with Kai.
                   </strong>
                 </p>
-                <p>
+                <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
                   <br />
                   <strong>Closing</strong>: April 10th
@@ -247,12 +247,12 @@ class Services extends React.Component {
                 <span className="imageServices">
                   <img src={img9605} alt="" />
                 </span>
-                <p>
+                <p className="centeredText">
                   <em>Secrets of the Stars</em> is a jam-packed intensive with
                   Coach Kai. The course offers in-depth, first-hand knowledge
                   into the industry and reveals the necessary steps to success.
                 </p>
-                <p>
+                <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
                   <br />
                   <strong>Closing</strong>: April 10th
