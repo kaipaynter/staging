@@ -11,7 +11,7 @@ import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
 import ServicesNav from '../components/ServicesNav'
-import coaching from '../assets/images/servicespage/c1.jpeg'
+import coaching from '../assets/images/servicespage/c1_cropped.png'
 
 class Services extends React.Component {
   constructor(props) {
@@ -266,17 +266,7 @@ class Services extends React.Component {
                   <strong>Price</strong>: $1200
                   <br />
                   <strong>Format</strong>: Online Video Intensive
-                  <br />
-                  <strong>What you get</strong>:
-                  <ul>
-                    <li>Brand Management</li>
-                    <li>Audition/Audition Prep</li>
-                    <li>Headshot/Resume &amp; Portfolio Help</li>
-                    <li>US Casting Insights</li>
-                    <li>Online Resources</li>
-                    <li>Personalized Video Feedback</li>
-                    <li>Email Support</li>
-                  </ul>
+                  <br />              
                   <strong>
                     Message us to see if you qualify for the seasonal discount
                   </strong>
