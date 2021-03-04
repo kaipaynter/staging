@@ -69,13 +69,16 @@ class WhatsOn extends React.Component {
                   <img src={conversation} alt="" />
                 </span>
                 <p className="centeredText">
-                  Catch us every other Thursday on Instagram{' '}
+                  Come hang out with me every other Thursday on the Gram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
                   </a>
-                  ,&nbsp; for a live chit-chat.
-                  <br />I share tips, tricks, and other fun stuff. See you
-                  there!
+                  <br />
+                  We talk about everything under the sun as it pertains to your
+                  career, life, work, and most importantly YOU. If you are
+                  wondering what it may be like to work with me, this will give
+                  you a great idea. I also share tips, tricks, and other fun
+                  stuff. See you there!
                 </p>
               </div>
             </div>
@@ -86,13 +89,12 @@ class WhatsOn extends React.Component {
                 <header className="major">
                   <h2>What They Say</h2>
                 </header>
-                <h3>Tommy C.</h3>
+                <h3 className="centeredText">Tommy C.</h3>
                 <span className="imageWhatsOn">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  Fontana, CA
-                  <br />
+                  <p className="centeredText">Fontana, CA</p>
                   “…I couldn't believe how she was able to transform all my work
                   experience into this well written, key word rich, professional
                   document, at a fraction of the length of the resume I wrote…I
@@ -103,7 +105,7 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Ethan</h3>
+                <h3 className="centeredText">Ethan</h3>
                 <span className="imageWhatsOn">
                   <img src={ethan} alt="" />
                 </span>
@@ -124,13 +126,12 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Geoff T.</h3>
+                <h3 className="centeredText">Geoff T.</h3>
                 <span className="imageWhatsOn">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  Los Angeles, CA
-                  <br />
+                  <p className="centeredText">Los Angeles, CA</p>
                   “The fee was nominal and I got back a strong resume that
                   better illustrates my accomplishments…she was very easy to
                   work with. We had a call that lasted a bit over an hour and
@@ -140,7 +141,7 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Grace</h3>
+                <h3 className="centeredText">Grace</h3>
                 <span className="imageWhatsOn">
                   <img src={grace} alt="" />
                 </span>
@@ -157,13 +158,12 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Coko J.</h3>
+                <h3 className="centeredText">Coko J.</h3>
                 <span className="imageWhatsOn">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  Granada Hills, CA
-                  <br />
+                  <p className="centeredText">Granada Hills, CA</p>
                   “It had been years since I updated my resume last time. I
                   needed a professional help to get it right…she understood my
                   needs and worked efficiently to make my resume shine, which I
@@ -173,7 +173,7 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Jacob</h3>
+                <h3 className="centeredText">Jacob</h3>
                 <span className="imageWhatsOn">
                   <img src={jacob} alt="" />
                 </span>
@@ -190,13 +190,15 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Oma E.</h3>
+                <h3 className="centeredText">Oma E.</h3>
                 <span className="imageWhatsOn">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  <em>Albuquerque, NM</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Albuquerque, NM</em>
+                  </p>
+                  
                   “I can't thank her enough… Not only did she give me a great
                   resume, I got it earlier then it was scheduled (by my
                   request). I can say with all seriousness that the resume I
@@ -207,7 +209,7 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Rachelle</h3>
+                <h3 className="centeredText">Rachelle</h3>
                 <span className="imageWhatsOn">
                   <img src={rachelle} alt="" />
                 </span>
@@ -228,13 +230,15 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>James V.</h3>
+                <h3 className="centeredText">James V.</h3>
                 <span className="imageWhatsOn">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  <em>Pasadena, CA</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Pasadena, CA</em>
+                  </p>
+                  
                   “What I really liked about the service was that she took the
                   time and listened to my career goals. Reading my finished
                   resume I really felt like it reflected everything that I told
@@ -243,13 +247,15 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3>Jason S.</h3>
+                <h3 className="centeredText">Jason S.</h3>
                 <span className="imageWhatsOn">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  <em>Decatur, IL</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Decatur, IL</em>
+                  </p>
+                  
                   “After years with the same employer, my resume was out of date
                   & poorly formatted for today's market. Alicia was a pleasure
                   to work with & did a fantastic job.”
