@@ -167,26 +167,36 @@ class Services extends React.Component {
                   <img src={coaching} alt="" />
                 </span>
                 <br />
-                <ul>
-                  <li>General American Accent</li>
-                  <li>Neutral/UK Accents</li>
-                  <li>Regional American Dialects</li>
-                  <li>US Scenes (Film/TV)</li>
-                  <li>US Sitcom</li>
-                  <li>US Plays</li>
-                  <li>US Drama</li>
-                  <li>US Musical Theatre</li>
-                  <li>Client Branding</li>
-                  <li>Client Sourcing</li>
-                  <li>Career Consulting</li>
-                  <li>Interviews</li>
-                  <li>Movement</li>
-                  <li>Singing</li>
-                  <li>Voice &amp; Speech</li>
-                  <li>Self-tapes/Auditions</li>
-                  <li>Acting</li>
-                  <li>On-set</li>
-                </ul>
+                <p className="column">
+                  <ul>
+                    <li>General American Accent</li>
+                    <li>Neutral/UK Accents</li>
+                    <li>Regional American Dialects</li>
+                    <li>US Scenes (Film/TV)</li>
+                    <li>US Sitcom</li>
+                    <li>US Plays</li>
+                  </ul>
+                </p>
+                <p className="column">
+                  <ul>
+                    <li>US Drama</li>
+                    <li>US Musical Theatre</li>
+                    <li>Client Branding</li>
+                    <li>Client Sourcing</li>
+                    <li>Career Consulting</li>
+                    <li>Interviews</li>
+                  </ul>
+                </p>
+                <p className="column">
+                  <ul>
+                    <li>Movement</li>
+                    <li>Singing</li>
+                    <li>Voice &amp; Speech</li>
+                    <li>Self-tapes/Auditions</li>
+                    <li>Acting</li>
+                    <li>On-set</li>
+                  </ul>
+                </p>
               </div>
             </div>
           </section>
