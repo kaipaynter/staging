@@ -55,7 +55,7 @@ class WhatsOn extends React.Component {
                   supportive and she gives me amazing feedback that helps me
                   progress. I can’t wait to keep on learning and improving my
                   accent and finding out about more tools!” –{' '}
-                  <strong>Aria Bella Hart</strong>
+                  <strong>Aria Bella Hart (Sydney, Australia)</strong>
                 </p>
               </div>
             </div>
@@ -75,7 +75,7 @@ class WhatsOn extends React.Component {
                 <p className="centeredText">
                   Come hang out with me every other Thursday on the Gram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
-                    <strong>@kaipaynteradvisory</strong>
+                    <strong>@kaipaynteradvisory!!!</strong>
                   </a>
                   <br />
                   We talk about everything under the sun as it pertains to

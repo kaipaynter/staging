@@ -248,9 +248,7 @@ class Services extends React.Component {
                   <img src={img9605} alt="" />
                 </span>
                 <p className="centeredText">
-                  <em>Secrets of the Stars</em> is a jam-packed intensive with
-                  Coach Kai. The course offers in-depth, first-hand knowledge
-                  into the industry and reveals the necessary steps to success.
+                  <strong>This jam-packed intensive offers in-depth, first-hand knowledge into the industry and reveals the necessary steps to success</strong>
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
@@ -266,7 +264,8 @@ class Services extends React.Component {
                   <strong>Price</strong>: $1200
                   <br />
                   <strong>Format</strong>: Online Video Intensive
-                  <br />              
+                  <br />    
+                  <br />          
                   <strong>
                     Message us to see if you qualify for the seasonal discount
                   </strong>
