@@ -1,10 +1,10 @@
 import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
-import USaccentpicfull from '../assets/images/whatson/US_Accent_Pic_full_2.jpg'
+import conversation from '../assets/images/whatson/paul.jpg'
 import ethan from '../assets/images/whatson/ethannguyen.png'
-import grace from '../assets/images/whatson/gracegealey.jpg'
-import jacob from '../assets/images/whatson/jacob.png'
+import grace from '../assets/images/whatson/g.jpg'
+import jacob from '../assets/images/whatson/jacob.jpg'
 import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
 import WhatsOnNav from '../components/WhatsOnNav'
@@ -66,9 +66,9 @@ class WhatsOn extends React.Component {
                   <h2>Conversation Thursdays</h2>
                 </header>
                 <span className="imageWhatsOn">
-                  <img src={USaccentpicfull} alt="" />
+                  <img src={conversation} alt="" />
                 </span>
-                <p>
+                <p className="centeredText">
                   Catch us every other Thursday on Instagram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
@@ -87,7 +87,7 @@ class WhatsOn extends React.Component {
                   <h2>What They Say</h2>
                 </header>
                 <h3>Tommy C.</h3>
-                <span className="imageWhatsOn">
+                <span className="imageWhatsOnExtra">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -108,8 +108,9 @@ class WhatsOn extends React.Component {
                   <img src={ethan} alt="" />
                 </span>
                 <p>
-                  <em>Columbia University</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Columbia University</em>
+                  </p>
                   “Because Kai set me loose… I finished my undergrad with a B.S.
                   in Information & Computer Science. When fall arrives, I will
                   begin a new adventure in pursuit of an M.F.A. in Theatre
@@ -124,7 +125,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Geoff T.</h3>
-                <span className="imageWhatsOn">
+                <span className="imageWhatsOnExtra">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -144,8 +145,9 @@ class WhatsOn extends React.Component {
                   <img src={grace} alt="" />
                 </span>
                 <p>
-                  <em>Empire, Fox</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Empire, Fox</em>
+                  </p>
                   “Not only have I heard directly from students about the
                   significant impact she has had on their academic advancement,
                   but I have also had the pleasure of sitting in on quite a few
@@ -156,7 +158,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Coko J.</h3>
-                <span className="imageWhatsOn">
+                <span className="imageWhatsOnExtra">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -176,8 +178,9 @@ class WhatsOn extends React.Component {
                   <img src={jacob} alt="" />
                 </span>
                 <p>
-                  <em>Book of Mormon, Broadway Tour</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Book of Mormon, Broadway Tour</em>
+                  </p>
                   “What was more important was that each person seemed to take
                   one big, monumental, game-changing step in her class. What was
                   even more impressive about this feat was that Kai was able to
@@ -188,7 +191,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Oma E.</h3>
-                <span className="imageWhatsOn">
+                <span className="imageWhatsOnExtra">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -209,8 +212,9 @@ class WhatsOn extends React.Component {
                   <img src={rachelle} alt="" />
                 </span>
                 <p>
-                  <em>Anything Goes, Off-Broadway Tour</em>
-                  <br />
+                  <p className="centeredText">
+                    <em>Anything Goes, Off-Broadway Tour</em>
+                  </p>
                   “Ms. Paynter was not only a wonderful teacher, but also an
                   approachable and devoted mentor. She made herself available to
                   all of her students... I asked Ms. Paynter numerous times if
@@ -225,7 +229,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>James V.</h3>
-                <span className="imageWhatsOn">
+                <span className="imageWhatsOnExtra">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
@@ -240,7 +244,7 @@ class WhatsOn extends React.Component {
                 <br />
 
                 <h3>Jason S.</h3>
-                <span className="imageWhatsOn">
+                <span className="imageWhatsOnExtra">
                   <img src={yelp} alt="" />
                 </span>
                 <p>
