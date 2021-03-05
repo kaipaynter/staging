@@ -38,7 +38,6 @@ class AboutMe extends React.Component {
                 <span className="imageAboutMe">
                 <img src={biopic} alt="Bio Picture" />
               </span>
-                <p />
                 <p className="centeredText"> 
                   <br />
                   <strong>Identifying & Developing Talent </strong> ---&#x0003E;
