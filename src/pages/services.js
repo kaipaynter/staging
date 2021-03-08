@@ -2,14 +2,15 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
-import img9605 from '../assets/images/servicespage/img9605.jpg'
+import secrets from '../assets/images/servicespage/img9605.jpg'
 import generalamericanaccent from '../assets/images/servicespage/generalamericanaccent.jpeg'
-import webresume from '../assets/images/servicespage/webresume.jpg'
+import yourcareer from '../assets/images/servicespage/career2.jpg'
 import servicesA from '../assets/images/servicespage/servicesA.png'
 import servicesB from '../assets/images/servicespage/servicesB.png'
 import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
+import servicesF from '../assets/images/servicespage/servicesF.png'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
 
@@ -45,8 +46,9 @@ class Services extends React.Component {
                   <h2>Your Career</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={webresume} alt="" />
+                  <img src={yourcareer} alt="" />
                 </span>
+                <br />
                 <p>
                   <em>
                     Resumes are your entry through the door and as such, are THE
@@ -84,7 +86,6 @@ class Services extends React.Component {
                   </ul>
                 </p>
 
-                <br />
                 <span className="imageServicesExtra">
                   <img src={servicesA} alt="Early Career" />
                 </span>
@@ -104,49 +105,11 @@ class Services extends React.Component {
                 <span className="imageServicesExtra">
                   <img src={servicesE} alt="Executives" />
                 </span>
-
                 <br />
-
-                <h3>Al A Carte</h3>
-                <ul>
-                  <li>
-                    <strong>Theatrical Resume - $60</strong>
-                  </li>
-                  Must submit old resume or complete questionnaire.
-                  <li>
-                    <strong>Bio - $85</strong>
-                  </li>
-                  Eye catching, real, and written to reflect your personality
-                  and style.
-                  <li>
-                    <strong>Headshot Consultation - $50</strong>
-                  </li>
-                  We will advise you on how to choose the perfect headshot(s)
-                  based on your personality, brand, and your competition.
-                  <li>
-                    <strong>LinkedIn Update - $50</strong>
-                  </li>
-                  <strong>
-                    Over 87% of employers utilize LinkedIn making it a key
-                    resource for jobseekers.
-                  </strong>
-                  <br />
-                  We will optimize your profile, add content, and improve your
-                  chances of being seen by employers.
-                  <li>
-                    <strong>Job Interview Prep - $100</strong>
-                  </li>
-                  A 45min - 1-hr phone consultation where we will answer
-                  questions, rehearse responses, and provide powerful tips to
-                  help you succeed during the job interview.
-                  <li>
-                    <strong>
-                      Cover Letter (+ Thank You Letter) - $80 ($100)
-                    </strong>
-                  </li>
-                  A personalized and perfected intro and outro paired with your
-                  resume.
-                </ul>
+                <span className="imageServicesExtra">
+                  <img src={servicesF} alt="Al A Carte" style={{maxWidth: '55%'}}/>
+                </span>
+                <br />
                 <p>
                   ***Prices listed are for updating &amp; improving existing
                   resumes. There is an additional cost if you do not have an
@@ -167,7 +130,7 @@ class Services extends React.Component {
                   <img src={coaching} alt="" />
                 </span>
                 <br />
-                <p className="column">
+                <p className="column centeredText">
                   <ul>
                     <li>General American Accent</li>
                     <li>Neutral/UK Accents</li>
@@ -177,7 +140,7 @@ class Services extends React.Component {
                     <li>US Plays</li>
                   </ul>
                 </p>
-                <p className="column">
+                <p className="column centeredText">
                   <ul>
                     <li>US Drama</li>
                     <li>US Musical Theatre</li>
@@ -187,7 +150,7 @@ class Services extends React.Component {
                     <li>Interviews</li>
                   </ul>
                 </p>
-                <p className="column">
+                <p className="column centeredText">
                   <ul>
                     <li>Movement</li>
                     <li>Singing</li>
@@ -209,6 +172,7 @@ class Services extends React.Component {
                 <span className="imageServices">
                   <img src={generalamericanaccent} alt="" />
                 </span>
+                <br />
                 <p className="centeredText">
                   <strong>
                     All clients must take this before private US accent coaching
@@ -224,7 +188,7 @@ class Services extends React.Component {
                   <br />
                   <strong>Where</strong>: Your Home
                   <br />
-                  <strong>Duration</strong>: 1 - 8 Weeks
+                  <strong>Duration</strong>: 1 - 2 Weeks
                   <br />
                   <strong>Price</strong>: $750
                   <br />
@@ -245,10 +209,15 @@ class Services extends React.Component {
                   <h2>Secrets of the Stars</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={img9605} alt="" />
+                  <img src={secrets} alt="" />
                 </span>
+                <br />
                 <p className="centeredText">
-                  <strong>This jam-packed intensive offers in-depth, first-hand knowledge into the industry and reveals the necessary steps to success</strong>
+                  <strong>
+                    This jam-packed intensive offers in-depth, first-hand
+                    knowledge into the industry and reveals the necessary steps
+                    to success
+                  </strong>
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
@@ -264,8 +233,8 @@ class Services extends React.Component {
                   <strong>Price</strong>: $1200
                   <br />
                   <strong>Format</strong>: Online Video Intensive
-                  <br />    
-                  <br />          
+                  <br />
+                  <br />
                   <strong>
                     Message us to see if you qualify for the seasonal discount
                   </strong>
@@ -282,6 +251,7 @@ class Services extends React.Component {
                 <span className="imageServices">
                   <img src={archetype} alt="" />
                 </span>
+                <br />
                 <p>
                   In Jungian psychology, the archetypes represent universal
                   patterns and images that are part of the collective
