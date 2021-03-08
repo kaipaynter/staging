@@ -36,13 +36,17 @@ class AboutMe extends React.Component {
                   <h2>About Me</h2>
                 </header>
                 <span className="imageAboutMe">
-                <img src={biopic} alt="Bio Picture" />
-              </span>
-                <p className="centeredText"> 
+                  <img src={biopic} alt="Bio Picture" />
+                </span>
+                <p className="centeredText">
                   <br />
-                  <strong>Identifying & Developing Talent </strong> ---&#x0003E;
-                  <strong> Advising & Influencing Action </strong> ---&#x0003E;
-                  <strong> ACQUISITION</strong>
+                  <u>
+                    <strong>Identifying & Developing Talent </strong>{' '}
+                    ---&#x0003E;
+                    <strong> Advising & Influencing Action </strong>{' '}
+                    ---&#x0003E;
+                    <strong> ACQUISITION</strong>
+                  </u>
                   <br />
                   <br />
                   Basically, I know what sells and I know how to sell it.
@@ -54,19 +58,22 @@ class AboutMe extends React.Component {
                   <br />
                   <br />
                   <strong>Casting Director</strong> for Film/TV………{' '}
-                  <strong>Marketing & Brand Manager</strong> for a Global Tech
-                  Firm……… a Working <strong>Actor</strong>……{' '}
-                  <strong>Advisor</strong> for CEOs ………Highschool
+                  <strong>Marketing & Brand Manager</strong> for an
+                  International Trophy Company……… a Working{' '}
+                  <strong>Actor</strong>…… <strong>Advisor</strong> for CEOs
+                  ………Highschool
                   <strong> Economics Teacher</strong>………Touring{' '}
                   <strong>Singer</strong> ……… International
                   <strong>
                     {' '}
                     Recruiter/Talent Acquisition
                   </strong>………Worldwide <strong>Resume Writer</strong>
-                  ……… <strong>Acting Coach</strong> to the Stars……… <strong>ACT, SAT, GRE, & ESL Instructor</strong>………
+                  ……… <strong>Acting Coach</strong> to the Stars………{' '}
+                  <strong>ACT, SAT, GRE, & ESL Instructor</strong>………
                   <strong>Regional Operations Manager</strong> for a Global Tech
-                  Firm………<strong>Singing Teacher</strong> for Off-Broadway
-                  actors……… Corporate
+                  Firm………
+                  <strong>Singing Teacher</strong> for Off-Broadway actors………
+                  Corporate
                   <strong> Voice, Speech, & Accent Trainer</strong>………
                   <strong>Grant Writer</strong>………Film/TV
                   <strong> Writer/Director/Producer</strong>………{' '}
@@ -85,7 +92,7 @@ class AboutMe extends React.Component {
                   <br />
                   <br />
                   This includes (but is not limited to): being the being the
-                  best version of themselves.
+                  best version of yourself.
                   <br />
                   <br />
                   So, have a look through my services and let’s do this.
@@ -95,9 +102,10 @@ class AboutMe extends React.Component {
                   <br />
                   <br />
                   (Go ahead, read that 2x!)
+                  <br />
+                  <strong>xx Coach Kai</strong>
                 </p>
               </div>
-              
             </div>
           </section>
         </div>

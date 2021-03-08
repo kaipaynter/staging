@@ -2,3 +2,8 @@
     font-family: "ITCBradleyHandW02-Bold";
     src: url("../fonts/ITC_Bradley_Hand_W02_Bold.woff2");
   }
+
+@font-face {
+  font-family: "PlaylistScript";
+  src: url("../fonts/PlaylistScript.otf");
+}
