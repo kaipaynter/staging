@@ -2,8 +2,8 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
-import secrets from '../assets/images/servicespage/img9605.jpg'
-import generalamericanaccent from '../assets/images/servicespage/generalamericanaccent.jpeg'
+import secrets from '../assets/images/servicespage/secrets_of_the_stars.jpg'
+import generalamericanaccent from '../assets/images/servicespage/american_accent.jpg'
 import yourcareer from '../assets/images/servicespage/career2.jpg'
 import servicesA from '../assets/images/servicespage/servicesA.png'
 import servicesB from '../assets/images/servicespage/servicesB.png'
@@ -13,6 +13,7 @@ import servicesE from '../assets/images/servicespage/servicesE.png'
 import servicesF from '../assets/images/servicespage/servicesF.png'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
+import { updateTypeLiteralNode } from 'typescript'
 
 class Services extends React.Component {
   constructor(props) {
@@ -42,7 +43,7 @@ class Services extends React.Component {
           <section id="your-career" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Your Career</h2>
                 </header>
                 <span className="imageServices">
@@ -162,15 +163,15 @@ class Services extends React.Component {
           <section id="coaching" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Coaching</h2>
                 </header>
                 <span className="imageServicesExtra">
                   <img src={coaching} alt="" />
                 </span>
                 <br />
-                <p className="column centeredText">
-                  <ul className="custom">
+                <p className="column">
+                  <ul>
                     <li>General American Accent</li>
                     <li>Neutral/UK Accents</li>
                     <li>Regional American Dialects</li>
@@ -179,8 +180,8 @@ class Services extends React.Component {
                     <li>US Plays</li>
                   </ul>
                 </p>
-                <p className="column centeredText">
-                  <ul className="custom">
+                <p className="column">
+                  <ul>
                     <li>US Drama</li>
                     <li>US Musical Theatre</li>
                     <li>Client Branding</li>
@@ -189,8 +190,8 @@ class Services extends React.Component {
                     <li>Interviews</li>
                   </ul>
                 </p>
-                <p className="column centeredText">
-                  <ul className="custom">
+                <p className="column">
+                  <ul>
                     <li>Movement</li>
                     <li>Singing</li>
                     <li>Voice &amp; Speech</li>
@@ -205,7 +206,7 @@ class Services extends React.Component {
           <section id="general-american-accent" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>General American Accent for Self-Tapes</h2>
                 </header>
                 <span className="imageServices">
@@ -244,7 +245,7 @@ class Services extends React.Component {
           <section id="secrets-of-the-stars" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Secrets of the Stars</h2>
                 </header>
                 <span className="imageServices">
@@ -284,7 +285,7 @@ class Services extends React.Component {
           <section id="archetype-coaching" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Archetype Coaching</h2>
                 </header>
                 <span className="imageServices">

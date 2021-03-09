@@ -31,7 +31,7 @@ class Contact extends React.Component {
           <section id="contact" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Contact Me</h2>
                 </header>
                 <form method="post" action="/contact/">

@@ -32,7 +32,7 @@ class AboutMe extends React.Component {
           <section id="about" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>About Me</h2>
                 </header>
                 <span className="imageAboutMe">
@@ -40,13 +40,9 @@ class AboutMe extends React.Component {
                 </span>
                 <p className="centeredText">
                   <br />
-                  <u>
-                    <strong>Identifying & Developing Talent </strong>{' '}
-                    ---&#x0003E;
-                    <strong> Advising & Influencing Action </strong>{' '}
-                    ---&#x0003E;
-                    <strong> ACQUISITION</strong>
-                  </u>
+                  <strong>Identifying & Developing Talent </strong> &#8608;
+                  <strong> Advising & Influencing Action </strong> &#8608;
+                  <strong> ACQUISITION</strong>
                   <br />
                   <br />
                   Basically, I know what sells and I know how to sell it.
@@ -85,7 +81,7 @@ class AboutMe extends React.Component {
                   have probably done it……
                   <br />
                   <br />
-                  My passion is in <strong>helping people WIN.</strong>
+                  My passion is in <em>helping people WIN.</em>
                   <br />
                   <br />
                   This includes (but is not limited to) being the best version
@@ -95,7 +91,7 @@ class AboutMe extends React.Component {
                   So, have a look through my services and let’s do this.
                   <br />
                   <br />
-                  <strong>Let ME help you, help YOU WIN.</strong>
+                  <em>Let ME help you, help YOU WIN.</em>
                   <br />
                   <br />
                   (Go ahead, read that 2x!)

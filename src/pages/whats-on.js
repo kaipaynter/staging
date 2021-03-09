@@ -37,7 +37,7 @@ class WhatsOn extends React.Component {
           <section id="client-showcase" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Client Showcase</h2>
                 </header>
                 <iframe
@@ -63,7 +63,7 @@ class WhatsOn extends React.Component {
           <section id="conversation-thursdays" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>Conversation Thursdays</h2>
                 </header>
                 <span className="imageWhatsOnExtra">
@@ -86,7 +86,7 @@ class WhatsOn extends React.Component {
           <section id="what-they-say" className="main">
             <div className="spotlight">
               <div className="content">
-                <header className="major">
+                <header className="major custom">
                   <h2>What They Say</h2>
                 </header>
                 <h3 className="centeredText">Tommy C.</h3>
