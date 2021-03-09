@@ -40,9 +40,13 @@ class AboutMe extends React.Component {
                 </span>
                 <p className="centeredText">
                   <br />
-                  <strong>Identifying & Developing Talent </strong> &#8608;
+                  &#10036; <strong>
+                    {' '}
+                    Identifying & Developing Talent
+                  </strong>{' '}
+                  &#8608;
                   <strong> Advising & Influencing Action </strong> &#8608;
-                  <strong> ACQUISITION</strong>
+                  <strong> ACQUISITION </strong> &#10036;
                   <br />
                   <br />
                   Basically, I know what sells and I know how to sell it.
@@ -96,7 +100,10 @@ class AboutMe extends React.Component {
                   <br />
                   (Go ahead, read that 2x!)
                   <br />
-                  <strong>xx Coach Kai</strong>
+                  <br />
+                  <p className="font">
+                    <strong>xx Coach Kai</strong>
+                  </p>
                 </p>
               </div>
             </div>

@@ -214,7 +214,7 @@ class WhatsOn extends React.Component {
                 </span>
                 <p>
                   <p className="centeredText">
-                    <em>Anything Goes, Off-Broadway Tour</em>
+                    <em>Anything Goes, US National Tour</em>
                   </p>
                   “Ms. Paynter was not only a wonderful teacher, but also an
                   approachable and devoted mentor. She made herself available to
