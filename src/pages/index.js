@@ -134,7 +134,6 @@ class Index extends React.Component {
                   <img src={american} alt="" />
                 </span>
                 <h3>General American Accent</h3>
-                <h3>for Self-tapes</h3>
                 <p>
                   With locally made American films and self-taping now the norm,
                   it’s vital to have great American
@@ -155,7 +154,7 @@ class Index extends React.Component {
 
           <section id="whats-on" className="main special">
             <header className="major custom">
-              <h2>What's on</h2>
+              <h2>What's On</h2>
             </header>
             <ul className="features">
               <li>

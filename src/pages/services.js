@@ -105,11 +105,50 @@ class Services extends React.Component {
                 <span className="imageServicesExtra">
                   <img src={servicesE} alt="Executives" />
                 </span>
+
                 <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesF} alt="Al A Carte" style={{maxWidth: '55%'}}/>
-                </span>
-                <br />
+
+                <h3>Al A Carte</h3>
+                <ul>
+                  <li>
+                    <strong>Theatrical Resume - $60</strong>
+                  </li>
+                  Must submit old resume or complete questionnaire.
+                  <li>
+                    <strong>Bio - $85</strong>
+                  </li>
+                  Eye catching, real, and written to reflect your personality
+                  and style.
+                  <li>
+                    <strong>Headshot Consultation - $50</strong>
+                  </li>
+                  We will advise you on how to choose the perfect headshot(s)
+                  based on your personality, brand, and your competition.
+                  <li>
+                    <strong>LinkedIn Update - $50</strong>
+                  </li>
+                  <strong>
+                    Over 87% of employers utilize LinkedIn making it a key
+                    resource for jobseekers.
+                  </strong>
+                  <br />
+                  We will optimize your profile, add content, and improve your
+                  chances of being seen by employers.
+                  <li>
+                    <strong>Job Interview Prep - $100</strong>
+                  </li>
+                  A 45min - 1-hr phone consultation where we will answer
+                  questions, rehearse responses, and provide powerful tips to
+                  help you succeed during the job interview.
+                  <li>
+                    <strong>
+                      Cover Letter (+ Thank You Letter) - $80 ($100)
+                    </strong>
+                  </li>
+                  A personalized and perfected intro and outro paired with your
+                  resume.
+                </ul>
+
                 <p>
                   ***Prices listed are for updating &amp; improving existing
                   resumes. There is an additional cost if you do not have an
@@ -131,7 +170,7 @@ class Services extends React.Component {
                 </span>
                 <br />
                 <p className="column centeredText">
-                  <ul>
+                  <ul className="custom">
                     <li>General American Accent</li>
                     <li>Neutral/UK Accents</li>
                     <li>Regional American Dialects</li>
@@ -141,7 +180,7 @@ class Services extends React.Component {
                   </ul>
                 </p>
                 <p className="column centeredText">
-                  <ul>
+                  <ul className="custom">
                     <li>US Drama</li>
                     <li>US Musical Theatre</li>
                     <li>Client Branding</li>
@@ -151,7 +190,7 @@ class Services extends React.Component {
                   </ul>
                 </p>
                 <p className="column centeredText">
-                  <ul>
+                  <ul className="custom">
                     <li>Movement</li>
                     <li>Singing</li>
                     <li>Voice &amp; Speech</li>
@@ -167,7 +206,7 @@ class Services extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>General American Accent for Self Tapes</h2>
+                  <h2>General American Accent for Self-Tapes</h2>
                 </header>
                 <span className="imageServices">
                   <img src={generalamericanaccent} alt="" />
@@ -188,7 +227,7 @@ class Services extends React.Component {
                   <br />
                   <strong>Where</strong>: Your Home
                   <br />
-                  <strong>Duration</strong>: 1 - 2 Weeks
+                  <strong>Duration</strong>: 2 Weeks
                   <br />
                   <strong>Price</strong>: $750
                   <br />
@@ -215,8 +254,8 @@ class Services extends React.Component {
                 <p className="centeredText">
                   <strong>
                     This jam-packed intensive offers in-depth, first-hand
-                    knowledge into the industry and reveals the necessary steps
-                    to success
+                    knowledge of the industry and reveals the necessary steps to
+                    success.
                   </strong>
                 </p>
                 <p className="centeredText">
@@ -228,7 +267,7 @@ class Services extends React.Component {
                   <br />
                   <strong>Where</strong>: Your Home
                   <br />
-                  <strong>Duration</strong>: 1 - 8 Weeks
+                  <strong>Duration</strong>: 4 Weeks
                   <br />
                   <strong>Price</strong>: $1200
                   <br />

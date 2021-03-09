@@ -85,14 +85,11 @@ class AboutMe extends React.Component {
                   have probably done it……
                   <br />
                   <br />
-                  My passion is in{' '}
-                  <strong>
-                    <u>helping people WIN.</u>
-                  </strong>
+                  My passion is in <strong>helping people WIN.</strong>
                   <br />
                   <br />
-                  This includes (but is not limited to): being the being the
-                  best version of yourself.
+                  This includes (but is not limited to) being the best version
+                  of yourself.
                   <br />
                   <br />
                   So, have a look through my services and let’s do this.
