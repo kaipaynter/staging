@@ -52,6 +52,12 @@
     height: 379px;
     display: block;
     margin: 0 auto;
+
+    @include breakpoint(small) {
+
+      max-width: 80%;
+      height: auto;
+		}
   }
 
   .image {
@@ -99,6 +105,13 @@
       width: 22em;
       
     }
+
+    @include breakpoint(small) {
+
+			& img {
+				width: 18em;
+			}
+		}
   }
 
   .imageWhatsOn {
