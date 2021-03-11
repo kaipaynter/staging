@@ -267,7 +267,7 @@ class WhatsOn extends React.Component {
                 ></iframe>
                 <p>
                   <p className="centeredText">
-                    <em>ydney, Australia</em>
+                    <em>Sydney, Australia</em>
                   </p>
                   “I love Kai’s teaching methods they make you so excited to be
                   learning and doing what I love to do. Her energy is so

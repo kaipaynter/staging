@@ -221,7 +221,7 @@ class Services extends React.Component {
                     with Kai.
                   </strong>
                   <br />
-                  Click the image for further details from Kai.
+                  Click the image for further details.
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
