@@ -24,6 +24,10 @@
 
 			h1 {
 				font-size: 3.25em;
+
+				&.change {
+					color: black;
+				}
 			}
 
 			> * {

@@ -78,7 +78,11 @@ class WhatsOn extends React.Component {
                     <strong>@kaipaynteradvisory</strong>
                   </a>
                   <br />
-                  We talk about everything under the sun as it pertains to career, life, work, and most importantly YOU. If you are wondering what it may be like to work with me, this will give you a great idea. I also share tips, tricks, and other fun stuff. See you there!
+                  We talk about everything under the sun as it pertains to
+                  career, life, work, and most importantly YOU. If you are
+                  wondering what it may be like to work with me, this will give
+                  you a great idea. I also share tips, tricks, and other fun
+                  stuff. See you there!
                 </p>
               </div>
             </div>
@@ -126,18 +130,16 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3 className="centeredText">Geoff T.</h3>
-                <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
-                </span>
-                <p>
-                  <p className="centeredText">Los Angeles, CA</p>
-                  “The fee was nominal and I got back a strong resume that
-                  better illustrates my accomplishments…she was very easy to
-                  work with. We had a call that lasted a bit over an hour and
-                  discussed my past. She then took that information and turned
-                  around a great new resume in a short amount of time…”
-                </p>
+                <h3 className="centeredText">Sangeetha G.</h3>
+                <iframe
+                  className="iframe"
+                  title="Sangeetha G"
+                  src="https://www.youtube.com/embed/TCbmidt2p4w"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+                <p className="centeredText">Sydney, Australia</p>
 
                 <br />
 
@@ -245,17 +247,18 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3 className="centeredText">Jason S.</h3>
-                <span className="imageWhatsOn">
-                  <img src={yelp} alt="" />
-                </span>
-                <p>
-                  <p className="centeredText">
-                    <em>Decatur, IL</em>
-                  </p>
-                  “After years with the same employer, my resume was out of date
-                  & poorly formatted for today's market. Alicia was a pleasure
-                  to work with & did a fantastic job.”
+                <h3 className="centeredText">Annitha K.</h3>
+                <iframe
+                  className="iframe"
+                  title="Annitha K"
+                  src="https://www.youtube.com/embed/_Le1uk3ALyk"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+
+                <p className="centeredText">
+                  <em>Sydney, Australia</em>
                 </p>
               </div>
             </div>

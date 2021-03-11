@@ -87,6 +87,10 @@
 
 	h2 {
 		font-size: 1.5em;
+
+		&.change {
+			color: black;
+		}
 	}
 
 	h3 {
