@@ -139,7 +139,16 @@ class WhatsOn extends React.Component {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
-                <p className="centeredText">Sydney, Australia</p>
+                <p>
+                  <p className="centeredText">
+                    <em>Sydney, Australia</em>
+                  </p>
+                  “Kai really helped me get my vision clear with the next steps
+                  to take towards my career and the best way to go about it. She
+                  worked with me to understand how to improve my portfolio and
+                  how to stand out in being seen and represented the way I want
+                  to be represented.”
+                </p>
 
                 <br />
 
@@ -256,9 +265,14 @@ class WhatsOn extends React.Component {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
-
-                <p className="centeredText">
-                  <em>Sydney, Australia</em>
+                <p>
+                  <p className="centeredText">
+                    <em>ydney, Australia</em>
+                  </p>
+                  “I love Kai’s teaching methods they make you so excited to be
+                  learning and doing what I love to do. Her energy is so
+                  contagious with every lesson you gain Courage knowing you can
+                  excel at anything because she truly believes in you.”
                 </p>
               </div>
             </div>

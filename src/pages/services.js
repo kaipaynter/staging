@@ -210,7 +210,9 @@ class Services extends React.Component {
                   <h2>General American Accent for Self-Tapes</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={generalamericanaccent} alt="" />
+                  <a href="https://youtu.be/9mw_y_DBoNw">
+                    <img src={generalamericanaccent} alt="" />
+                  </a>
                 </span>
                 <br />
                 <p className="centeredText">
@@ -218,11 +220,13 @@ class Services extends React.Component {
                     All clients must take this before private US accent coaching
                     with Kai.
                   </strong>
+                  <br />
+                  Click the image for further details from Kai.
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
                   <br />
-                  <strong>Closing</strong>: April 10th
+                  <strong>Closing</strong>: April 15th
                   <br />
                   <strong>Attendees</strong>: All Levels
                   <br />
@@ -262,7 +266,7 @@ class Services extends React.Component {
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
                   <br />
-                  <strong>Closing</strong>: April 10th
+                  <strong>Closing</strong>: April 15th
                   <br />
                   <strong>Attendees</strong>: All Levels
                   <br />
