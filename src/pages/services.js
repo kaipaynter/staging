@@ -210,7 +210,7 @@ class Services extends React.Component {
                   <h2>General American Accent for Self-Tapes</h2>
                 </header>
                 <span className="imageServices">
-                  <a href="https://youtu.be/9mw_y_DBoNw">
+                  <a href="https://youtu.be/uIS59EP8_og" target="_blank">
                     <img src={generalamericanaccent} alt="" />
                   </a>
                 </span>
