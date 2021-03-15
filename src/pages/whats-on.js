@@ -67,7 +67,11 @@ class WhatsOn extends React.Component {
                   <h2>Conversation Thursdays</h2>
                 </header>
                 <span className="imageWhatsOnExtra">
-                  <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en" target="_blank">
+                  <a
+                    href="https://www.instagram.com/kaipaynteradvisory/?hl=en"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={conversation} alt="instagram" />
                   </a>
                 </span>

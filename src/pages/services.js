@@ -10,10 +10,8 @@ import servicesB from '../assets/images/servicespage/servicesB.png'
 import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
-import servicesF from '../assets/images/servicespage/servicesF.png'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
-import { updateTypeLiteralNode } from 'typescript'
 
 class Services extends React.Component {
   constructor(props) {
@@ -210,7 +208,11 @@ class Services extends React.Component {
                   <h2>General American Accent for Self-Tapes</h2>
                 </header>
                 <span className="imageServices">
-                  <a href="https://youtu.be/uIS59EP8_og" target="_blank">
+                  <a
+                    href="https://youtu.be/uIS59EP8_og"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={generalamericanaccent} alt="" />
                   </a>
                 </span>
@@ -253,7 +255,11 @@ class Services extends React.Component {
                   <h2>Secrets of the Stars</h2>
                 </header>
                 <span className="imageServices">
-                  <a href="https://youtu.be/IAu2M_iEeqw" target="_blank">
+                  <a
+                    href="https://youtu.be/IAu2M_iEeqw"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img src={secrets} alt="" />
                   </a>
                 </span>

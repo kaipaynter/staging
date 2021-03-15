@@ -51,7 +51,9 @@ class Contact extends React.Component {
                     Message
                     <textarea name="message" id="message" rows="5" />
                   </label>
-                  <button type="reset" className="button special">Send</button>
+                  <button type="reset" className="button special">
+                    Send
+                  </button>
                   <input type="reset" value="Clear" />
                 </form>
               </div>

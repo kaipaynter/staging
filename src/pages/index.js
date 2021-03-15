@@ -62,7 +62,8 @@ class Index extends React.Component {
                 <p>
                   If you came to my page, my guess is that you need some help?
                   <br />
-                  Well, you’re in luck. I’m pretty good with people and I’ve done a lot of things.
+                  Well, you’re in luck. I’m pretty good with people and I’ve
+                  done a lot of things.
                 </p>
                 <ul className="actions">
                   <li>
@@ -82,7 +83,6 @@ class Index extends React.Component {
               <h2>Services</h2>
             </header>
             <ul className="features">
-              
               <li>
                 <span className="image fit">
                   <img src={yellowtel} alt="" />
@@ -136,8 +136,8 @@ class Index extends React.Component {
                 <h3>General American Accent</h3>
                 <p>
                   With locally made American films and self-taping now the norm,
-                  it’s vital to have great American
-                  accents and great US self-tapes.
+                  it’s vital to have great American accents and great US
+                  self-tapes.
                 </p>
               </li>
             </ul>
