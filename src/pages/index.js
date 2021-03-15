@@ -169,7 +169,7 @@ class Index extends React.Component {
                   <img src={instagram} alt="" />
                 </span>
                 <h3>Conversation Thursdays</h3>
-                <p>Chat with me LIVE with me every other Thursday!</p>
+                <p>Chat with me LIVE every other Thursday!</p>
               </li>
               <li>
                 <span className="image fit">

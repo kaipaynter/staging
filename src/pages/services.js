@@ -253,7 +253,9 @@ class Services extends React.Component {
                   <h2>Secrets of the Stars</h2>
                 </header>
                 <span className="imageServices">
-                  <img src={secrets} alt="" />
+                  <a href="https://youtu.be/IAu2M_iEeqw" target="_blank">
+                    <img src={secrets} alt="" />
+                  </a>
                 </span>
                 <br />
                 <p className="centeredText">
@@ -262,6 +264,8 @@ class Services extends React.Component {
                     knowledge of the industry and reveals the necessary steps to
                     success.
                   </strong>
+                  <br />
+                  Click the image for further details.
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
