@@ -1,15 +1,11 @@
 import React from 'react'
+import BackImg from '../components/BackImg'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
 import secrets from '../assets/images/servicespage/secrets_of_the_stars.jpg'
 import generalamericanaccent from '../assets/images/servicespage/american_accent.jpg'
 import yourcareer from '../assets/images/servicespage/career2.jpg'
-import servicesA from '../assets/images/servicespage/servicesA.png'
-import servicesB from '../assets/images/servicespage/servicesB.png'
-import servicesC from '../assets/images/servicespage/servicesC.png'
-import servicesD from '../assets/images/servicespage/servicesD.png'
-import servicesE from '../assets/images/servicespage/servicesE.png'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
 
@@ -85,25 +81,7 @@ class Services extends React.Component {
                   </ul>
                 </p>
 
-                <span className="imageServicesExtra">
-                  <img src={servicesA} alt="Early Career" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesB} alt="Experienced" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesC} alt="Managers/Directors" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesD} alt="Licensed Professionals" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesE} alt="Executives" />
-                </span>
+                <BackImg />
 
                 <br />
 

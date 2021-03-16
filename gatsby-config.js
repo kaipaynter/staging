@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Kai Paynter Advisory",
-    author: "Boipelo Mawasha",
-    description: "Kai Paynter Advisory"
+    title: 'Kai Paynter Advisory',
+    author: 'Boipelo Mawasha',
+    description: 'Kai Paynter Advisory',
   },
   //pathPrefix: `/staging`,
   plugins: [
@@ -18,16 +18,20 @@ module.exports = {
         display: 'minimal-ui',
         icon: 'src/assets/images/logo2.png', // This path is relative to the root of the site.
       },
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images/carousel`, // wherever background images are stored
+      },
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [
-          `Oxygen`        ],
-        display: 'swap'
-      }
-    }
+        fonts: [`Oxygen`],
+        display: 'swap',
+      },
+    },
   ],
 }
