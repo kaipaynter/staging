@@ -1,5 +1,4 @@
 import React from 'react'
-import BackImg from '../components/BackImg'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import archetype from '../assets/images/servicespage/archetype.jpg'
@@ -8,6 +7,7 @@ import generalamericanaccent from '../assets/images/servicespage/american_accent
 import yourcareer from '../assets/images/servicespage/career2.jpg'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
+import Btcarousel from '../components/btCarousel'
 
 class Services extends React.Component {
   constructor(props) {
@@ -81,7 +81,7 @@ class Services extends React.Component {
                   </ul>
                 </p>
 
-                <BackImg />
+                
 
                 <br />
 
