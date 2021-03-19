@@ -5,13 +5,24 @@ import archetype from '../assets/images/servicespage/archetype.jpg'
 import secrets from '../assets/images/servicespage/secrets_of_the_stars.jpg'
 import generalamericanaccent from '../assets/images/servicespage/american_accent.jpg'
 import yourcareer from '../assets/images/servicespage/career2.jpg'
+import ServicesNav from '../components/ServicesNav'
+import coaching from '../assets/images/servicespage/c1_cropped.png'
+
+//Icons
+import Al_a_Carte from '../assets/images/servicespage/Al_a_Carte_Icon.jpg'
+import Directors_Managers from '../assets/images/servicespage/Directors_Managers_Icon.jpg'
+import Early_Career from '../assets/images/servicespage/Early_Career_Icon.jpg'
+import Executives from '../assets/images/servicespage/Executives_Icon.jpg'
+import Experienced from '../assets/images/servicespage/Experienced_Icon.jpg'
+import Licened_Professionals from '../assets/images/servicespage/Licensed_Professionals_Icon.jpg'
+
+//Service images
 import servicesA from '../assets/images/servicespage/servicesA.png'
 import servicesB from '../assets/images/servicespage/servicesB.png'
 import servicesC from '../assets/images/servicespage/servicesC.png'
 import servicesD from '../assets/images/servicespage/servicesD.png'
 import servicesE from '../assets/images/servicespage/servicesE.png'
-import ServicesNav from '../components/ServicesNav'
-import coaching from '../assets/images/servicespage/c1_cropped.png'
+import servicesF from '../assets/images/servicespage/servicesF.png'
 
 class Services extends React.Component {
   constructor(props) {
@@ -85,68 +96,64 @@ class Services extends React.Component {
                   </ul>
                 </p>
 
-                <span className="imageServicesExtra">
-                  <img src={servicesA} alt="Early Career" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesB} alt="Experienced" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesC} alt="Managers/Directors" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesD} alt="Licensed Professionals" />
-                </span>
-                <br />
-                <span className="imageServicesExtra">
-                  <img src={servicesE} alt="Executives" />
-                </span>
+                <p class="row">
+                  <span class="column">
+                    <a href={servicesA} target="_blank" rel="noreferrer">
+                      <img
+                        src={Early_Career}
+                        alt="Early Career"
+                        className="imageServicesExtra"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesB} target="_blank" rel="noreferrer">
+                      <img
+                        src={Experienced}
+                        alt="Experienced"
+                        className="imageServicesExtra"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesC} target="_blank" rel="noreferrer">
+                      <img
+                        src={Directors_Managers}
+                        alt="Directors_Managers"
+                        className="imageServicesExtra"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesD} target="_blank" rel="noreferrer">
+                      <img
+                        src={Licened_Professionals}
+                        alt="Licened_Professionals"
+                        className="imageServicesExtra"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesE} target="_blank" rel="noreferrer">
+                      <img
+                        src={Executives}
+                        alt="Executives"
+                        className="imageServicesExtra"
+                      />
+                    </a>
+                  </span>
+                  <span class="column">
+                    <a href={servicesF} target="_blank" rel="noreferrer">
+                      <img
+                        src={Al_a_Carte}
+                        alt="Al_a_Carte"
+                        className="imageServicesExtra"
+                      />
+                    </a>
+                  </span>
+                </p>
 
                 <br />
-
-                <h3>Al A Carte</h3>
-                <ul>
-                  <li>
-                    <strong>Theatrical Resume - $60</strong>
-                  </li>
-                  Must submit old resume or complete questionnaire.
-                  <li>
-                    <strong>Bio - $85</strong>
-                  </li>
-                  Eye catching, real, and written to reflect your personality
-                  and style.
-                  <li>
-                    <strong>Headshot Consultation - $50</strong>
-                  </li>
-                  We will advise you on how to choose the perfect headshot(s)
-                  based on your personality, brand, and your competition.
-                  <li>
-                    <strong>LinkedIn Update - $50</strong>
-                  </li>
-                  <strong>
-                    Over 87% of employers utilize LinkedIn making it a key
-                    resource for jobseekers.
-                  </strong>
-                  <br />
-                  We will optimize your profile, add content, and improve your
-                  chances of being seen by employers.
-                  <li>
-                    <strong>Job Interview Prep - $100</strong>
-                  </li>
-                  A 45min - 1-hr phone consultation where we will answer
-                  questions, rehearse responses, and provide powerful tips to
-                  help you succeed during the job interview.
-                  <li>
-                    <strong>
-                      Cover Letter (+ Thank You Letter) - $80 ($100)
-                    </strong>
-                  </li>
-                  A personalized and perfected intro and outro paired with your
-                  resume.
-                </ul>
 
                 <p>
                   ***Prices listed are for updating &amp; improving existing

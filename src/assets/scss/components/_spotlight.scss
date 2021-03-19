@@ -55,6 +55,37 @@
         font-size: larger;
       }
     }
+
+    .container {
+      width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+
+      .carousel-control-next,
+      .carousel-control-prev {
+        height: 100px;
+        width: 100px;
+        outline: black;
+        background-size: 100%, 100%;
+        background-image: none;
+        margin-top: 430px;
+        margin-left: -35px;
+      }
+
+      .carousel-control-next:after {
+        content: '>';
+        font-size: 55px;
+        color: red;
+      }
+
+      .carousel-control-prev:after {
+        content: '<';
+        font-size: 55px;
+        color: red;
+      }
+  }
   }
 
   .iframe {
@@ -64,7 +95,6 @@
     margin: 0 auto;
 
     @include breakpoint(small) {
-
       max-width: 80%;
       height: auto;
 		}
@@ -113,11 +143,9 @@
       display: block;
       border-radius: 100%;
       width: 22em;
-      
     }
 
     @include breakpoint(small) {
-
 			& img {
 				width: 18em;
 			}
