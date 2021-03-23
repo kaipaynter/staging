@@ -95,14 +95,14 @@ class Services extends React.Component {
                     </li>
                   </ul>
                 </p>
-
+                <p>Click an applicable icon for further details.</p>
                 <p class="row">
                   <span class="column">
                     <a href={servicesA} target="_blank" rel="noreferrer">
                       <img
                         src={Early_Career}
                         alt="Early Career"
-                        className="imageServicesExtra"
+                        className="imageServicesIcons"
                       />
                     </a>
                   </span>
@@ -111,7 +111,7 @@ class Services extends React.Component {
                       <img
                         src={Experienced}
                         alt="Experienced"
-                        className="imageServicesExtra"
+                        className="imageServicesIcons"
                       />
                     </a>
                   </span>
@@ -120,7 +120,7 @@ class Services extends React.Component {
                       <img
                         src={Directors_Managers}
                         alt="Directors_Managers"
-                        className="imageServicesExtra"
+                        className="imageServicesIcons"
                       />
                     </a>
                   </span>
@@ -129,7 +129,7 @@ class Services extends React.Component {
                       <img
                         src={Licened_Professionals}
                         alt="Licened_Professionals"
-                        className="imageServicesExtra"
+                        className="imageServicesIcons"
                       />
                     </a>
                   </span>
@@ -138,7 +138,7 @@ class Services extends React.Component {
                       <img
                         src={Executives}
                         alt="Executives"
-                        className="imageServicesExtra"
+                        className="imageServicesIcons"
                       />
                     </a>
                   </span>
@@ -147,7 +147,7 @@ class Services extends React.Component {
                       <img
                         src={Al_a_Carte}
                         alt="Al_a_Carte"
-                        className="imageServicesExtra"
+                        className="imageServicesIcons"
                       />
                     </a>
                   </span>
@@ -226,8 +226,8 @@ class Services extends React.Component {
                 <br />
                 <p className="centeredText">
                   <strong>
-                    All clients must take this before private US accent coaching
-                    with Kai.
+                    Strongly recommended before private US accent coaching with
+                    Kai.
                   </strong>
                   <br />
                   Click the image for further details.
