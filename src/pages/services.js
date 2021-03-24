@@ -95,7 +95,9 @@ class Services extends React.Component {
                     </li>
                   </ul>
                 </p>
-                <p>Click an applicable icon for further details.</p>
+                <p className="centeredText">
+                  <em>Click an applicable icon for further details.</em>
+                </p>
                 <p class="row">
                   <span class="column">
                     <a href={servicesA} target="_blank" rel="noreferrer">
@@ -176,7 +178,7 @@ class Services extends React.Component {
                 </span>
                 <br />
                 <p className="column">
-                  <ul>
+                  <ul className="custom centeredText">
                     <li>General American Accent</li>
                     <li>Neutral/UK Accents</li>
                     <li>Regional American Dialects</li>
@@ -186,7 +188,7 @@ class Services extends React.Component {
                   </ul>
                 </p>
                 <p className="column">
-                  <ul>
+                  <ul className="custom centeredText">
                     <li>US Drama</li>
                     <li>US Musical Theatre</li>
                     <li>Client Branding</li>
@@ -196,7 +198,7 @@ class Services extends React.Component {
                   </ul>
                 </p>
                 <p className="column">
-                  <ul>
+                  <ul className="custom centeredText">
                     <li>Movement</li>
                     <li>Singing</li>
                     <li>Voice &amp; Speech</li>
@@ -249,7 +251,7 @@ class Services extends React.Component {
                   <br />
                   <br />
                   <strong>
-                    Message us to see if you qualify for the seasonal discount
+                    Message us to see if you qualify for the seasonal discount.
                   </strong>
                 </p>
               </div>
@@ -297,7 +299,7 @@ class Services extends React.Component {
                   <br />
                   <br />
                   <strong>
-                    Message us to see if you qualify for the seasonal discount
+                    Message us to see if you qualify for the seasonal discount.
                   </strong>
                 </p>
               </div>
