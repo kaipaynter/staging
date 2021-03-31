@@ -177,36 +177,33 @@ class Services extends React.Component {
                   <img src={coaching} alt="" />
                 </span>
                 <br />
-                
-                  <ul className="custom centeredText column">
-                    <li>General American Accent</li>
-                    <li>Neutral/UK Accents</li>
-                    <li>Regional American Dialects</li>
-                    <li>US Scenes (Film/TV)</li>
-                    <li>US Sitcom</li>
-                    <li>US Plays</li>
-                  </ul>
-                
-                
-                  <ul className="custom centeredText column">
-                    <li>US Drama</li>
-                    <li>US Musical Theatre</li>
-                    <li>Client Branding</li>
-                    <li>Client Sourcing</li>
-                    <li>Career Consulting</li>
-                    <li>Interviews</li>
-                  </ul>
-               
-                
-                  <ul className="custom centeredText column">
-                    <li>Movement</li>
-                    <li>Singing</li>
-                    <li>Voice &amp; Speech</li>
-                    <li>Self-tapes/Auditions</li>
-                    <li>Acting</li>
-                    <li>On-set</li>
-                  </ul>
-                
+
+                <ul className="custom centeredText column">
+                  <li>General American Accent</li>
+                  <li>Neutral/UK Accents</li>
+                  <li>Regional American Dialects</li>
+                  <li>US Scenes (Film/TV)</li>
+                  <li>US Sitcom</li>
+                  <li>US Plays</li>
+                </ul>
+
+                <ul className="custom centeredText column">
+                  <li>US Drama</li>
+                  <li>US Musical Theatre</li>
+                  <li>Client Branding</li>
+                  <li>Client Sourcing</li>
+                  <li>Career Consulting</li>
+                  <li>Interviews</li>
+                </ul>
+
+                <ul className="custom centeredText column">
+                  <li>Movement</li>
+                  <li>Singing</li>
+                  <li>Voice &amp; Speech</li>
+                  <li>Self-tapes/Auditions</li>
+                  <li>Acting</li>
+                  <li>On-set</li>
+                </ul>
               </div>
             </div>
           </section>
