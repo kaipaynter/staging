@@ -15,6 +15,7 @@
     "gatsby-plugin-offline": "^3.0.37",
     "gatsby-plugin-react-helmet": "^3.1.23",
     "gatsby-plugin-sass": "^2.1.30",
+    "gatsby-plugin-segment-js": "^3.6.0",
     "gatsby-source-filesystem": "^3.0.0",
     "node-sass": "^4.14.1",
     "react": "^16.13.0",
