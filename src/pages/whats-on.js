@@ -50,11 +50,12 @@ class WhatsOn extends React.Component {
                 ></iframe>
                 <p />
                 <p>
-                  “I’ve been studying American Accent with Kai for two terms
-                  now. I absolutely love doing the course with her! She’s super
-                  supportive and she gives me amazing feedback that helps me
-                  progress. I can’t wait to keep on learning and improving my
-                  accent and finding out about more tools!” –{' '}
+                  “<strong>Client of the Quarter</strong> - I’ve been studying
+                  General American Accent with Kai for a little less than a
+                  year, now. I absolutely love doing the course with her! She’s
+                  super supportive and she gives me amazing feedback that helps
+                  me progress. I can’t wait to keep on learning, improving my
+                  accent, and finding out about more tools!” –{' '}
                   <strong>Aria Bella Hart</strong>, Sydney, Australia
                 </p>
               </div>
@@ -103,6 +104,7 @@ class WhatsOn extends React.Component {
                 </span>
                 <p>
                   <p className="centeredText">Fontana, CA</p>
+                  <p className="centeredText">Military Operations Management</p>
                   “…I couldn't believe how she was able to transform all my work
                   experience into this well written, key word rich, professional
                   document, at a fraction of the length of the resume I wrote…I
@@ -134,7 +136,7 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3 className="centeredText">Sangeetha G.</h3>
+                <h3 className="centeredText">Sangeetha</h3>
                 <iframe
                   className="iframe"
                   title="Sangeetha G"
@@ -179,8 +181,11 @@ class WhatsOn extends React.Component {
                 </span>
                 <p>
                   <p className="centeredText">Granada Hills, CA</p>
+                  <p className="centeredText">
+                    International Marketing Executive
+                  </p>
                   “It had been years since I updated my resume last time. I
-                  needed a professional help to get it right…she understood my
+                  needed professional help to get it right…she understood my
                   needs and worked efficiently to make my resume shine, which I
                   was truly grateful for. She is truly experienced and knows her
                   trade!”
@@ -213,6 +218,7 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Albuquerque, NM</em>
                   </p>
+                  <p className="centeredText">Film Crew Associate</p>
                   “I can't thank her enough… Not only did she give me a great
                   resume, I got it earlier then it was scheduled (by my
                   request). I can say with all seriousness that the resume I
@@ -252,6 +258,7 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Pasadena, CA</em>
                   </p>
+                  <p className="centeredText">Talent Agent/Manager</p>
                   “What I really liked about the service was that she took the
                   time and listened to my career goals. Reading my finished
                   resume I really felt like it reflected everything that I told
@@ -260,7 +267,7 @@ class WhatsOn extends React.Component {
 
                 <br />
 
-                <h3 className="centeredText">Annitha K.</h3>
+                <h3 className="centeredText">Annitha</h3>
                 <iframe
                   className="iframe"
                   title="Annitha K"
@@ -273,10 +280,10 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Sydney, Australia</em>
                   </p>
-                  “I love Kai’s teaching methods they make you so excited to be
-                  learning and doing what I love to do. Her energy is so
-                  contagious with every lesson you gain Courage knowing you can
-                  excel at anything because she truly believes in you.”
+                  “I love Kai’s teaching methods; they make you so excited to be
+                  learning and doing what you love to do. Her energy is so
+                  contagious and with every lesson, you gain courage, knowing
+                  you can excel at anything because she truly believes in you.”
                 </p>
               </div>
             </div>

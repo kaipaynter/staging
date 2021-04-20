@@ -113,9 +113,10 @@ class Index extends React.Component {
                 </span>
                 <h3>Your Career</h3>
                 <p>
-                  At this time we are only working with existing clients and
-                  referrals, however, please submit an inquiry and we will do
-                  our best to accommodate. Thank you for your understanding.
+                  At this time we are only working with existing
+                  clients/referrals, however, please submit an inquiry and we
+                  will do our best to accommodate. Thank you for your
+                  understanding.
                 </p>
               </li>
               <li>

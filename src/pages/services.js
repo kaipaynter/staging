@@ -234,8 +234,6 @@ class Services extends React.Component {
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
                   <br />
-                  <strong>Closing</strong>: April 15th
-                  <br />
                   <strong>Attendees</strong>: All Levels
                   <br />
                   <strong>Where</strong>: Your Home
@@ -281,8 +279,6 @@ class Services extends React.Component {
                 </p>
                 <p className="centeredText">
                   <strong>Date</strong>: Enrollment Open Now!
-                  <br />
-                  <strong>Closing</strong>: April 15th
                   <br />
                   <strong>Attendees</strong>: All Levels
                   <br />
