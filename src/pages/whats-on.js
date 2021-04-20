@@ -103,8 +103,11 @@ class WhatsOn extends React.Component {
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  <p className="centeredText">Fontana, CA</p>
-                  <p className="centeredText">Military Operations Management</p>
+                  <p className="centeredText">
+                    Fontana, CA
+                    <br />
+                    Military Operations Management
+                  </p>
                   “…I couldn't believe how she was able to transform all my work
                   experience into this well written, key word rich, professional
                   document, at a fraction of the length of the resume I wrote…I
@@ -180,8 +183,9 @@ class WhatsOn extends React.Component {
                   <img src={yelp} alt="" />
                 </span>
                 <p>
-                  <p className="centeredText">Granada Hills, CA</p>
                   <p className="centeredText">
+                    Granada Hills, CA
+                    <br />
                     International Marketing Executive
                   </p>
                   “It had been years since I updated my resume last time. I
@@ -217,8 +221,9 @@ class WhatsOn extends React.Component {
                 <p>
                   <p className="centeredText">
                     <em>Albuquerque, NM</em>
+                    <br />
+                    Film Crew Associate
                   </p>
-                  <p className="centeredText">Film Crew Associate</p>
                   “I can't thank her enough… Not only did she give me a great
                   resume, I got it earlier then it was scheduled (by my
                   request). I can say with all seriousness that the resume I
@@ -257,8 +262,9 @@ class WhatsOn extends React.Component {
                 <p>
                   <p className="centeredText">
                     <em>Pasadena, CA</em>
+                    <br />
+                    Talent Agent/Manager
                   </p>
-                  <p className="centeredText">Talent Agent/Manager</p>
                   “What I really liked about the service was that she took the
                   time and listened to my career goals. Reading my finished
                   resume I really felt like it reflected everything that I told
