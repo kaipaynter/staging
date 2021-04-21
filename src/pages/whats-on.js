@@ -50,7 +50,7 @@ class WhatsOn extends React.Component {
                 ></iframe>
                 <p />
                 <p>
-                  “<strong>Client of the Quarter</strong> - I’ve been studying
+                  <strong>Client of the Quarter</strong> - "I’ve been studying
                   General American Accent with Kai for a little less than a
                   year, now. I absolutely love doing the course with her! She’s
                   super supportive and she gives me amazing feedback that helps
@@ -106,7 +106,7 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     Fontana, CA
                     <br />
-                    Military Operations Management
+                    <em>Military Operations Management</em>
                   </p>
                   “…I couldn't believe how she was able to transform all my work
                   experience into this well written, key word rich, professional
@@ -186,7 +186,7 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     Granada Hills, CA
                     <br />
-                    International Marketing Executive
+                    <em>International Marketing Executive</em>
                   </p>
                   “It had been years since I updated my resume last time. I
                   needed professional help to get it right…she understood my
@@ -222,7 +222,7 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Albuquerque, NM</em>
                     <br />
-                    Film Crew Associate
+                    <em>Film Crew Associate</em>
                   </p>
                   “I can't thank her enough… Not only did she give me a great
                   resume, I got it earlier then it was scheduled (by my
@@ -263,7 +263,7 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Pasadena, CA</em>
                     <br />
-                    Talent Agent/Manager
+                    <em>Talent Agent/Manager</em>
                   </p>
                   “What I really liked about the service was that she took the
                   time and listened to my career goals. Reading my finished
