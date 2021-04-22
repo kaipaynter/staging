@@ -49,12 +49,21 @@ class AboutMe extends React.Component {
                   <strong> ACQUISITION </strong> &#10036;
                   <br />
                   <br />
-                  Basically, I know what sells and I know how to sell it.
+                  <strong>
+                    Basically, I know what sells and I know how to sell it.
+                  </strong>
                   <br />
                   <br />
-                  BUT… I don’t actually sell anything. I crack codes, find
-                  solutions, and I’m passionate about it. I show people what
-                  they’ve been missing in almost any field. I’ve been a (an):
+                  I identify weak points, crack their codes, find solutions, and
+                  I’m passionate about it.
+                  <br />
+                  <br />
+                  <strong>Performance training & optimization</strong> is at the
+                  heart of my work. Most of my clients call me, "The Mental
+                  Coach" because I get to the bottom of unhealthy
+                  habits/processes and I identify individual strategies to
+                  propel my clients to new heights. I show people what they’ve
+                  been missing in almost any field. I’ve been a/an:
                   <br />
                   <br />
                   <strong>Casting Director</strong> for Film/TV………{' '}
@@ -85,14 +94,25 @@ class AboutMe extends React.Component {
                   have probably done it……
                   <br />
                   <br />
-                  My passion is in <em>helping people WIN.</em>
+                  What I have found is that human beings are intrinsically
+                  creative and artistic. Don't think so? Consider my list of
+                  careers above. If only I had a "mental coach" to help me get
+                  to these positions faster, I might have had 30 more roles to
+                  include!
                   <br />
                   <br />
-                  This includes (but is not limited to) being the best version
-                  of yourself.
+                  You don't have to be in the "arts" to work with me. In fact, I
+                  encourage those who are not, to reach out, as well. Sharing
+                  the weight of recognizing, unpacking, and harnessing talent
+                  with a professional (aka GETTING UNSTUCK) is fundamental to
+                  LASTING growth. This is a highly creative process at its core
+                  and most people rarely get there without this shared
+                  experience.
                   <br />
                   <br />
-                  So, have a look through my services and let’s do this.
+                  But don't take my word for it; read our reviews, (ask me for a
+                  full bio, if you'd like,) have a look through my services and
+                  let's do this.
                   <br />
                   <br />
                   <em>Let ME help you, help YOU WIN.</em>

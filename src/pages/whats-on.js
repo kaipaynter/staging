@@ -84,10 +84,10 @@ class WhatsOn extends React.Component {
                   </a>
                   <br />
                   We talk about everything under the sun as it pertains to
-                  career, life, work, and most importantly YOU. If you are
-                  wondering what it may be like to work with me, this will give
-                  you a great idea. I also share tips, tricks, and other fun
-                  stuff. See you there!
+                  career, life, performance, and most importantly YOU.
+                  Additionally, if you are wondering what it may be like to work
+                  with me, this will give you a great idea. I also share tips,
+                  tricks, and other fun stuff. See you there!
                 </p>
               </div>
             </div>
@@ -169,11 +169,11 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Empire, Fox</em>
                   </p>
-                  “Not only have I heard directly from students about the
-                  significant impact she has had on their academic advancement,
-                  but I have also had the pleasure of sitting in on quite a few
-                  of her classes where that notion was repeatedly and
-                  beautifully solidified.”
+                  “Not only have I heard directly from clients about the
+                  significant impact she has had on their advancements, but I
+                  have also had the pleasure of sitting in on quite a few of her
+                  classes where that notion was repeatedly and beautifully
+                  solidified.”
                 </p>
 
                 <br />
