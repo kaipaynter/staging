@@ -40,30 +40,24 @@ class AboutMe extends React.Component {
                 </span>
                 <p className="centeredText">
                   <br />
-                  &#10036; <strong>
-                    {' '}
-                    Identifying & Developing Talent
-                  </strong>{' '}
-                  &#8608;
-                  <strong> Advising & Influencing Action </strong> &#8608;
-                  <strong> ACQUISITION </strong> &#10036;
-                  <br />
-                  <br />
+                  &#10036;{' '}
                   <strong>
+                    {' '}
                     Basically, I know what sells and I know how to sell it.
-                  </strong>
+                  </strong>{' '}
+                  &#10036;
                   <br />
                   <br />
                   I identify weak points, crack their codes, find solutions, and
                   I’m passionate about it.
                   <br />
                   <br />
-                  <strong>Performance training & optimization</strong> is at the
-                  heart of my work. Most of my clients call me, "The Mental
-                  Coach" because I get to the bottom of unhealthy
-                  habits/processes and I identify individual strategies to
-                  propel my clients to new heights. I show people what they’ve
-                  been missing in almost any field. I’ve been a/an:
+                  Performance training & optimization is at the heart of my
+                  work. My clients often call me, "The Mental Coach" because I
+                  get to the bottom of unhealthy habits/processes and I identify
+                  individual strategies to propel them to new heights. I show
+                  people what they’ve been missing in almost any field. I’ve
+                  been a/an:
                   <br />
                   <br />
                   <strong>Casting Director</strong> for Film/TV………{' '}
@@ -94,11 +88,10 @@ class AboutMe extends React.Component {
                   have probably done it……
                   <br />
                   <br />
-                  What I have found is that human beings are intrinsically
-                  creative and artistic. Don't think so? Consider my list of
-                  careers above. If only I had a "mental coach" to help me get
-                  to these positions faster, I might have had 30 more roles to
-                  include!
+                  I have found that human beings are intrinsically creative and
+                  artistic. Don't think so? Consider my list of varied careers
+                  above. If only I had a "mental coach" to help me get to these
+                  positions faster, I might have had 30 more roles to include!
                   <br />
                   <br />
                   You don't have to be in the "arts" to work with me. In fact, I

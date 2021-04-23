@@ -78,7 +78,7 @@ class WhatsOn extends React.Component {
                 </span>
                 <p />
                 <p className="centeredText">
-                  Come hang out with me every other Thursday on the Gram{' '}
+                  Come & hang out with me every other Thursday on the Gram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
                   </a>
@@ -169,10 +169,10 @@ class WhatsOn extends React.Component {
                   <p className="centeredText">
                     <em>Empire, Fox</em>
                   </p>
-                  “Not only have I heard directly from clients about the
-                  significant impact she has had on their advancements, but I
-                  have also had the pleasure of sitting in on quite a few of her
-                  classes where that notion was repeatedly and beautifully
+                  “Not only have I heard directly from her clients about the
+                  significant impact she has had on their careers, but I have
+                  also had the pleasure of sitting in on quite a few of her
+                  classes where that notion was repeatedly & beautifully
                   solidified.”
                 </p>
 
@@ -220,7 +220,7 @@ class WhatsOn extends React.Component {
                 </span>
                 <p>
                   <p className="centeredText">
-                    <em>Albuquerque, NM</em>
+                    Albuquerque, NM
                     <br />
                     <em>Film Crew Associate</em>
                   </p>
@@ -261,7 +261,7 @@ class WhatsOn extends React.Component {
                 </span>
                 <p>
                   <p className="centeredText">
-                    <em>Pasadena, CA</em>
+                    Pasadena, CA
                     <br />
                     <em>Talent Agent/Manager</em>
                   </p>
