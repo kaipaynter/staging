@@ -52,12 +52,12 @@ class AboutMe extends React.Component {
                   I’m passionate about it.
                   <br />
                   <br />
-                  Performance training & optimization is at the heart of my
-                  work. My clients often call me, "The Mental Coach" because I
-                  get to the bottom of unhealthy habits/processes and I identify
-                  individual strategies to propel them to new heights. I show
-                  people what they’ve been missing in almost any field. I’ve
-                  been a/an:
+                  <strong>Performance training & optimization</strong> is at the
+                  heart of my work. My clients often call me, "The Mental Coach"
+                  because I get to the bottom of unhealthy habits/processes and
+                  I identify individual strategies to propel them to new
+                  heights. I show people what they’ve been missing in almost any
+                  field. I’ve been a/an:
                   <br />
                   <br />
                   <strong>Casting Director</strong> for Film/TV………{' '}

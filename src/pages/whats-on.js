@@ -78,7 +78,8 @@ class WhatsOn extends React.Component {
                 </span>
                 <p />
                 <p className="centeredText">
-                  Come & hang out with me every other Thursday on the Gram{' '}
+                  Come & hang out with me, 2x/ month, every other Thursday on
+                  the Gram{' '}
                   <a href="https://www.instagram.com/kaipaynteradvisory/?hl=en">
                     <strong>@kaipaynteradvisory</strong>
                   </a>
