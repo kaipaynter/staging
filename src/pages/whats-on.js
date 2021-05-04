@@ -42,21 +42,26 @@ class WhatsOn extends React.Component {
                 </header>
                 <iframe
                   className="iframe"
-                  title="Aria Bella Hart"
-                  src="https://www.youtube.com/embed/DYGmx-7E-VY"
+                  title="Gisele Bardossi"
+                  src="https://www.youtube.com/embed/1Y2mr7gezQo"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
                 <p />
                 <p>
-                  <strong>Client of the Quarter</strong> - "I’ve been studying
-                  General American Accent with Kai for a little less than a
-                  year, now. I absolutely love doing the course with her! She’s
-                  super supportive and she gives me amazing feedback that helps
-                  me progress. I can’t wait to keep on learning, improving my
-                  accent, and finding out about more tools!” –{' '}
-                  <strong>Aria Bella Hart</strong>, Sydney, Australia
+                  <strong>Client of the Quarter</strong> - "I’ve been having
+                  private lessons with Kai (on & off for the last 8 months).
+                  Originally I was focusing on my US general accent. We then
+                  worked on scenes focusing on US physicality as well as
+                  singing/musical theatre singing. Now we are adding UK general
+                  accent work. Kai has a lot to offer as a coach (dialect,
+                  singing & acting coaching) and makes the lessons interesting
+                  and fun. I feel that I am a more skilled actor and singer
+                  thanks to my time with Kai and I feel more confident. This is
+                  what I see myself doing (for a career) as an adult and Kai’s
+                  lessons are an important tool for me..” –{' '}
+                  <strong>Gisele Bardossi</strong>, Sydney, Australia
                 </p>
               </div>
             </div>
