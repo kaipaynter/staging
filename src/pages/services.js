@@ -7,6 +7,7 @@ import generalamericanaccent from '../assets/images/servicespage/american_accent
 import yourcareer from '../assets/images/servicespage/career2.jpg'
 import ServicesNav from '../components/ServicesNav'
 import coaching from '../assets/images/servicespage/c1_cropped.png'
+import { Helmet } from 'react-helmet'
 
 //Icons
 import Al_a_Carte from '../assets/images/servicespage/Al_a_Carte_Icon.jpg'
@@ -47,6 +48,13 @@ class Services extends React.Component {
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         <ServicesNav sticky={this.state.stickyNav} />
+
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Services</title>
+          <meta name='description' content='Services we offer' />
+          <link rel="canonical" href="https://kaipaynter.com/services" />
+        </Helmet>
 
         <div id="main">
           <section id="your-career" className="main">

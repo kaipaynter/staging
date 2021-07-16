@@ -3,6 +3,7 @@ import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import AboutMeNav from '../components/AboutMeNav'
 import biopic from '../assets/images/servicespage/biopic2020.jpg'
+import { Helmet } from 'react-helmet'
 
 class AboutMe extends React.Component {
   constructor(props) {
@@ -27,6 +28,13 @@ class AboutMe extends React.Component {
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         <AboutMeNav sticky={this.state.stickyNav} />
+
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>About Me</title>
+          <meta name='description' content='All you need to know about me' />
+          <link rel="canonical" href="https://kaipaynter.com/about-me" />
+        </Helmet>
 
         <div id="main">
           <section id="about" className="main">

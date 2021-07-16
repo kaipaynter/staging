@@ -42,7 +42,11 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="Kai Paynter Advisory" />
+        <Helmet>
+          <title>title="Kai Paynter Advisory"</title>
+          <meta name='description' content='Home page' />
+          <link rel="canonical" href="https://kaipaynter.com" />
+        </Helmet>
 
         <Header />
 

@@ -8,6 +8,7 @@ import jacob from '../assets/images/whatson/jacob.jpg'
 import rachelle from '../assets/images/whatson/rachelle.jpg'
 import yelp from '../assets/images/whatson/yelpfivestar.png'
 import WhatsOnNav from '../components/WhatsOnNav'
+import { Helmet } from 'react-helmet'
 
 class WhatsOn extends React.Component {
   constructor(props) {
@@ -32,6 +33,13 @@ class WhatsOn extends React.Component {
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         <WhatsOnNav sticky={this.state.stickyNav} />
+
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>What's on</title>
+          <meta name='description' content='What&#39;s happening in our world' />
+          <link rel="canonical" href="https://kaipaynter.com/whats-on" />
+        </Helmet>
 
         <div id="main">
           <section id="client-showcase" className="main">

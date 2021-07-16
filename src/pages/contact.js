@@ -2,6 +2,7 @@ import React from 'react'
 import { Waypoint } from 'react-waypoint'
 import Layout from '../components/layout'
 import ContactNav from '../components/ContactNav'
+import { Helmet } from 'react-helmet'
 
 class Contact extends React.Component {
   constructor(props) {
@@ -26,6 +27,13 @@ class Contact extends React.Component {
           onLeave={this._handleWaypointLeave}
         ></Waypoint>
         <ContactNav sticky={this.state.stickyNav} />
+
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Contact</title>
+          <meta name='description' content='How to get in touch' />
+          <link rel="canonical" href="https://kaipaynter.com/contact" />
+        </Helmet>
 
         <div id="main">
           <section id="contact" className="main">
