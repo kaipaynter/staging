@@ -1,8 +1,13 @@
 module.exports = {
   siteMetadata: {
     title: 'Kai Paynter Advisory',
+    titleAlt: 'Kai Paynter Advisory',
+    titleTemplate: "%s · American Accent",
     author: 'Boipelo Mawasha',
     description: 'Kai Paynter Advisory',
+    url: "https://kaipaynter.com",
+    image: "/images/KP-logo.jpg",
+    twitterUsername: '@Kaipadvisory',
   },
   //pathPrefix: `/staging`,
   plugins: [
