@@ -33,7 +33,7 @@ class AboutMe extends React.Component {
           <meta charSet="utf-8" />
           <title>About Me</title>
           <meta name='description' content='All you need to know about me' />
-          <link rel="canonical" href="https://kaipaynter.com/about-me" />
+          <link rel="canonical" href="https://kaipaynter.com/about-me/index.html" />
         </Helmet>
 
         <div id="main">

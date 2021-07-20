@@ -38,7 +38,7 @@ class WhatsOn extends React.Component {
           <meta charSet="utf-8" />
           <title>What's on</title>
           <meta name='description' content='What&#39;s happening in our world' />
-          <link rel="canonical" href="https://kaipaynter.com/whats-on" />
+          <link rel="canonical" href="https://kaipaynter.com/whats-on/index.html" />
         </Helmet>
 
         <div id="main">
