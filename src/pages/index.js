@@ -17,7 +17,7 @@ const IndexPage = () => (
       <div className="inner">
         <header>
           <h1>
-            This is Phantom, a free, fully responsive gatsby starter
+            Welcome
             <br />
           </h1>
           <p>
@@ -32,8 +32,8 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Magna</h2>
+            <Link to="/PaynterPerformance">
+              <h2>Paynter Performance</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -46,8 +46,8 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Lorem</h2>
+            <Link to="/BearTigerProductions">
+              <h2>Bear Tiger Productions</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -70,7 +70,7 @@ const IndexPage = () => (
               </div>
             </Link>
           </article>
-          <article className="style4">
+          {/* <article className="style4">
             <span className="image">
               <img src={pic4} alt="" />
             </span>
@@ -195,7 +195,7 @@ const IndexPage = () => (
                 </p>
               </div>
             </Link>
-          </article>
+          </article> */}
         </section>
       </div>
     </div>

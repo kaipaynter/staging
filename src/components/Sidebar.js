@@ -10,10 +10,10 @@ export default function SideBar({ sections = [] }) {
       <header id="header">
         <div className="inner">
           <Link to="/" className="logo">
-            <span className="logo">
+            <span className="symbol">
               <img src={logo} alt="" />
             </span>
-            {/* <span className="title">Kai Paynter Advisory</span> */}
+            <span className="title">Kai Paynter Advisory</span>
           </Link>
           <TopNav onMenuClick={() => toggleHeader(!headerOpen)} />
         </div>
