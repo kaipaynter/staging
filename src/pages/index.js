@@ -1,219 +1,205 @@
-import { Link } from 'gatsby'
-import React from 'react'
-import Helmet from 'react-helmet'
-import { Waypoint } from 'react-waypoint'
+import React from 'react';
 
-//Image import start
-//About Me
-import biopicfull2021 from '../assets/images/landing/biopicfullcropped.jpg'
-//Services
-import career from '../assets/images/landing/career.jpg'
-import c from '../assets/images/landing/c.jpeg'
-import yellowtel from '../assets/images/landing/yellowtel.png'
-import secrets from '../assets/images/landing/secrets.png'
-import american from '../assets/images/landing/american.jpg'
-//What's on
-import gracegealey from '../assets/images/whatson/gracegealey.jpg'
-import img9605 from '../assets/images/whatson/img9605.jpg'
-import instagram from '../assets/images/landing/instagramflag.jpg'
+import Layout from '../components/Layout';
 
-//Image import end
+import pic1 from '../assets/images/01.jpg';
+import pic2 from '../assets/images/02.jpg';
+import pic3 from '../assets/images/03.jpg';
+import pic4 from '../assets/images/04.jpg';
+import pic5 from '../assets/images/05.jpg';
+import pic6 from '../assets/images/06.jpg';
 
-import Header from '../components/Header'
-import Layout from '../components/layout'
-import Nav from '../components/Nav'
+import { Link } from 'gatsby';
 
-class Index extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      stickyNav: false,
-    }
-  }
-
-  _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
-
-  _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
-
-  render() {
-    return (
-      <Layout>
-        <Helmet>
-          <title>title="Kai Paynter Advisory"</title>
-          <meta name='description' content='Home page' />
-          <link rel="canonical" href="https://kaipaynter.com" />
-        </Helmet>
-
-        <Header />
-
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        ></Waypoint>
-        <Nav sticky={this.state.stickyNav} />
-
-        <div id="main">
-          <section id="about-me" className="main">
-            <div className="spotlight">
+const IndexPage = () => (
+  <Layout>
+    <div id="main">
+      <div className="inner">
+        <header>
+          <h1>
+            This is Phantom, a free, fully responsive gatsby starter
+            <br />
+          </h1>
+          <p>
+            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
+            amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
+            venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
+            ipsum dolor sit amet nullam dolore.
+          </p>
+        </header>
+        <section className="tiles">
+          <article className="style1">
+            <span className="image">
+              <img src={pic1} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Magna</h2>
               <div className="content">
-                <header className="major custom">
-                  <h2>About Me</h2>
-                </header>
                 <p>
-                  If you came to my page, my guess is that you need some help?
-                  <br />
-                  Well, you’re in luck. I’m pretty good with people and I’ve
-                  done a lot of things.
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
                 </p>
-                <ul className="actions">
-                  <li>
-                    <Link to="/about-me" className="button">
-                      <strong>Learn More</strong>
-                    </Link>
-                  </li>
-                </ul>
               </div>
-              <span className="imageIndexPage">
-                <img src={biopicfull2021} alt="" />
-              </span>
-            </div>
-          </section>
-          <section id="services" className="main special">
-            <header className="major custom">
-              <h2>Services</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="image fit">
-                  <img src={yellowtel} alt="" />
-                </span>
-                <h3>Coaching</h3>
+            </Link>
+          </article>
+          <article className="style2">
+            <span className="image">
+              <img src={pic2} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Lorem</h2>
+              <div className="content">
                 <p>
-                  Kai has coached some of the freshest faces on
-                  television/stage, as well as many students for entry into such
-                  institutions as: Columbia University, NYU (Tish), and Yale
-                  University.
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
                 </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={c} alt="" />
-                </span>
-                <h3>Archetype Coaching</h3>
+              </div>
+            </Link>
+          </article>
+          <article className="style3">
+            <span className="image">
+              <img src={pic3} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Feugiat</h2>
+              <div className="content">
                 <p>
-                  Archetypes are universal, inborn models of people, behaviors,
-                  or personalities that play a role in influencing human
-                  behavior. They were introduced by the Swiss psychiatrist Carl
-                  Jung.
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
                 </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={career} alt="" />
-                </span>
-                <h3>Your Career</h3>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic4} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Tempus</h2>
+              <div className="content">
                 <p>
-                  At this time we are only working with existing
-                  clients/referrals, however, please submit an inquiry and we
-                  will do our best to accommodate. Thank you for your
-                  understanding.
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
                 </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={secrets} alt="" />
-                </span>
-                <h3>Secrets of the Stars</h3>
+              </div>
+            </Link>
+          </article>
+          <article className="style5">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Aliquam</h2>
+              <div className="content">
                 <p>
-                  Have you ever wondered… WHY that actor got the role over you?
-                  Why THEM? Why not YOU? WHEN will it be you? WHAT do you have
-                  to do?
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
                 </p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={american} alt="" />
-                </span>
-                <h3>General American Accent</h3>
+              </div>
+            </Link>
+          </article>
+          <article className="style6">
+            <span className="image">
+              <img src={pic6} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Veroeros</h2>
+              <div className="content">
                 <p>
-                  With locally made American films and self-taping now the norm,
-                  it’s vital to have great American accents and great US
-                  self-tapes.
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
                 </p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/services" className="button">
-                    <strong>Learn More</strong>
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
+              </div>
+            </Link>
+          </article>
+          <article className="style2">
+            <span className="image">
+              <img src={pic1} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Ipsum</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style3">
+            <span className="image">
+              <img src={pic2} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Dolor</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style1">
+            <span className="image">
+              <img src={pic3} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Nullam</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style5">
+            <span className="image">
+              <img src={pic4} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Ultricies</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style6">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Dictum</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style4">
+            <span className="image">
+              <img src={pic6} alt="" />
+            </span>
+            <Link to="/Generic">
+              <h2>Pretium</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+        </section>
+      </div>
+    </div>
+  </Layout>
+);
 
-          <section id="whats-on" className="main special">
-            <header className="major custom">
-              <h2>What's On</h2>
-            </header>
-            <ul className="features">
-              <li>
-                <span className="image fit">
-                  <img src={img9605} alt="" />
-                </span>
-                <h3>Client Showcase</h3>
-                <p>See what our clients are doing!</p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={instagram} alt="" />
-                </span>
-                <h3>Conversation Thursdays</h3>
-                <p>Chat with me LIVE every other Thursday!</p>
-              </li>
-              <li>
-                <span className="image fit">
-                  <img src={gracegealey} alt="" />
-                </span>
-                <h3>What They Say</h3>
-                <p>Don’t take our word for it, listen to our clients…</p>
-              </li>
-            </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/whats-on" className="button">
-                    <strong>Learn More</strong>
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
-
-          <section id="contact" className="main special">
-            <header className="major custom">
-              <h2>Contact</h2>
-            </header>
-            <p>Get in touch with me</p>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/contact" className="button">
-                    <strong>Get Started</strong>
-                  </Link>
-                </li>
-              </ul>
-            </footer>
-          </section>
-        </div>
-      </Layout>
-    )
-  }
-}
-
-export default Index
+export default IndexPage;

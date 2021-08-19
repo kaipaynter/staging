@@ -1,32 +1,33 @@
-import React from 'react'
-import Scrollspy from 'react-scrollspy'
-import Scroll from './Scroll'
+import React from 'react';
+import { Link } from 'gatsby';
 
-const Nav = (props) => (
-    <nav id="nav" className={props.sticky ? 'alt' : ''}>
-        <Scrollspy items={ ['about-me', 'services', 'whats-on', 'contact'] } currentClassName="is-active" offset={-300}>
-            <li>
-                <Scroll type="id" element="about-me">
-                    <a href="#">About Me</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="services">
-                    <a href="#">Services</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="whats-on">
-                    <a href="#">What's on</a>
-                </Scroll>
-            </li>
-            <li>
-                <Scroll type="id" element="contact">
-                    <a href="#">Contact</a>
-                </Scroll>
-            </li>
-        </Scrollspy>
+export default function Nav({ onClose = () => {} }) {
+  return (
+    <nav id="menu">
+      <div className="inner">
+        <h2>Menu</h2>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/Generic">Generic Page</Link>
+          </li>
+          <li>
+            <Link to="/Elements">Elements</Link>
+          </li>
+        </ul>
+      </div>
+      <a
+        className="close"
+        onClick={e => {
+          e.preventDefault();
+          onClose();
+        }}
+        href="#menu"
+      >
+        Close
+      </a>
     </nav>
-)
-
-export default Nav
+  );
+}
