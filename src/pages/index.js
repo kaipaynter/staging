@@ -41,74 +41,56 @@ const IndexPage = () => (
             <Link to="/Performer">
               <h2>Performer</h2>
               <div className="content">
-                <p>
-                  Performer
-                </p>
               </div>
             </Link>
           </article>
           <article className="style2">
             <span className="image">
-              <img src={pic2} alt="" />
+              <img src={paynterperformance} alt="" />
             </span>
             <Link to="https://paynterperformance.com" target="_blank">
               <h2>Coach</h2>
               <div className="content">
-                <p>
-                  Coach
-                </p>
               </div>
             </Link>
           </article>
           <article className="style3">
             <span className="image">
-              <img src={pic3} alt="" />
+              <img src={beartiger} alt="" />
             </span>
             <Link to="https://beartigerproductions.com" target="_blank">
               <h2>Creative</h2>
               <div className="content">
-                <p>
-                  Creative
-                </p>
               </div>
             </Link>
           </article>
           <article className="style4">
             <span className="image">
-              <img src={pic4} alt="" />
+              <img src={tileD} alt="" />
             </span>
             <Link to="/Socials">
               <h2>Socials</h2>
               <div className="content">
-                <p>
-                  Socials
-                </p>
               </div>
             </Link>
           </article>
           <article className="style5">
             <span className="image">
-              <img src={pic5} alt="" />
+              <img src={tileE} alt="" />
             </span>
             <Link to="/Gallery">
               <h2>Gallery</h2>
               <div className="content">
-                <p>
-                  Gallery
-                </p>
               </div>
             </Link>
           </article>
           <article className="style6">
             <span className="image">
-              <img src={pic6} alt="" />
+              <img src={tileF} alt="" />
             </span>
             <Link to="/Contact">
               <h2>Contact</h2>
               <div className="content">
-                <p>
-                  Contact
-                </p>
               </div>
             </Link>
           </article>
