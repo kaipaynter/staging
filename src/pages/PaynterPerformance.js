@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic1 from '../assets/images/paynterperformance.png';
+import pic1 from '../assets/images/01.jpg';
 
 const IndexPage = () => (
   <Layout>

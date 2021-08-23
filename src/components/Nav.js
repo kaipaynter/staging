@@ -11,13 +11,16 @@ export default function Nav({ onClose = () => {} }) {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/PaynterPerformance">Paynter Performance</Link>
+            <Link to="/Performer">Performer</Link>
           </li>
           <li>
-            <Link to="/BearTigerProductions">Bear Tiger Productions</Link>
+            <Link to="/Socials">Socials</Link>
           </li>
           <li>
-            <Link to="/Elements">Elements</Link>
+            <Link to="/Gallery">Gallery</Link>
+          </li>
+          <li>
+            <Link to="/Contact">Contact</Link>
           </li>
         </ul>
       </div>

@@ -12,11 +12,11 @@ module.exports = {
   subHeading: 'Kai Paynter Advisory',
   // social
   socialLinks: [
-    {
+/*     {
       icon: 'fa-github',
       name: 'Github',
       url: 'https://github.com/kaipaynter/staging',
-    },
+    }, */
     {
       icon: 'fa-twitter',
       name: 'Twitter',

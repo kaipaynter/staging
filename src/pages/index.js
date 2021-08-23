@@ -9,6 +9,12 @@ import pic4 from '../assets/images/04.jpg';
 import pic5 from '../assets/images/05.jpg';
 import pic6 from '../assets/images/06.jpg';
 
+import paynterperformance from '../assets/images/tiles/paynterperformance.png'
+import beartiger from '../assets/images/tiles/beartiger.jpg'
+import tileD from '../assets/images/tiles/tileD.jpeg'
+import tileE from '../assets/images/tiles/tileE.jpeg'
+import tileF from '../assets/images/tiles/tileF.jpeg'
+
 import { Link } from 'gatsby';
 
 const IndexPage = () => (
@@ -36,8 +42,7 @@ const IndexPage = () => (
               <h2>Performer</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Performer
                 </p>
               </div>
             </Link>
@@ -50,8 +55,7 @@ const IndexPage = () => (
               <h2>Coach</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Coach
                 </p>
               </div>
             </Link>
@@ -64,8 +68,7 @@ const IndexPage = () => (
               <h2>Creative</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Creative
                 </p>
               </div>
             </Link>
@@ -78,8 +81,7 @@ const IndexPage = () => (
               <h2>Socials</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Socials
                 </p>
               </div>
             </Link>
@@ -92,8 +94,7 @@ const IndexPage = () => (
               <h2>Gallery</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Gallery
                 </p>
               </div>
             </Link>
@@ -106,8 +107,7 @@ const IndexPage = () => (
               <h2>Contact</h2>
               <div className="content">
                 <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
+                  Contact
                 </p>
               </div>
             </Link>
