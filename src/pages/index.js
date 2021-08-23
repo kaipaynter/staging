@@ -32,8 +32,8 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic1} alt="" />
             </span>
-            <Link to="/PaynterPerformance">
-              <h2>Paynter Performance</h2>
+            <Link to="/Performer">
+              <h2>Performer</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -46,8 +46,8 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic2} alt="" />
             </span>
-            <Link to="/BearTigerProductions">
-              <h2>Bear Tiger Productions</h2>
+            <Link to="https://paynterperformance.com" target="_blank">
+              <h2>Coach</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -60,120 +60,8 @@ const IndexPage = () => (
             <span className="image">
               <img src={pic3} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Feugiat</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          {/* <article className="style4">
-            <span className="image">
-              <img src={pic4} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Tempus</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style5">
-            <span className="image">
-              <img src={pic5} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Aliquam</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style6">
-            <span className="image">
-              <img src={pic6} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Veroeros</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style2">
-            <span className="image">
-              <img src={pic1} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Ipsum</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style3">
-            <span className="image">
-              <img src={pic2} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Dolor</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style1">
-            <span className="image">
-              <img src={pic3} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Nullam</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style5">
-            <span className="image">
-              <img src={pic4} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Ultricies</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
-                  et feugiat.
-                </p>
-              </div>
-            </Link>
-          </article>
-          <article className="style6">
-            <span className="image">
-              <img src={pic5} alt="" />
-            </span>
-            <Link to="/Generic">
-              <h2>Dictum</h2>
+            <Link to="https://beartigerproductions.com" target="_blank">
+              <h2>Creative</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -184,10 +72,10 @@ const IndexPage = () => (
           </article>
           <article className="style4">
             <span className="image">
-              <img src={pic6} alt="" />
+              <img src={pic4} alt="" />
             </span>
-            <Link to="/Generic">
-              <h2>Pretium</h2>
+            <Link to="/Socials">
+              <h2>Socials</h2>
               <div className="content">
                 <p>
                   Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
@@ -195,7 +83,35 @@ const IndexPage = () => (
                 </p>
               </div>
             </Link>
-          </article> */}
+          </article>
+          <article className="style5">
+            <span className="image">
+              <img src={pic5} alt="" />
+            </span>
+            <Link to="/Gallery">
+              <h2>Gallery</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
+          <article className="style6">
+            <span className="image">
+              <img src={pic6} alt="" />
+            </span>
+            <Link to="/Contact">
+              <h2>Contact</h2>
+              <div className="content">
+                <p>
+                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros
+                  et feugiat.
+                </p>
+              </div>
+            </Link>
+          </article>
         </section>
       </div>
     </div>
