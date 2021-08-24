@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Kai Paynter Advisory', // <title>
-  manifestName: 'Kai Paynter Advisory',
+  siteTitle: 'Kai Paynter', // <title>
+  manifestName: 'Kai Paynter',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -9,23 +9,23 @@ module.exports = {
   manifestIcon: 'src/assets/images/logo2.png',
   //pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Kai Paynter',
-  subHeading: 'Kai Paynter Advisory',
+  subHeading: 'Kai Paynter',
   // social
   socialLinks: [
-/*     {
-      icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/kaipaynter/staging',
-    }, */
+    {
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/kai_paynter',
+    },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/Kaipadvisory',
+      url: 'https://twitter.com/kai_paynter',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com',
+      url: 'https://www.facebook.com/kaipaynter',
     },
   ],
 };

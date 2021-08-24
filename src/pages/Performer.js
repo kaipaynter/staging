@@ -37,6 +37,7 @@ const IndexPage = () => (
         <br />
 
         <iframe
+          title="Vimeo"
           src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
           width="802"
           height="379"

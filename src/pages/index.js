@@ -2,18 +2,12 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/01.jpg';
-import pic2 from '../assets/images/02.jpg';
-import pic3 from '../assets/images/03.jpg';
-import pic4 from '../assets/images/04.jpg';
-import pic5 from '../assets/images/05.jpg';
-import pic6 from '../assets/images/06.jpg';
-
-import paynterperformance from '../assets/images/tiles/paynterperformance.png'
-import beartiger from '../assets/images/tiles/beartiger.jpg'
-import tileD from '../assets/images/tiles/tileD.jpeg'
-import tileE from '../assets/images/tiles/tileE.jpeg'
-import tileF from '../assets/images/tiles/tileF.jpeg'
+import performerTile from '../assets/images/tiles/performerTile.jpeg'
+import socialsTile from '../assets/images/tiles/socialsTile.jpg'
+import contactTile from '../assets/images/tiles/contactTile.jpg'
+import coachTile from '../assets/images/tiles/coachTile.jpg'
+import creativeTile from '../assets/images/tiles/creativeTile.jpg'
+import galleryTile from '../assets/images/tiles/tileE.jpeg'
 
 import { Link } from 'gatsby';
 
@@ -21,22 +15,11 @@ const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        <header>
-          <h1>
-            Welcome
-            <br />
-          </h1>
-          <p>
-            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
-            amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
-            venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
-            ipsum dolor sit amet nullam dolore.
-          </p>
-        </header>
+        
         <section className="tiles">
           <article className="style1">
             <span className="image">
-              <img src={pic1} alt="" />
+              <img src={performerTile} alt="" />
             </span>
             <Link to="/Performer">
               <h2>Performer</h2>
@@ -46,9 +29,9 @@ const IndexPage = () => (
           </article>
           <article className="style2">
             <span className="image">
-              <img src={paynterperformance} alt="" />
+              <img src={coachTile} alt="" />
             </span>
-            <Link to="https://paynterperformance.com" target="_blank">
+            <Link to="https://paynterperformance.com" target="_blank" rel="noreferrer">
               <h2>Coach</h2>
               <div className="content">
               </div>
@@ -56,9 +39,9 @@ const IndexPage = () => (
           </article>
           <article className="style3">
             <span className="image">
-              <img src={beartiger} alt="" />
+              <img src={creativeTile} alt="" />
             </span>
-            <Link to="https://beartigerproductions.com" target="_blank">
+            <Link to="https://beartigerproductions.com" target="_blank" rel="noreferrer">
               <h2>Creative</h2>
               <div className="content">
               </div>
@@ -66,7 +49,7 @@ const IndexPage = () => (
           </article>
           <article className="style4">
             <span className="image">
-              <img src={tileD} alt="" />
+              <img src={socialsTile} alt="" />
             </span>
             <Link to="/Socials">
               <h2>Socials</h2>
@@ -76,7 +59,7 @@ const IndexPage = () => (
           </article>
           <article className="style5">
             <span className="image">
-              <img src={tileE} alt="" />
+              <img src={galleryTile} alt="" />
             </span>
             <Link to="/Gallery">
               <h2>Gallery</h2>
@@ -86,7 +69,7 @@ const IndexPage = () => (
           </article>
           <article className="style6">
             <span className="image">
-              <img src={tileF} alt="" />
+              <img src={contactTile} alt="" />
             </span>
             <Link to="/Contact">
               <h2>Contact</h2>
