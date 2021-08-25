@@ -8,7 +8,7 @@ const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        <h1>Performer</h1>
+        {/* <h1>Performer</h1> */}
 
         <p className="center">
           <object
@@ -23,16 +23,18 @@ const IndexPage = () => (
           </object>
         </p>
 
-        <br />
+       <br />
+
+       
 
         <p className="center">
           <iframe
-            width="802"
-            height="379"
-            title="Youtube"
-            src="https://www.youtube.com/embed/2cRdZOeAh74"
+            title="VO"
+            src="https://player.vimeo.com/video/591916308?h=cef5137802"
+            width="640"
+            height="960"
             frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen
           ></iframe>
         </p>
@@ -41,10 +43,10 @@ const IndexPage = () => (
 
         <p className="center">
           <iframe
-            title="VO"
-            src="https://player.vimeo.com/video/591916308?h=cef5137802"
+            title="Disney Showcase"
+            src="https://player.vimeo.com/video/589826181?h=da06cbe8cb"
             width="640"
-            height="960"
+            height="360"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
             allowfullscreen

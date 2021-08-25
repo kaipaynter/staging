@@ -33,7 +33,7 @@
       border-radius: _size(border-radius);
       overflow: hidden;
       width: 290px;
-      height: 185px;
+      height: 220px;
       object-fit: cover;
 
       img {
@@ -120,6 +120,7 @@
 
       h2 {
         margin: 0;
+        text-align: center;
       }
 
       .content {

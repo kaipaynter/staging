@@ -1,12 +1,11 @@
 import React from 'react'
-
 import Layout from '../components/Layout'
 
 const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        <h1>Contact</h1>
+        {/* <h1>Contact</h1> */}
 
         <p>
           <strong>Helen Pandos Management</strong>: 
@@ -19,7 +18,7 @@ const IndexPage = () => (
           <br />
           Australia, 2010
           <br />
-          Tel: +61 (0)2 9212 4242
+          Tel: +61 (0) 2 9212 4242
         </p>
         <p>
           <strong>Brady, Brannon & Rich Agency</strong>

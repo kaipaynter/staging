@@ -20,13 +20,13 @@ const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        <h1>Gallery</h1>
+        {/* <h1>Gallery</h1> */}
 
         <div className="container">
           <SimpleReactLightbox>
             <SRLWrapper>
             <figure className="wave">
-                <img src={imageK} alt=""></img>
+                <img src={imageJ} alt=""></img>
               </figure>
               <figure className="wave">
                 <img src={imageG} alt=""></img>
@@ -44,11 +44,12 @@ const IndexPage = () => (
                 <img src={imageB} alt=""></img>
               </figure>
               <figure className="wave">
-                <img src={imageI} alt=""></img>
-              </figure>
-              <figure className="wave">
                 <img src={imageF} alt=""></img>
               </figure>
+              <figure className="wave">
+                <img src={imageI} alt=""></img>
+              </figure>
+              
               <figure className="wave">
                 <img src={imageK} alt=""></img>
               </figure>
