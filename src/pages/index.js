@@ -3,10 +3,10 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import performerTile from '../assets/images/tiles/performerTile.jpeg'
-import socialsTile from '../assets/images/tiles/socialsTile.jpg'
-import contactTile from '../assets/images/tiles/contactTile.jpg'
-import coachTile from '../assets/images/tiles/coachTile.jpg'
-import creativeTile from '../assets/images/tiles/creativeTile.jpg'
+import socialsTile from '../assets/images/tiles/socialsTile.jpeg'
+import contactTile from '../assets/images/tiles/contactTiles.jpeg'
+import coachTile from '../assets/images/tiles/coachTiles.jpeg'
+import creativeTile from '../assets/images/tiles/creativeTiles.jpeg'
 import galleryTile from '../assets/images/tiles/tileE.jpeg'
 
 import { Link } from 'gatsby';

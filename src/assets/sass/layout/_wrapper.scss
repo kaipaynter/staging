@@ -6,21 +6,43 @@
 
 /* Wrapper */
 
-	#wrapper {
-		> * {
-			> .inner {
-				$gutter: _size(gutter);
+#wrapper {
+  > * {
+    > .inner {
+      $gutter: _size(gutter);
 
-				width: 100%;
-				max-width: _size(inner);
-				margin: 0 auto;
-				padding: 0 $gutter;
+      width: 100%;
+      max-width: _size(inner);
+      margin: 0 auto;
+      padding: 0 $gutter;
 
-				@include breakpoint('<=small') {
-					$gutter: _size(gutter) * 0.5;
+      @include breakpoint('<=small') {
+        $gutter: _size(gutter) * 0.5;
 
-					padding: 0 $gutter;
-				}
-			}
-		}
-	}
+        padding: 0 $gutter;
+		
+      }
+
+      .center {
+        text-align: center;
+        p {
+          text-align: center;
+        }
+      }
+
+	  .backgound {
+		//background: url("../../images/Kai_Paynter_Logo.jpg");
+
+		/* Set a specific height */
+		height: 50%;
+	  
+		/* Position and center the image to scale nicely on all screens */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		opacity: 0.4;
+	  }
+    }
+  }
+}

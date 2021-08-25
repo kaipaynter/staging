@@ -33,13 +33,13 @@
       border-radius: _size(border-radius);
       overflow: hidden;
       width: 290px;
-      height: 183px;
+      height: 185px;
       object-fit: cover;
 
       img {
         display: block;
         width: 290px;
-        height: 183px;
+        height: auto;
         object-fit: cover;
       }
 

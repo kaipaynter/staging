@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Nav from './Nav';
 import TopNav from './TopNav';
 import { Link } from 'gatsby';
-import logo from '../assets/images/logo2.png';
+import logo from '../assets/images/Kai_Paynter_logo_tight.jpg';
 export default function SideBar({ sections = [] }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
@@ -10,10 +10,9 @@ export default function SideBar({ sections = [] }) {
       <header id="header">
         <div className="inner">
           <Link to="/" className="logo">
-            <span className="symbol">
+            <span className="large">
               <img src={logo} alt="" />
             </span>
-            <span className="title">Kai Paynter</span>
           </Link>
           <TopNav onMenuClick={() => toggleHeader(!headerOpen)} />
         </div>

@@ -1,4 +1,4 @@
-# Kai Paytner Advisory
+# Kai Paytner
 
 **We are currently deploying changes to the website**
 

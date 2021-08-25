@@ -6,7 +6,7 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/images/logo2.png',
+  manifestIcon: 'src/assets/images/Kai_Paynter_Logo.jpg',
   //pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Kai Paynter',
   subHeading: 'Kai Paynter',
