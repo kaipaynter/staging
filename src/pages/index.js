@@ -2,12 +2,12 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import performerTile from '../assets/images/tiles/performerTile_ne.jpeg'
-import socialsTile from '../assets/images/tiles/socialsTile_new.jpeg'
-import contactTile from '../assets/images/tiles/contactTiles.jpeg'
-import coachTile from '../assets/images/tiles/coachTiles.jpeg'
-import creativeTile from '../assets/images/tiles/creativeTiles.jpeg'
-import galleryTile from '../assets/images/tiles/galleryTile_new.jpeg'
+import performerTile from '../assets/images/tiles/performerTile.jpeg'
+import socialsTile from '../assets/images/tiles/socialsTile.jpeg'
+import contactTile from '../assets/images/tiles/contactTile.jpeg'
+import coachTile from '../assets/images/tiles/coachTile.jpeg'
+import creativeTile from '../assets/images/tiles/creativeTile.jpeg'
+import galleryTile from '../assets/images/tiles/galleryTile.jpeg'
 
 import { Link } from 'gatsby';
 
