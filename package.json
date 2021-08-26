@@ -42,7 +42,7 @@
     "branchCleanup": "git branch -d gh-pages",
     "branchSetup": "git checkout -b gh-pages",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "reset": "git checkout new-site",
+    "reset": "git checkout master",
     "deploy:full": "npm run branchCleanup && npm run branchSetup && npm run deploy && npm run reset"
   },
   "devDependencies": {
