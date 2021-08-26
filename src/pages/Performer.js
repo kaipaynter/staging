@@ -8,7 +8,6 @@ const IndexPage = () => (
   <Layout>
     <div id="main">
       <div className="inner">
-        {/* <h1>Performer</h1> */}
 
         <p className="center">
           <object
@@ -25,9 +24,7 @@ const IndexPage = () => (
 
        <br />
 
-       
-
-        <p className="center">
+        <p className="center iframe-container">
           <iframe
             title="VO"
             src="https://player.vimeo.com/video/591916308?h=cef5137802"
@@ -35,6 +32,7 @@ const IndexPage = () => (
             height="960"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
             allowfullscreen
           ></iframe>
         </p>
@@ -49,6 +47,7 @@ const IndexPage = () => (
             height="360"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
             allowfullscreen
           ></iframe>
         </p>
@@ -63,6 +62,7 @@ const IndexPage = () => (
             height="964"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"
+            loading="lazy"
             allowfullscreen
           ></iframe>
         </p>

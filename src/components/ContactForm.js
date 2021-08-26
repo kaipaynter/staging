@@ -3,7 +3,7 @@ export default function ContactForm() {
   return (
     <section>
       <h2>Get in touch</h2>
-      <form method="post" action="#">
+      <form method="post" action="https://getform.io/f/691a6df1-eaa3-47d2-84b9-a5727ec0d386">
         <div className="fields">
           <div className="field half">
             <input type="text" name="name" id="name" placeholder="Name" />
