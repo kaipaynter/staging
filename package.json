@@ -31,7 +31,7 @@
     "branchSetup": "git checkout -b gh-pages",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "reset": "git checkout master",
-    "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup"
+    "deploy:full": "npm run branchSetup && npm run deploy && npm run reset"
   },
   "devDependencies": {
     "prettier": "^2.8.4"
