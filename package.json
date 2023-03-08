@@ -1,35 +1,23 @@
 {
   "name": "staging",
-  "version": "0.0.1",
   "description": "Kai Paynter's staging website",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kaipaynter/staging.git"
-  },
-  "author": {
-    "name": "Boipelo Mawasha",
-    "email": "beepa@kaipaynter.com"
-  },
+  "version": "1.0.0",
+  "author": "Boipelo Mawasha",
   "dependencies": {
-    "gatsby": "^3.12.0",
-    "gatsby-background-image": "^1.5.3",
-    "gatsby-plugin-manifest": "^3.12.0",
-    "gatsby-plugin-offline": "^4.12.0",
-    "gatsby-plugin-react-helmet": "^4.12.0",
-    "gatsby-plugin-sass": "^4.12.0",
-    "gatsby-plugin-sharp": "^3.12.0",
-    "gatsby-source-filesystem": "^3.12.0",
-    "gatsby-transformer-sharp": "^3.12.0",
-    "node-polyfill-webpack-plugin": "^1.1.4",
-    "node-sass": "^6.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0",
-    "react-images": "^1.2.0-beta.7",
-    "react-scrollspy": "^3.4.2",
-    "simple-react-lightbox": "^3.6.9-0",
-    "smoothscroll-polyfill": "^0.4.4"
+    "gatsby": "^5.7.0",
+    "gatsby-plugin-manifest": "^5.7.0",
+    "gatsby-plugin-offline": "^6.7.0",
+    "gatsby-plugin-react-helmet": "^6.7.0",
+    "gatsby-plugin-sass": "^6.7.0",
+    "node-sass": "^8.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0"
   },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -43,21 +31,15 @@
     "branchSetup": "git checkout -b gh-pages",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "reset": "git checkout master",
-    "deploy:full": "npm run branchCleanup && npm run branchSetup && npm run deploy && npm run reset"
+    "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "prettier": "^2.3.2",
-    "rimraf": "^3.0.2"
+    "prettier": "^2.8.4"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-phantom"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kaipaynter/staging/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   },
   "homepage": "https://staging.kaipaynter.com"
+
 }
