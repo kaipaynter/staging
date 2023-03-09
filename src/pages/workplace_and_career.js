@@ -7,7 +7,7 @@ const WorkplaceAndCareer = (props) => (
         <div id="main" className="alt">
         <section id="one">
         <a href="mailto:info@paynterperformance.com">
-                        <img
+                        <img class="image fit"
                           src={workplace_and_career}
                           alt="Workplace and Career"
                         />

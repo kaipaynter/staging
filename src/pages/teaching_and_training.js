@@ -7,7 +7,7 @@ const TeachingAndTraining = (props) => (
         <div id="main" className="alt">
         <section id="one">
         <a href="mailto:info@paynterperformance.com">
-                        <img
+                        <img class="image fit"
                           src={teaching_and_training}
                           alt="Teaching and Training"
                         />
