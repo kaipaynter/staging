@@ -30,55 +30,55 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
                     <section id="one" className="tiles">
-                        <article style={{backgroundImage: `url(${pic01})`}}>
+                        <article style={{ backgroundImage: `url(${pic01})` }}>
                             <header className="major">
                                 <h3>Directing</h3>
                                 <p>Film/TV & Theatre </p>
                             </header>
                             <Link to="https://beartigerproductions.com" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic02})`}}>
+                        <article style={{ backgroundImage: `url(${pic02})` }}>
                             <header className="major">
                                 <h3>Teaching & Training</h3>
-                                <p>fArtists, Athletes, & Creatives</p>
+                                <p>Artists, Athletes, & Creatives</p>
                             </header>
                             <Link to="/teaching_and_training" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic03})`}}>
+                        <article style={{ backgroundImage: `url(${pic03})` }}>
                             <header className="major">
                                 <h3>Talent Management</h3>
                                 <p>Boutique Entertainment Agency</p>
                             </header>
                             <Link to="https://kapmgmt.paynterperformance.com" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic04})`}}>
+                        <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
                                 <h3>Workplace & Career</h3>
-                                <p>Corporate Performance Optimization and Strategy</p>
+                                <p>Corporate Optimization and Strategy</p>
                             </header>
                             <Link to="/workplace_and_career" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic05})`}}>
+                        <article style={{ backgroundImage: `url(${pic05})` }}>
                             <header className="major">
                                 <h3>Programs</h3>
-                                <p>One-Off Courses and Seasonal Offers</p>
+                                <p>One-Off Courses & Seasonal Offers</p>
                             </header>
                             <Link to="https://linktr.ee/paynterperformance" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage: `url(${pic06})`}}>
+                        <article style={{ backgroundImage: `url(${pic06})` }}>
                             <header className="major">
                                 <h3>Testimonials</h3>
                                 <p>Client Feedback and Reviews</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="https://g.co/kgs/DMLGZq" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
                     </section>
                     <section id="two">
                         <div className="inner">
                             <header className="major">
-                                <h2>YouTube Resources</h2>
+                                <h2>Additional Resources</h2>
                             </header>
-                            <p>Please let me know what you'd like to put here</p>
+                            <p>Need more help? We got you covered.</p>
                             <ul className="actions">
                                 <li><Link to="https://www.youtube.com/playlist?list=PLSRJurNadm4enwGT53-0xjEYLDpj7mV4p" target="_blank" rel="noreferrer" className="button next">Get Started</Link></li>
                             </ul>

@@ -1,21 +1,21 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/layout2'
 import teaching_and_training from '../assets/images/Homepage_Actors_Creatives.jpg'
 
 const TeachingAndTraining = (props) => (
-    <Layout>
-        <div id="main" className="alt">
-        <section id="one">
-        <a href="mailto:info@paynterperformance.com">
-                        <img class="image fit"
-                          src={teaching_and_training}
-                          alt="Teaching and Training"
-                        />
-                      </a>
-        </section>
+  <Layout>
+    <div id="main" className="alt noFooter">
+      <section id="one">
+
+        <img class="image fit"
+          src={teaching_and_training}
+          alt="Teaching and Training"
+        />
+
+      </section>
     </div>
 
-    </Layout>
+  </Layout>
 )
 
 export default TeachingAndTraining
