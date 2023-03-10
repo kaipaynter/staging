@@ -21,7 +21,7 @@ const Contact = (props) => (
                         <li><input type="submit" value="Send Message" className="special" /></li>
                         <li><input type="reset" value="Clear" /></li>
                     </ul>
-                </form>Occidental Blvd
+                </form>
             </section>
             <section className="split">
                 <section>
@@ -35,7 +35,7 @@ const Contact = (props) => (
                 <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>Occidental Blvd<br />
+                        <span>Carlton Crescent<br />
                         Sydney<br />
                         NSW 2130<br />
                         AU</span>
@@ -45,7 +45,7 @@ const Contact = (props) => (
                     <div className="contact-method">
                         <span className="icon alt fa-home"></span>
                         <h3>Address</h3>
-                        <span>Carlton Crescent<br />
+                        <span>Occidental Blvd<br />
                         Los Angeles<br />
                         CA 90057<br />
                         USA</span>
