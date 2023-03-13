@@ -1,18 +1,17 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Header = (props) => (
-    <header id="header" className="alt">
-        <Link to="/" className="logo"><span>PAYNTER PERFORMANCE</span></Link>
-        <nav>
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
-        </nav>
-    </header>
+  <header id="header" className="alt">
+    <span className="logo">
+      <StaticImage
+        src="../assets/images/logo_new.png"
+        alt="Logo"
+        placeholder="blurred"
+        objectFit="contain"
+      />
+    </span>
+  </header>
 )
-
-Header.propTypes = {
-    onToggleMenu: PropTypes.func
-}
 
 export default Header

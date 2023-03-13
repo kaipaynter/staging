@@ -1,0 +1,48 @@
+/* Grid */
+
+.image-list-small {
+    margin:0 auto;
+    text-align: center;
+    max-width: 1170px;
+    padding: 0;
+
+    li {
+        display: inline-block;
+        width: calc(#{(100% / 3)} - #{_size(element-margin)});
+        margin: 0 12px 30px;
+
+        img {
+            display: block;
+            text-decoration: none;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 137px;
+            margin: 0;
+            padding: 0;
+            
+        }
+    }
+
+    &.details{
+        margin-top: 13px;
+
+        h3{
+            display: block;
+            margin: 0 0 3px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            a{
+                color: #303030;
+                text-decoration: none;
+            }
+        }
+
+        &.image-author{
+            display: block;
+            font-weight: normal;
+            margin: 0;
+        }
+    }
+}

@@ -1,18 +1,37 @@
 {
-  "name": "staging",
-  "description": "Kai Paynter's staging website",
+  "name": "paynterperformance",
+  "description": "Kai Paynter's website",
   "version": "1.0.0",
   "author": "Boipelo Mawasha",
+  "homepage": "https://paynterperformance.com",
   "dependencies": {
-    "gatsby": "^5.7.0",
-    "gatsby-plugin-manifest": "^5.7.0",
-    "gatsby-plugin-offline": "^6.7.0",
-    "gatsby-plugin-react-helmet": "^6.7.0",
-    "gatsby-plugin-sass": "^6.7.0",
-    "node-sass": "^8.0.0",
+    "@reach/router": "^1.3.4",
+    "babel-plugin-remove-graphql-queries": "^5.0.0",
+    "base": "^3.0.0",
+    "components": "^0.1.0",
+    "gatsby": "^5.0.1",
+    "gatsby-plugin-google-gtag": "^5.0.0",
+    "gatsby-plugin-html-attributes": "^1.0.5",
+    "gatsby-plugin-image": "^3.0.0",
+    "gatsby-plugin-manifest": "^5.0.0",
+    "gatsby-plugin-offline": "^6.0.0",
+    "gatsby-plugin-react-helmet": "^6.0.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sass": "^6.0.0",
+    "gatsby-plugin-sharp": "^5.0.0",
+    "gatsby-plugin-sitemap": "^6.0.0",
+    "gatsby-source-filesystem": "^5.0.0",
+    "gatsby-transformer-sharp": "^5.0.0",
+    "layout": "^2.2.0",
+    "libs": "^0.1.2",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-scrollspy": "^3.4.2",
+    "react-slick": "^0.29.0",
+    "react-waypoint": "^10.3.0",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "keywords": [
     "gatsby"
@@ -30,16 +49,16 @@
     "branchCleanup": "git branch -d gh-pages",
     "branchSetup": "git checkout -b gh-pages",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
-    "reset": "git checkout master",
-    "deploy:full": "npm run branchSetup && npm run deploy && npm run reset"
+    "reset": "git checkout temp",
+    "deploy:full": "npm run branchCleanup && npm run branchSetup && npm run deploy && npm run reset"
   },
   "devDependencies": {
-    "prettier": "^2.8.4"
+    "gh-pages": "^5.0.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.56.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "homepage": "https://staging.kaipaynter.com"
-
+    "url": "https://github.com/kaipaynter/paynterperformance"
+  }
 }
