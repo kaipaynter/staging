@@ -40,7 +40,7 @@ class HomeIndex extends React.Component {
                         <article style={{ backgroundImage: `url(${pic02})` }}>
                             <header className="major">
                                 <h3>Teaching & Training</h3>
-                                <p>Artists, Athletes, & Creatives</p>
+                                <p>Performing Artists, Athletes, & Creatives</p>
                             </header>
                             <Link to="/teaching_and_training" className="link primary"></Link>
                         </article>
@@ -54,7 +54,7 @@ class HomeIndex extends React.Component {
                         <article style={{ backgroundImage: `url(${pic04})` }}>
                             <header className="major">
                                 <h3>Workplace & Career</h3>
-                                <p>Corporate Optimization and Strategy</p>
+                                <p>Corporate Optimization & Strategy</p>
                             </header>
                             <Link to="/workplace_and_career" className="link primary"></Link>
                         </article>
@@ -68,7 +68,7 @@ class HomeIndex extends React.Component {
                         <article style={{ backgroundImage: `url(${pic06})` }}>
                             <header className="major">
                                 <h3>Testimonials</h3>
-                                <p>Client Feedback and Reviews</p>
+                                <p>Client Feedback & Reviews</p>
                             </header>
                             <Link to="https://g.co/kgs/DMLGZq" target="_blank" rel="noreferrer" className="link primary"></Link>
                         </article>
