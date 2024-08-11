@@ -1,4 +1,3 @@
+# https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Allow: /
-Sitemap: https://paynterperformance.com/sitemap-index.xml
-Host: https://paynterperformance.com
+Disallow:
