@@ -1,0 +1,96 @@
+/* Header.css */
+header {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent background */
+    color: #fff;
+    padding: 10px 0;
+    position: fixed; /* Fix header to the top */
+    width: 100%; /* Full width */
+    top: 0; /* Align to the top */
+    z-index: 1000; /* Ensure it stays above other content */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    flex: 1; /* Flex property to center the title */
+    font-size: 1.5em; /* Adjust font size for better responsiveness */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for clickable area */
+}
+
+nav ul li a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Add padding to body to prevent content overlap with fixed header */
+body {
+    padding-top: 60px; /* Adjust based on header height */
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 1.2em; /* Smaller font size for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column; /* Stack nav items vertically */
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    h1 {
+        font-size: 1.3em; /* Adjust font size for tablet screens */
+    }
+
+    nav ul li a {
+        padding: 10px 12px; /* Adjust padding for tablet screens */
+    }
+}

@@ -1,18 +1,22 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link } from 'gatsby'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './Header.css';
 
-const Header = (props) => (
-    <header id="header" className="alt">
-        <Link to="/" className="logo"><span>HOME</span></Link>
-        <nav>
-            <a className="menu-link" onClick={props.onToggleMenu} href="javascript:;">Menu</a>
-        </nav>
-    </header>
-)
+const Header = () => (
+  <header>
+    <div className="container">
+      <nav>
+        <ul>
+          <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
+          <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+          <li><NavLink to="/shows" activeClassName="active">Upcoming Shows</NavLink></li>
+          <li><NavLink to="/sponsorships" activeClassName="active">Sponsorships</NavLink></li>
+          <li><NavLink to="/submissions" activeClassName="active">Submissions</NavLink></li>
+          <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+);
 
-Header.propTypes = {
-    onToggleMenu: PropTypes.func
-}
-
-export default Header
+export default Header;
