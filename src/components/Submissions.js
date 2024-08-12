@@ -4,7 +4,7 @@ import './Submissions.css';
 const Submissions = () => (
   <section id="submissions" className="submissions">
     <div className="container">
-      <img src="/submissions.png" alt="Submission" className="submission-image" />
+      <img src="/optimized-images/submissions.webp" alt="Submission" className="submission-image" />
     </div>
   </section>
 );
