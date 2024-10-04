@@ -25,7 +25,8 @@
     "eject": "react-scripts eject",
     "branchCleanup": "git branch -d gh-pages",
     "branchSetup": "git checkout -b gh-pages",
-    "deploy:full": "npm run branchSetup && npm run deploy && npm run branchCleanup"
+    "reset": "git checkout master",
+    "deploy:full": "npm run branchSetup && npm run deploy && npm run reset && npm run branchCleanup"
   },
   "eslintConfig": {
     "extends": [
